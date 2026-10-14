@@ -251,6 +251,8 @@
       /* Keep mobile geometry and typography; improve contrast only. */
       .terminal .dim,.terminal-top span:last-child,.schematic-bottom{color:#F0F7FF}
     }
+    .proof-link-inline[data-casebook]{margin-left:10px;color:#114B86;font-weight:750}
+    @media(max-width:640px){.proof-link-inline[data-casebook]{margin-left:0;display:block}}
 </style>
 <link rel="stylesheet" href="./portfolio-proof-lab.css">
 <script defer src="./portfolio-proof-lab.js"></script>
@@ -351,10 +353,11 @@
             <div class="card-copy">
               <div class="project-no">CASE 02 / CREATIVE AUTOMATION</div>
               <h3 class="card-headline">Creative Studio</h3>
-              <p class="card-desc">A configurable visual campaign system: nine pieces, fourteen languages, eight output formats and right-to-left support.</p>
+              <p class="card-desc">A creative-production system built around genuine campaign texts, fourteen languages, reusable compositions and eight real format presets.</p>
               <div class="tags"><span class="tag">HTML / CSS / JS</span><span class="tag">i18n</span></div>
               <button type="button" class="text-link" data-case="creative">Explore the system <span>↗</span></button>
               <a class="proof-link-inline" href="#explore" data-open-lab="creative">Interactive walkthrough ↗</a>
+              <a class="proof-link-inline" data-casebook="creative" href="./case-studies.html?project=creative&lang=en">View detailed case ↗</a>
             </div>
           </article>
           <article class="project-card">
@@ -362,21 +365,23 @@
             <div class="card-copy">
               <div class="project-no">CASE 03 / DOCUMENT INTELLIGENCE</div>
               <h3 class="card-headline">Knowledge Base</h3>
-              <p class="card-desc">Scientific and regulatory source governance with classification, versioning, integrity checks and a regulatory watchlist.</p>
+              <p class="card-desc">Structured source governance, integrity controls and a documented EUR-Lex watchlist covering twelve regulations.</p>
               <div class="tags"><span class="tag">Source traceability</span><span class="tag">SHA-256</span></div>
               <button type="button" class="text-link" data-case="knowledge">Explore the method <span>↗</span></button>
               <a class="proof-link-inline" href="#explore" data-open-lab="knowledge">Interactive walkthrough ↗</a>
+              <a class="proof-link-inline" data-casebook="knowledge" href="./case-studies.html?project=knowledge&lang=en">View detailed case ↗</a>
             </div>
           </article>
           <article class="project-card">
             <div class="art art-mr" aria-label="Illustrative generic activity dashboard with no personal records"><div class="mini-dashboard"><header><span>WORK JOURNAL</span><span>WEEK VIEW</span></header><div class="bars"><span style="height:55%"></span><span style="height:82%"></span><span style="height:41%"></span><span style="height:92%"></span><span style="height:67%"></span><span style="height:32%"></span><span style="height:73%"></span></div><footer><span>ACTIVITY LOG</span><span>REPORTS / EXPORTS</span></footer></div></div>
             <div class="card-copy">
-              <div class="project-no">CASE 04 / BUSINESS APPLICATIONS</div>
+              <div class="project-no">CASE 04 / PERSON-CENTRED SOFTWARE</div>
               <h3 class="card-headline">MyReintegration</h3>
-              <p class="card-desc">A working browser-based journal integrating Google authentication, a private data store, permission controls and reporting.</p>
+              <p class="card-desc">An individual-use project: improving an existing Excel activity log and extending it into a private web application with reports.</p>
               <div class="tags"><span class="tag">Google OAuth</span><span class="tag">Apps Script</span></div>
               <button type="button" class="text-link" data-case="reintegration">Explore the workflow <span>↗</span></button>
               <a class="proof-link-inline" href="#explore" data-open-lab="reintegration">Interactive walkthrough ↗</a>
+              <a class="proof-link-inline" data-casebook="reintegration" href="./case-studies.html?project=reintegration&lang=en">View detailed case ↗</a>
             </div>
           </article>
         </div>
