@@ -16,7 +16,7 @@
      ['Sources','Documented evidence','Structured ingredient information links explanations with scientific and regulatory source material, including limits and uncertainty.'],
      ['Result','Useful explanation','The Android and multilingual website present relevant information in separate layers.']
     ],links:[['Visit BOTIA','https://www.botia-safefood.com/'],['Try public interface','https://www.botia-safefood.com/try.html'],['Android on Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Public web code','https://github.com/servicehubbotia-glitch/Botia-web']]},
-    creative:{status:'CONFIGURABLE DESIGN SYSTEM · PRIVATE SOURCE',title:'One campaign, multiple formats',intro:'Creative Studio uses components, structured copy and format presets to compose campaign materials. Change the preview format to see the design principle.',steps:[
+    creative:{status:'CONFIGURABLE DESIGN SYSTEM · PRIVATE SOURCE',title:'Real campaign copy, multiple formats',intro:'Creative Studio composes nine real campaign pieces in fourteen languages and eight documented formats. Change the format, then open the full case to see authentic campaign text.',steps:[
      ['Portrait','Portrait composition','A tall arrangement adapts spacing and hierarchy for story-oriented placements. The preview uses invented sample content.'],
      ['Square','Square composition','A square preset reflows the same conceptual components to a balanced format without duplicating the campaign source.'],
      ['Landscape','Wide composition','A landscape preset changes the presentation shape while keeping the campaign structure consistent.']
@@ -27,7 +27,7 @@
      ['Licences','Respect reuse rights','The catalogue distinguishes materials that can be redistributed from sources that must remain linked or restricted.'],
      ['Watchlist','Monitor change','A twelve-entry EUR-Lex watchlist records regulatory identifiers and known consolidation dates. The interface shown here is a schematic, not proof that an alert was dispatched.']
     ],links:[['Public BOTIA documentation','https://www.botia-safefood.com/']],private:true},
-    reintegration:{status:'WORKING APPLICATION · PUBLIC CODE / PRIVATE DATA',title:'An operational workflow with controlled access',intro:'MyReintegration is a browser-based work journal backed by private Google Sheets data. Here the interface uses synthetic values; real personal records are never loaded.',steps:[
+    reintegration:{status:'WORKING APPLICATION · PUBLIC CODE / PRIVATE DATA',title:'From someone’s Excel sheet to a personal web tool',intro:'An individual was entering activities into an Excel sheet. The recording workflow was extended into a private web app with more fields and reports. This demonstration only uses invented values.',steps:[
      ['Activities','Capture structured records','Records include dates, activity descriptions, status and time spent; a weekly view aggregates them.'],
      ['Access','Protect editing','Google OAuth, service-side role checks and revision controls distinguish the account owner from readers and help manage concurrent changes.'],
      ['Reports','Export useful reports','The application provides week-based PDF, Excel, CSV and draft-email outputs for operational reporting.']
@@ -44,7 +44,7 @@
      ['Bronnen','Onderbouwde informatie','Gestructureerde ingrediënteninformatie koppelt uitleg aan wetenschappelijke en wettelijke bronnen, met aandacht voor grenzen en onzekerheid.'],
      ['Resultaat','Begrijpelijke uitleg','De Android-app en meertalige website tonen relevante informatie in afzonderlijke lagen.']
     ],links:[['Bezoek BOTIA','https://www.botia-safefood.com/'],['Probeer de openbare interface','https://www.botia-safefood.com/try.html'],['Android op Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Openbare webcode','https://github.com/servicehubbotia-glitch/Botia-web']]},
-    creative:{status:'CONFIGUREERBAAR ONTWERPSYSTEEM · PRIVÉBRONCODE',title:'Eén campagne, meerdere formaten',intro:'Creative Studio gebruikt componenten, gestructureerde teksten en formaatinstellingen voor campagnes. Kies een formaat om het ontwerpprincipe te bekijken.',steps:[
+    creative:{status:'CONFIGUREERBAAR ONTWERPSYSTEEM · PRIVÉBRONCODE',title:'Echte campagneteksten in meerdere formaten',intro:'Creative Studio combineert negen echte campagneonderdelen, veertien talen en acht gedocumenteerde formaten. Bekijk daarna de volledige casestudy met echte teksten.',steps:[
      ['Staand','Staande compositie','Een langwerpige indeling past witruimte en hiërarchie aan voor een story-formaat. De voorbeeldinhoud is fictief.'],
      ['Vierkant','Vierkante compositie','Een vierkante indeling herschikt dezelfde onderdelen zonder de campagnebron te dupliceren.'],
      ['Liggend','Brede compositie','Een horizontale indeling past het formaat aan en houdt de campagnestructuur consistent.']
@@ -55,7 +55,7 @@
      ['Licenties','Hergebruik respecteren','De catalogus onderscheidt herpubliceerbaar materiaal van bronnen die alleen mogen worden gelinkt of beperkt toegankelijk blijven.'],
      ['Volglijst','Wijzigingen volgen','Een lijst van twaalf EUR-Lex-verordeningen bevat identificaties en bekende consolidatiedata. De illustratie toont geen bewijs dat meldingen zijn verzonden.']
     ],links:[['Openbare BOTIA-documentatie','https://www.botia-safefood.com/']],private:true},
-    reintegration:{status:'WERKENDE WEBAPP · OPENBARE CODE / PRIVÉDATA',title:'Een werkproces met toegangscontrole',intro:'MyReintegration is een online activiteitenlogboek met privégegevens in Google Sheets. Dit voorbeeld gebruikt fictieve waarden; persoonlijke gegevens worden niet opgehaald.',steps:[
+    reintegration:{status:'WERKENDE WEBAPP · OPENBARE CODE / PRIVÉDATA',title:'Van iemands Excel-blad naar een persoonlijke webapp',intro:'Iemand registreerde activiteiten in Excel. De invoer werd uitgebreid tot een privéwebapp met meer velden en rapporten. Dit voorbeeld bevat alleen fictieve gegevens.',steps:[
      ['Activiteiten','Gestructureerd registreren','Activiteiten bevatten datum, beschrijving, status en bestede tijd; een weekoverzicht telt de waarden op.'],
      ['Toegang','Bewerken beveiligen','Google OAuth, rollencontrole op de server en revisiebeheer scheiden eigenaarsrechten van leestoegang en beperken conflicten bij gelijktijdig bewerken.'],
      ['Rapporten','Rapporten exporteren','De toepassing ondersteunt PDF-, Excel-, CSV- en concept-e-mailrapporten per week.']
@@ -72,7 +72,7 @@
      ['Fuentes','Evidencia documentada','La información estructurada enlaza explicaciones con fuentes científicas y regulatorias, incluyendo sus límites e incertidumbres.'],
      ['Resultado','Explicaciones útiles','La aplicación Android y la web multilingüe presentan información relevante en distintas capas.']
     ],links:[['Visitar BOTIA','https://www.botia-safefood.com/'],['Probar la interfaz pública','https://www.botia-safefood.com/try.html'],['Android en Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Código web público','https://github.com/servicehubbotia-glitch/Botia-web']]},
-    creative:{status:'SISTEMA VISUAL CONFIGURABLE · CÓDIGO PRIVADO',title:'Una campaña, varios formatos',intro:'Creative Studio utiliza componentes, textos estructurados y configuraciones de formato. Cambia la vista previa para descubrir el principio de diseño.',steps:[
+    creative:{status:'SISTEMA VISUAL CONFIGURABLE · CÓDIGO PRIVADO',title:'Textos de campaña reales en varios formatos',intro:'Creative Studio combina nueve piezas reales, catorce idiomas y ocho formatos documentados. Explora los formatos y abre el caso completo para ver textos auténticos.',steps:[
      ['Vertical','Composición vertical','El formato vertical adapta espacios y jerarquía para piezas de tipo story. El contenido de la muestra es ficticio.'],
      ['Cuadrado','Composición cuadrada','El formato cuadrado reorganiza los mismos componentes sin duplicar la fuente de la campaña.'],
      ['Horizontal','Composición panorámica','La composición horizontal cambia la disposición sin perder coherencia entre las piezas.']
@@ -83,7 +83,7 @@
      ['Licencias','Derechos de reutilización','El catálogo distingue material redistribuible, fuentes que solo pueden enlazarse y contenido restringido.'],
      ['Vigilancia','Seguimiento de cambios','Una lista de doce normas de EUR-Lex recoge identificadores y fechas de consolidación conocidas. Esta ilustración no demuestra que se haya enviado una alerta.']
     ],links:[['Documentación pública de BOTIA','https://www.botia-safefood.com/']],private:true},
-    reintegration:{status:'APLICACIÓN OPERATIVA · CÓDIGO PÚBLICO / DATOS PRIVADOS',title:'Un proceso administrativo con control de acceso',intro:'MyReintegration es un diario web con datos privados en Google Sheets. Esta vista utiliza valores simulados y nunca carga registros personales.',steps:[
+    reintegration:{status:'APLICACIÓN OPERATIVA · CÓDIGO PÚBLICO / DATOS PRIVADOS',title:'De la hoja Excel de una persona a una aplicación útil',intro:'Una persona registraba actividades en Excel. Amplié la entrada de datos y desarrollé una aplicación web privada con informes. Esta demostración utiliza únicamente datos inventados.',steps:[
      ['Actividades','Registros estructurados','Cada actividad tiene fecha, descripción, estado y tiempo; la vista semanal agrega la información.'],
      ['Acceso','Edición protegida','Google OAuth, comprobaciones de permisos en el servidor y control de revisiones separan la cuenta propietaria de los lectores y gestionan cambios simultáneos.'],
      ['Informes','Exportación de informes','La aplicación ofrece PDF, Excel, CSV y borradores de correo para informes semanales.']
@@ -165,6 +165,11 @@
   links.replaceChildren(...project.links.map(([name,url])=>{
    const a=node('a','',name+' ↗');a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;
   }));
+  if(active!=='botia'){
+    const label=({en:'See the detailed case ↗',nl:'Bekijk de uitgebreide casestudy ↗',es:'Ver el caso completo ↗'})[window.portfolioLanguage]||'See the detailed case ↗';
+    const a=node('a','',label);a.href='./case-studies.html?project='+active+'&lang='+(window.portfolioLanguage||'en');
+    links.prepend(a);
+  }
   const note=$('lab-private-note');note.hidden=!project.private;note.textContent=project.private?locale.privateNote:'';
   document.querySelectorAll('[data-open-lab]').forEach(a=>{
     a.textContent=({'en':'Interactive walkthrough ↗','nl':'Interactieve demonstratie ↗','es':'Demostración interactiva ↗'})[window.portfolioLanguage]||'Interactive walkthrough ↗';
