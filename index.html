@@ -198,7 +198,9 @@
     /* V04: READABILITY / CONTRAST — retains the established blue/white identity */
     .schematic{background:linear-gradient(155deg,#092E68 0%,#061D45 100%);border-color:#83B8F5}
     .schema-head span,.schema-head .status,.schema-label,.pipe-name,.pipe-small,
-    .terminal-top span:last-child,.terminal .key,.terminal .dim,.schematic-bottom{color:#F0F7FF}
+    .terminal-top span:last-child,.terminal .key,.terminal .dim,.schematic-bottom{
+      color:#F0F7FF;
+    }
     .terminal{background:#051A3D;border-color:#6A9DD8}
     .terminal p{color:#F2F8FF}
     .hero-subline,.hero .eyebrow{color:#F0F7FF}
@@ -250,6 +252,8 @@
       .terminal .dim,.terminal-top span:last-child,.schematic-bottom{color:#F0F7FF}
     }
 </style>
+<link rel="stylesheet" href="./portfolio-proof-lab.css">
+<script defer src="./portfolio-proof-lab.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -330,6 +334,7 @@
               <button type="button" class="text-link" data-case="botia">Explore engineering decisions <span>↗</span></button>
               <a class="text-link" href="https://www.botia-safefood.com/" target="_blank" rel="noopener noreferrer">Live product <span>↗</span></a>
             </div>
+            <a class="proof-link-inline" href="#explore" data-open-lab="botia">Interactive walkthrough ↗</a>
           </div>
           <div class="feature-visual" aria-label="Technical workflow diagram for BOTIA">
             <div class="panel-stack">
@@ -349,6 +354,7 @@
               <p class="card-desc">A configurable visual campaign system: nine pieces, fourteen languages, eight output formats and right-to-left support.</p>
               <div class="tags"><span class="tag">HTML / CSS / JS</span><span class="tag">i18n</span></div>
               <button type="button" class="text-link" data-case="creative">Explore the system <span>↗</span></button>
+              <a class="proof-link-inline" href="#explore" data-open-lab="creative">Interactive walkthrough ↗</a>
             </div>
           </article>
           <article class="project-card">
@@ -359,6 +365,7 @@
               <p class="card-desc">Scientific and regulatory source governance with classification, versioning, integrity checks and a regulatory watchlist.</p>
               <div class="tags"><span class="tag">Source traceability</span><span class="tag">SHA-256</span></div>
               <button type="button" class="text-link" data-case="knowledge">Explore the method <span>↗</span></button>
+              <a class="proof-link-inline" href="#explore" data-open-lab="knowledge">Interactive walkthrough ↗</a>
             </div>
           </article>
           <article class="project-card">
@@ -369,8 +376,42 @@
               <p class="card-desc">A working browser-based journal integrating Google authentication, a private data store, permission controls and reporting.</p>
               <div class="tags"><span class="tag">Google OAuth</span><span class="tag">Apps Script</span></div>
               <button type="button" class="text-link" data-case="reintegration">Explore the workflow <span>↗</span></button>
+              <a class="proof-link-inline" href="#explore" data-open-lab="reintegration">Interactive walkthrough ↗</a>
             </div>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Safely illustrated technical workflows. No sensitive or live user data. -->
+    <section class="proof-lab-section" id="explore" aria-labelledby="explore-title">
+      <div class="wrap">
+        <header class="proof-lab-header">
+          <div class="eyebrow light"><span class="line"></span><span id="explore-kicker">EXPLORE / TECHNICAL PROOF</span></div>
+          <h2 id="explore-title">Look inside the work.</h2>
+          <p id="explore-lede">Choose a project to inspect a technical decision, a representative workflow and the public evidence available. The interactive examples are illustrations, not live services.</p>
+        </header>
+        <div class="proof-tabs" id="lab-tabs" role="tablist" aria-label="Choose a project">
+          <button id="lab-tab-botia" type="button" role="tab" aria-controls="explore-panel" aria-selected="true" tabindex="0" data-lab-project="botia"><span class="proof-tab-no">01</span> BOTIA</button>
+          <button id="lab-tab-creative" type="button" role="tab" aria-controls="explore-panel" aria-selected="false" tabindex="-1" data-lab-project="creative"><span class="proof-tab-no">02</span> Creative Studio</button>
+          <button id="lab-tab-knowledge" type="button" role="tab" aria-controls="explore-panel" aria-selected="false" tabindex="-1" data-lab-project="knowledge"><span class="proof-tab-no">03</span> Knowledge Base</button>
+          <button id="lab-tab-reintegration" type="button" role="tab" aria-controls="explore-panel" aria-selected="false" tabindex="-1" data-lab-project="reintegration"><span class="proof-tab-no">04</span> MyReintegration</button>
+        </div>
+        <div class="proof-body" id="explore-panel" role="tabpanel" aria-labelledby="lab-tab-botia" tabindex="0">
+          <div class="proof-visual">
+            <div class="proof-preview-header"><span id="lab-preview-label">ILLUSTRATIVE WALKTHROUGH</span><span id="lab-preview-code">04 / SYSTEMS</span></div>
+            <div class="proof-mock" id="lab-preview" aria-live="off"></div>
+            <p class="proof-caption" id="lab-caption">Illustrative view — no production systems or private data accessed.</p>
+          </div>
+          <div class="proof-copy">
+            <div class="proof-status" id="lab-project-status">PUBLISHED PRODUCT · PUBLIC EVIDENCE</div>
+            <h3 id="lab-project-title">From label image to documented explanation</h3>
+            <p id="lab-project-intro">BOTIA brings together AI-assisted text extraction, explicit decision rules and evidence-linked information.</p>
+            <div class="proof-controls" id="lab-controls" role="group" aria-label="Inspect a technical step"></div>
+            <div class="proof-explanation" id="lab-explanation" aria-live="polite"></div>
+            <div class="proof-resource-links" id="lab-links"></div>
+            <small class="proof-private-note" id="lab-private-note" hidden></small>
+          </div>
         </div>
       </div>
     </section>
