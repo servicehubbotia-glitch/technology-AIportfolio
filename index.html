@@ -1,0 +1,518 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A428E">
+  <meta name="description" content="Selected technical work and professional experience of Paloma García Muley: digital products, integration, AI quality and documentation.">
+  <title>Paloma García Muley — Selected Technical Work</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800&display=swap');
+
+    :root{
+      --ink:#0F2034;--ink-darker:#0A428E;--paper:#F7FAFF;--paper-bright:#FFFFFF;
+      --muted:#61758C;--line:#D9E5F2;--accent:#B8DEFF;--sky:#9CCFFF;
+      --blue-deep:#2175D9;--sans:"Source Sans 3",Arial,sans-serif;
+      --mono:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+      --shadow:0 24px 60px rgba(19,76,157,.10);
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;-webkit-font-smoothing:antialiased}
+    button,a{font:inherit}a{color:inherit}button{cursor:pointer}a:focus-visible,button:focus-visible{outline:3px solid #8BC1FF;outline-offset:4px}
+    .wrap{width:min(1160px,calc(100% - 64px));margin-inline:auto}
+    .mono,.label,.pill,.micro{font-family:var(--mono)}.eyebrow{font-family:var(--sans)}
+    .site-header{position:absolute;z-index:10;top:0;left:0;right:0;color:#FFFFFF}
+    .topbar{height:94px;display:flex;align-items:center;justify-content:space-between;gap:28px;border-bottom:1px solid rgba(245,255,255,.15)}
+    .wordmark{text-decoration:none;display:flex;align-items:center;gap:12px;flex:none}
+    .brand-symbol{display:grid;place-items:center;height:39px;width:39px;border:1px solid rgba(229,243,255,.78);color:var(--accent);border-radius:10px;font-size:12px;letter-spacing:-1px;font-family:var(--mono)}
+    .brand-label{font-weight:690;letter-spacing:-.025em;font-size:14px;line-height:1.25}.brand-label small{display:block;color:#BFD7FA;font:10px var(--mono);letter-spacing:.035em;margin-top:4px}
+    .nav{display:flex;align-items:center;gap:29px}.nav a{text-decoration:none;color:#E0EEFF;font-size:12px;font-weight:600;transition:color .2s}.nav a:hover{color:var(--accent)}
+    .nav a.nav-contact{color:var(--ink);background:var(--accent);padding:11px 15px;border-radius:6px}
+    .hero{overflow:hidden;position:relative;background:var(--ink-darker);color:#F5FAFF}
+    .hero:before{position:absolute;content:"";inset:0;pointer-events:none;background:radial-gradient(ellipse at 72% 46%,rgba(129,194,255,.27),transparent 40%),radial-gradient(ellipse at 5% 0%,rgba(218,237,255,.14),transparent 35%)}
+    .hero-grid{position:absolute;inset:0;pointer-events:none;opacity:.13;background-image:linear-gradient(to right,#8DBBEF 1px,transparent 1px),linear-gradient(to bottom,#8DBBEF 1px,transparent 1px);background-size:43px 43px;mask-image:linear-gradient(to right,transparent 23%,#000 96%)}
+    .hero-content{position:relative;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:52px;padding-top:155px;padding-bottom:113px;min-height:655px}
+    .eyebrow{display:flex;align-items:center;gap:12px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:650}.eyebrow .line{display:inline-block;width:21px;height:1px;background:currentColor;opacity:.8}
+    .hero .eyebrow{color:var(--sky)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(43px,5.4vw,79px);line-height:1.02;letter-spacing:-.059em;font-weight:750;margin:24px 0 25px;max-width:730px}
+    h1 em{font-style:normal;color:var(--accent)}.hero-lede{max-width:506px;color:#CEE1FB;font-size:16px;line-height:1.8;margin-bottom:30px}
+    .btn-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    .btn{border:1px solid transparent;padding:13px 17px;min-height:44px;display:inline-flex;gap:11px;align-items:center;justify-content:center;text-decoration:none;border-radius:7px;font-size:12px;font-weight:740;letter-spacing:.01em;transition:transform .2s,background .2s,box-shadow .2s}
+    .btn:hover{transform:translateY(-2px)}.btn-bright{background:var(--accent);color:#15498F}.btn-outline{border-color:#8AB1E4;color:#F6FAFF;background:rgba(255,255,255,.03)}.btn-outline:hover{background:rgba(255,255,255,.09)}
+    .arrow{font-family:var(--mono);font-weight:700;font-size:14px}.hero-subline{font:11px/1.6 var(--mono);color:#C4DAF7;margin-top:25px}
+    .schematic{position:relative;border:1px solid rgba(170,214,255,.43);border-radius:15px;min-height:421px;background:linear-gradient(155deg,rgba(24,90,179,.77),rgba(9,39,91,.97));box-shadow:0 25px 80px rgba(0,0,0,.22);padding:24px 25px 23px;overflow:hidden}
+    .schematic:after{content:"";position:absolute;left:0;right:0;bottom:0;height:4px;background:linear-gradient(90deg,transparent,var(--sky),var(--accent),transparent);opacity:.65}
+    .schema-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(207,232,255,.23);padding-bottom:16px;gap:10px}
+    .schema-head span{color:#DCEBFF;font:10px var(--mono);letter-spacing:.12em}.schema-head .status{display:flex;align-items:center;gap:8px;color:var(--accent)}.status i{width:7px;height:7px;background:var(--accent);border-radius:50%;box-shadow:0 0 0 5px rgba(170,210,255,.22)}
+    .schema-label{font:9px var(--mono);color:#A7C8F1;letter-spacing:.13em;text-transform:uppercase;margin:23px 0 14px}
+    .pipeline{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:center;gap:0;position:relative}
+    .pipe-node{text-align:center;z-index:1;position:relative}.pipe-icon{margin:auto;display:grid;place-items:center;width:57px;height:57px;background:#16488F;border:1px solid #4D87D0;border-radius:12px;color:var(--accent);font:700 17px var(--mono)}
+    .pipe-node:not(:last-child)::after{content:"→";position:absolute;top:19px;right:-9px;color:var(--sky);font:16px var(--mono)}
+    .pipe-name{display:block;color:#ECF6FF;font-size:10px;font-weight:650;margin-top:10px}.pipe-small{display:block;color:#B2CBE9;font:9px var(--mono);margin-top:5px}
+    .terminal{margin-top:31px;padding:16px;background:#0A2856;border:1px solid #2761A8;border-radius:9px}
+    .terminal-top{display:flex;gap:6px;align-items:center;margin-bottom:14px}.dot{height:6px;width:6px;border-radius:50%;background:#90B5E7}.dot:nth-child(1){background:#D1E6FF}.dot:nth-child(2){background:#ADC7EA}.dot:nth-child(3){background:#9CCFFF}
+    .terminal-top span:last-child{margin-left:auto;color:#88AAD5;font:9px var(--mono)}
+    .terminal p{font:11px/1.9 var(--mono);margin:0;color:#CEDFF8}.terminal .key{color:#B3DBFF}.terminal .val{color:#F0F7FF}.terminal .dim{color:#9BB9DA}
+    .schematic-bottom{display:flex;justify-content:space-between;gap:12px;padding-top:18px;margin-top:12px;font:9px var(--mono);color:#92B4DC;letter-spacing:.06em}
+    .proofbar{background:#0E326D;color:#F6FAFF;border-top:1px solid rgba(216,235,255,.22)}.proofbar-inner{display:grid;grid-template-columns:repeat(4,1fr)}
+    .proof{border-left:1px solid rgba(216,235,255,.22);padding:20px 23px}.proof:first-child{border-left:0;padding-left:0}.proof strong{display:block;font:600 21px var(--mono);color:var(--accent);letter-spacing:-.08em}.proof span{display:block;font-size:11px;margin-top:5px;color:#ABC7E9;line-height:1.5}
+    main{overflow:hidden}.section{padding:100px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:39px}
+    .section-head h2{font-size:clamp(32px,4vw,48px);letter-spacing:-.043em;line-height:1.12;margin:12px 0 0}.section-note{max-width:380px;color:var(--muted);line-height:1.72;font-size:13px;margin-bottom:0}
+    .eyebrow.light{color:var(--blue-deep)}.feature{background:#EDF5FF;border:1px solid #C9DDF3;border-radius:17px;display:grid;grid-template-columns:1fr 1fr;min-height:382px;overflow:hidden}
+    .feature-copy{padding:36px 40px 34px;display:flex;flex-direction:column;align-items:flex-start}
+    .project-no{color:var(--blue-deep);font:10px var(--mono);letter-spacing:.075em}.project-category{font:10px var(--mono);color:#5D789D;margin-top:19px}.feature h3{font-size:clamp(31px,4vw,52px);letter-spacing:-.049em;line-height:1.1;margin:10px 0 16px}.feature p{font-size:13px;line-height:1.79;color:#425D7B;max-width:440px}
+    .tags{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0 21px}.tag{display:inline-flex;font:10px var(--mono);padding:7px 9px;background:#FFFFFF;color:#3B669E;border:1px solid #CEDFF4;border-radius:5px}.feature .project-actions{margin-top:auto}
+    .project-actions{display:flex;gap:13px;flex-wrap:wrap;align-items:center}.text-link{border:0;background:transparent;padding:3px 0;color:#135CAC;font-weight:760;text-decoration:none;font-size:12px;display:inline-flex;gap:8px;align-items:center}.text-link:hover{text-decoration:underline;text-underline-offset:5px}
+    .feature-visual{min-width:0;background:#0D3E80;position:relative;color:#D2E8FF;display:flex;align-items:center;justify-content:center;padding:39px;overflow:hidden}
+    .feature-visual:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 52% 52%,rgba(131,189,255,.24),transparent 55%),linear-gradient(90deg,rgba(177,212,255,.14) 1px,transparent 1px),linear-gradient(rgba(177,212,255,.14) 1px,transparent 1px);background-size:auto,31px 31px,31px 31px}
+    .panel-stack{width:min(100%,440px);position:relative;z-index:1}.feature-visual-header{display:flex;justify-content:space-between;font:10px var(--mono);color:#ABD0FC;margin-bottom:16px}
+    .diagram-step{display:grid;grid-template-columns:56px 1fr 42px;align-items:center;gap:12px;border:1px solid #426FB0;background:rgba(9,46,109,.92);border-radius:8px;padding:11px 13px;margin:11px 0}
+    .diagram-step .n{font:11px var(--mono);color:var(--accent)}.diagram-step .main{font-size:12px;font-weight:670;color:#EEF7FF}.diagram-step .sub{font-size:10px;color:#ACC7E9;margin-top:2px}.diagram-step .tick{text-align:right;color:#A9D9FF;font:12px var(--mono)}
+    .subprojects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin-top:17px}
+    .project-card{display:flex;flex-direction:column;overflow:hidden;background:white;border:1px solid var(--line);border-radius:13px;min-height:406px;box-shadow:0 5px 22px rgba(14,67,130,.04)}
+    .project-card .art{height:156px;position:relative;overflow:hidden;padding:21px;display:flex;align-items:center;justify-content:center}
+    .project-card .card-copy{padding:23px 24px 27px;display:flex;flex:1;flex-direction:column}.card-headline{font-size:23px;font-weight:740;letter-spacing:-.045em;margin:10px 0 11px}.card-desc{color:#536D8A;line-height:1.65;font-size:12px;margin:0 0 17px}.project-card .text-link{margin-top:auto}
+    .art-creative{background:#EAF3FF}.mini-stage{position:relative;display:flex;align-items:end;gap:7px;transform:rotate(-7deg)}.mini-stage>div{border:1px solid #B8CEE8;border-radius:5px;box-shadow:0 8px 18px rgba(36,88,163,.09);background:#FFFFFF;display:flex;align-items:center;justify-content:center}
+    .mini-stage .vertical{width:69px;height:112px;background:linear-gradient(150deg,#103875 40%,#3A7CC9 100%);color:#DAEDFF;font:11px var(--mono)}.mini-stage .square{width:92px;height:89px;font-size:10px;color:#286BBA}.mini-stage .wide{height:64px;width:95px;background:#D9EBFF;color:#174A8E;font:9px var(--mono)}
+    .art-kb{background:#EBF4FF}.doc-ledger{width:85%;font:9px var(--mono);color:#2C5E9B;border:1px solid #C7DBF3;box-shadow:0 6px 20px #184B8D10;border-radius:6px;background:#FFFFFF;padding:10px}.doc-ledger .head{color:#2175D9;letter-spacing:.06em;padding-bottom:7px;border-bottom:1px solid #DBEAF9;font-weight:700}.doc-ledger .line{display:flex;justify-content:space-between;gap:5px;padding:9px 0;border-bottom:1px solid #E9F3FF}.doc-ledger .line:last-child{border-bottom:0}.doc-ledger .valid{color:#236BBC}
+    .art-mr{background:#EAF3FF}.mini-dashboard{width:83%;background:#fff;border-radius:8px;border:1px solid #C9DFF4;box-shadow:0 8px 20px #1A58A513;padding:12px}.mini-dashboard header{font:8px var(--mono);color:#4973A4;display:flex;justify-content:space-between;border-bottom:1px solid #E2ECF9;padding-bottom:8px}.mini-dashboard .bars{display:flex;align-items:flex-end;gap:8px;height:62px;border-bottom:1px solid #DCE9F8;margin:13px 0 6px}.bars span{display:block;background:#579BE6;border-radius:3px 3px 0 0;flex:1}.bars span:nth-child(2n){background:#BCD9F7}.mini-dashboard footer{display:flex;justify-content:space-between;color:#6A8CAF;font:7px var(--mono);letter-spacing:.02em}
+    .experience-section{background:#fff;border-top:1px solid #E3ECF8;border-bottom:1px solid #E3ECF8}
+    .experience-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:80px}.experience-intro h2{font-size:clamp(31px,3.8vw,48px);line-height:1.12;letter-spacing:-.052em;margin:16px 0}.experience-intro p{color:var(--muted);font-size:13px;line-height:1.8;max-width:330px}.experience-table{border-top:1px solid #D9E5F2}
+    .exp-row{display:grid;grid-template-columns:106px 1fr;gap:22px;border-bottom:1px solid #D9E5F2;padding:25px 0}.exp-row .date{font:11px var(--mono);color:#6582A5;padding-top:4px}.exp-row h3{margin:0 0 5px;font-size:17px;letter-spacing:-.02em}.exp-row p{font-size:12px;color:#5B718F;line-height:1.7;margin:0}.exp-row .exp-tech{color:#215EA8;font:10px var(--mono);margin-top:11px}
+    .deliverables{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.deliverable{padding:28px 26px;border:1px solid var(--line);border-radius:12px;background:white}.deliverable .num{font:11px var(--mono);color:var(--blue-deep)}.deliverable h3{font-size:17px;letter-spacing:-.03em;margin:27px 0 11px}.deliverable p{font-size:12px;line-height:1.77;color:#60748D;margin-bottom:0}
+    .footer-cta{background:#0C3576;color:#F7FAFF;padding:72px 0}.footer-cta-inner{display:flex;justify-content:space-between;align-items:center;gap:40px}.footer-cta h2{font-size:clamp(29px,3vw,42px);letter-spacing:-.049em;line-height:1.14;margin:15px 0 12px}.footer-cta p{color:#B2CBE9;font-size:13px;line-height:1.65;margin-bottom:0}.footer-links{display:flex;gap:10px;flex-wrap:wrap}.footer-small{padding:20px 0;background:#071F47;color:#8CAACD;font:10px var(--mono)}.footer-small .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-small a{text-decoration:none;color:#C7DDF7}
+    dialog.case-dialog{max-width:min(715px,calc(100% - 30px));width:100%;max-height:min(90vh,900px);overflow:auto;border:none;border-radius:17px;padding:0;background:#fff;color:#0F2034;box-shadow:0 30px 120px rgba(0,0,0,.3)}dialog::backdrop{background:rgba(10,32,67,.76);backdrop-filter:blur(6px)}
+    .case-top{background:#0C418B;color:#F2F8FF;padding:35px 40px 34px}.case-dialog .eyebrow{color:#B8DEFF}.case-top h2{font-size:clamp(30px,4vw,48px);letter-spacing:-.062em;margin:18px 0 10px}.case-top p{color:#B9D4F4;line-height:1.7;font-size:13px;max-width:560px;margin-bottom:0}
+    .modal-top-row{display:flex;justify-content:space-between;align-items:center;gap:20px}.modal-close{border:1px solid #7EABDE;background:transparent;color:white;border-radius:50%;width:34px;height:34px;font-size:23px;line-height:1}
+    .case-body{padding:34px 40px 40px}.case-body .case-block{margin-bottom:27px}.case-body .case-block:last-child{margin-bottom:0}.case-body h3{font:700 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#1A67BD;margin-bottom:11px}.case-body p,.case-body li{font-size:13px;line-height:1.85;color:#536E8D}.case-body ul{padding-left:19px;margin:0}.case-body li{padding-left:4px}.case-body .case-links{display:flex;flex-wrap:wrap;gap:9px}.case-body .case-links a{font-size:12px;font-weight:700;color:#1C65BB;border:1px solid #C1DDF7;padding:10px 12px;border-radius:6px;text-decoration:none}.case-body .case-links a:hover{background:#EAF4FF}.privacy-note{border-left:3px solid #2175D9;background:#EDF6FF;padding:14px 16px;border-radius:0 7px 7px 0;margin-top:10px}
+    .no-js{display:none}
+    @media (max-width:950px){.hero-content{grid-template-columns:1fr;gap:28px;padding-top:155px;padding-bottom:80px}.hero-content .hero-left{max-width:760px}.schematic{max-width:720px;width:100%;min-height:385px}.experience-layout{grid-template-columns:1fr;gap:25px}.experience-intro p{max-width:740px}.feature{grid-template-columns:1fr}.feature-visual{min-height:325px}.subprojects{grid-template-columns:repeat(2,1fr)}.project-card:last-child{grid-column:1/-1}.project-card:last-child .art{height:156px}.proofbar-inner{grid-template-columns:repeat(2,1fr)}.proof:nth-child(3){border-left:0;padding-left:0}.proof{border-bottom:1px solid rgba(216,235,255,.22)}.footer-cta-inner{align-items:start;flex-direction:column}.nav{gap:15px}}
+    @media (max-width:640px){.wrap{width:min(100% - 36px,1160px)}.topbar{height:78px}.brand-label{font-size:12px}.brand-label small{font-size:9px}.nav>a:not(.nav-contact){display:none}.nav a.nav-contact{font-size:11px;padding:9px}.hero-content{padding-top:129px;padding-bottom:55px;min-height:0}.hero-lede{font-size:14px}.schematic{min-height:365px;padding:17px}.pipe-icon{width:46px;height:46px;font-size:14px}.pipe-node:not(:last-child)::after{top:15px;right:-8px;font-size:12px}.pipe-name{font-size:8px}.pipe-small{font-size:7px}.terminal p{font-size:10px}.proofbar-inner{grid-template-columns:1fr 1fr}.proof{padding:16px 10px;border-bottom:1px solid #2B5894}.proof:first-child,.proof:nth-child(3){padding-left:0}.proof strong{font-size:17px}.proof span{font-size:10px}.section{padding:65px 0}.section-head{display:block}.section-note{margin-top:15px}.feature-copy{padding:26px 22px}.feature-visual{min-height:310px;padding:25px}.subprojects{grid-template-columns:1fr}.project-card:last-child{grid-column:auto}.project-card{min-height:0}.project-card .art{height:162px}.experience-layout{gap:23px}.exp-row{grid-template-columns:82px 1fr;gap:14px}.exp-row .date{font-size:10px}.deliverables{grid-template-columns:1fr}.deliverable{padding:23px}.footer-cta{padding:56px 0}.case-top{padding:26px 24px}.case-body{padding:26px 24px}.schematic-bottom{font-size:8px}}
+    @media (prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+  
+
+    /* NETHERLANDS BLUE / SOURCE SANS 3 — visual identity v02 */
+    :root{color-scheme:light;--brand-blue:#2175D9;--navy:#0F2034;--ice:#F7FAFF;--white:#FFFFFF}
+    body{font-family:var(--sans);font-weight:400;font-size:15px}
+    h1,h2,h3{font-family:var(--sans)}
+    .hero{background:linear-gradient(117deg,#0A3271 0%,#0C4A9E 54%,#186BCB 100%)}
+    .hero:before{background:radial-gradient(ellipse at 82% 47%,rgba(117,181,255,.30),transparent 42%),radial-gradient(ellipse at 3% 0%,rgba(230,245,255,.09),transparent 35%)}
+    .hero-grid{opacity:.23;background-size:49px 49px}
+    .site-header{color:#FFFFFF}
+    .topbar{border-bottom-color:rgba(228,241,255,.27)}
+    .brand-symbol{border-color:rgba(255,255,255,.72);color:#FFFFFF;background:rgba(255,255,255,.08)}
+    .brand-label small{color:#D2E6FF;font-family:var(--sans);font-weight:600;letter-spacing:.12em}
+    .nav a{color:#E7F2FF;font-size:13px;font-weight:650}
+    .nav a:hover{color:#FFFFFF}
+    .nav a.nav-contact{background:#FFFFFF;color:#155AB0;font-weight:750;border-radius:8px}
+    .hero .eyebrow{color:#C7E4FF;letter-spacing:.16em}
+    .hero h1{font-weight:750;letter-spacing:-.058em}
+    .hero h1 em{color:#FFFFFF}
+    .hero-lede{color:#E0EDFF;font-size:17px;line-height:1.65}
+    .btn{font-size:13px;font-weight:700;border-radius:9px}
+    .btn-bright{color:#1454A2;background:#FFFFFF;border-color:#FFFFFF;box-shadow:0 10px 30px rgba(8,44,111,.12)}
+    .btn-bright:hover{background:#ECF6FF}
+    .btn-outline{border-color:#9DC6F5;color:#FFFFFF;background:rgba(255,255,255,.04)}
+    .hero-subline{color:#CEE2FF}
+    .schematic{background:linear-gradient(155deg,rgba(14,67,148,.88),rgba(6,32,80,.96));border-color:rgba(207,229,255,.44);box-shadow:0 25px 70px rgba(1,24,63,.33)}
+    .schematic:after{background:linear-gradient(90deg,transparent,#FFFFFF,#75B9FF,transparent)}
+    .schema-head{border-bottom-color:rgba(222,238,255,.23)}
+    .schema-head span{color:#D9EAFF}
+    .schema-head .status{color:#FFFFFF}
+    .status i{background:#FFFFFF;box-shadow:0 0 0 5px rgba(188,220,255,.20)}
+    .schema-label,.pipe-small{color:#B9D5F5}
+    .pipe-icon{background:#164B9E;border-color:#5B91D7;color:#E2F1FF}
+    .pipe-node:not(:last-child)::after{color:#CBE4FF}
+    .pipe-name{color:#FFFFFF;font-size:11px}
+    .terminal{background:#07295F;border:1px solid #4473B8}
+    .terminal p{color:#DDEBFF}
+    .terminal .key{color:#9BCBFF}
+    .terminal .val{color:#FFFFFF}
+    .terminal .dim{color:#9FBDD9}
+    .terminal-top span:last-child,.schematic-bottom{color:#B6D2F5}
+    .dot:nth-child(1){background:#89B7F0}.dot:nth-child(2){background:#DCEEFF}.dot:nth-child(3){background:#448DF0}
+    .proofbar{background:#0C2B5C;color:#FFFFFF}
+    .proof strong{font-family:var(--sans);font-size:23px;font-weight:750;letter-spacing:-.022em;color:#EAF4FF}
+    .proof span{color:#C5DCF8;font-size:12px}
+    .section-head h2,.experience-intro h2{font-weight:750;letter-spacing:-.048em}
+    .eyebrow.light{color:#1766BF;font-size:11px;letter-spacing:.16em}
+    .feature{background:#EAF4FF;border-color:#BED9F7}
+    .feature h3{font-weight:750;letter-spacing:-.046em}
+    .feature p,.card-desc,.deliverable p,.exp-row p{color:#425B79;font-size:13px}
+    .project-category{color:#52749D}
+    .tag{color:#2464AE;background:#FFFFFF;border-color:#CADEFA}
+    .text-link{color:#145EB7;font-size:13px}
+    .feature-visual{background:#11448C;color:#EAF4FF}
+    .feature-visual:before{background:radial-gradient(circle at 52% 51%,rgba(153,203,255,.24),transparent 59%),linear-gradient(90deg,rgba(170,208,255,.14) 1px,transparent 1px),linear-gradient(rgba(170,208,255,.14) 1px,transparent 1px);background-size:auto,31px 31px,31px 31px}
+    .feature-visual-header{color:#CDE3FF}
+    .diagram-step{border-color:#6191CE;background:rgba(7,40,101,.88)}
+    .diagram-step .n,.diagram-step .tick{color:#BFE0FF}
+    .diagram-step .main,.diagram-step .sub{display:block;line-height:1.35}
+    .diagram-step .sub{margin-top:3px}
+    .diagram-step .main{color:#FFFFFF;font-size:13px}
+    .diagram-step .sub{color:#BCD6F7}
+    .project-card{border-color:#D1E2F5;box-shadow:0 8px 32px rgba(25,91,175,.06)}
+    .card-headline{font-weight:750;letter-spacing:-.04em}
+    .art-creative,.art-kb,.art-mr{background:#EAF3FF}
+    .art-creative{background:linear-gradient(140deg,#EAF4FF,#D6E8FF)}
+    .art-kb{background:linear-gradient(140deg,#EEF6FF,#DCEBFD)}
+    .art-mr{background:linear-gradient(140deg,#E4F1FF,#D9E8FA)}
+    .mini-stage .vertical{background:linear-gradient(150deg,#0D397E,#2175D9);color:#FFFFFF}
+    .mini-stage .square{background:#FFFFFF;color:#2460AF}
+    .mini-stage .wide{background:#B8D8F8;color:#124E9A}
+    .doc-ledger{border-color:#ACC9E8;color:#2F5C91}
+    .doc-ledger .head,.doc-ledger .valid{color:#1D66BD}
+    .mini-dashboard .bars span{background:#2175D9}
+    .mini-dashboard .bars span:nth-child(2n){background:#A5CFF9}
+    .experience-section{background:#FFFFFF;border-color:#DEEAF8}
+    .exp-row,.experience-table{border-color:#D9E5F2}
+    .exp-row .date{color:#577DA9}
+    .exp-row .exp-tech{color:#1E66BA}
+    .deliverable{border-color:#D5E4F5;box-shadow:0 3px 18px rgba(15,83,150,.025)}
+    .deliverable .num{color:#1F70CB}
+    .footer-cta{background:linear-gradient(110deg,#0D316D,#0A4897);color:#FFFFFF}
+    .footer-cta p{color:#D1E5FF}
+    .footer-small{background:#071E45;color:#AAC8EF}
+    .footer-small a{color:#D6E8FF}
+    dialog.case-dialog{color:#0F2034;background:#FFFFFF}
+    .case-top{background:linear-gradient(120deg,#0C3675,#1765BD);color:#FFFFFF}
+    .case-dialog .eyebrow{color:#CBE3FF}
+    .case-top p{color:#DEECFF}
+    .modal-close{border-color:#A4C4E9}
+    .case-body h3,.case-body .case-links a{color:#1F66B9}
+    .case-body p,.case-body li{color:#47627F}
+    .case-body .case-links a{border-color:#B7D2F4}
+    .case-body .case-links a:hover{background:#EBF4FF}
+    .privacy-note{border-left-color:#2175D9;background:#EAF4FF}
+    a:focus-visible,button:focus-visible{outline-color:#B5D8FF}
+    @media (max-width:640px){.hero-lede{font-size:15px}.nav a.nav-contact{font-size:12px}.hero .eyebrow{font-size:10px}.schematic{padding:17px}.feature-copy{padding:28px 24px}}
+
+    /* TRILINGUAL / ACCESSIBLE LANGUAGE SWITCH */
+    .lang-switch{display:flex;align-items:center;gap:3px;flex:none;padding:3px;border:1px solid rgba(229,242,255,.38);border-radius:9px;background:rgba(0,35,86,.22)}
+    .lang-switch button{min-width:36px;min-height:34px;padding:7px 8px;background:transparent;border:0;color:#E0EDFF;border-radius:6px;font:700 11px var(--sans);letter-spacing:.035em}
+    .lang-switch button:hover{background:rgba(255,255,255,.11);color:#fff}
+    .lang-switch button[aria-pressed="true"]{background:#fff;color:#1256A8;box-shadow:0 1px 6px rgba(0,30,90,.17)}
+    .lang-switch button:focus-visible{outline:2px solid #fff;outline-offset:3px}
+    @media(max-width:1020px){.nav>a:not(.nav-contact){display:none}}
+    @media(max-width:640px){.topbar{gap:10px}.brand-symbol{flex:none}.wordmark{min-width:0;gap:8px}.brand-label{font-size:11px;white-space:nowrap}.brand-label small{font-size:7px;letter-spacing:.055em}.nav{gap:0;flex:none}.nav>a{display:none!important}.lang-switch{padding:2px}.lang-switch button{min-width:30px;padding:7px 5px;font-size:10px}}
+    @media(max-width:370px){.brand-label small{display:none}.brand-symbol{height:33px;width:33px}.lang-switch button{min-width:28px}}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap topbar">
+      <a class="wordmark" href="#top" aria-label="Go to top">
+        <span class="brand-symbol">PG<span style="color:#D5EAFF">/</span></span>
+        <span class="brand-label">Paloma García Muley <small>SELECTED ENGINEERING WORK</small></span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#experience">Experience</a><a href="#services">Capabilities</a><a class="nav-contact" href="#contact">Contact ↗</a>
+        <div class="lang-switch" role="group" aria-label="Portfolio language">
+          <button type="button" data-lang="en" aria-pressed="true" lang="en" title="English">EN</button>
+          <button type="button" data-lang="nl" aria-pressed="false" lang="nl" title="Nederlands">NL</button>
+          <button type="button" data-lang="es" aria-pressed="false" lang="es" title="Español">ES</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="wrap hero-content">
+      <div class="hero-left">
+        <div class="eyebrow"><span class="line"></span>Digital products / systems / evidence</div>
+        <h1 id="hero-title">Complex systems.<br><em>Clear outcomes.</em></h1>
+        <p class="hero-lede">I develop usable digital products, organise complex information and solve technical problems — from client systems and integrations to published software.</p>
+        <div class="btn-row">
+          <a class="btn btn-bright" href="#work">Explore selected work <span class="arrow">↗</span></a>
+          <a class="btn btn-outline" href="#experience">Professional background <span class="arrow">↘</span></a>
+        </div>
+        <p class="hero-subline">Based in the Netherlands <span aria-hidden="true">//</span> Technical consultant & product developer</p>
+      </div>
+      <div class="schematic" aria-label="Illustrative architecture diagram with image input, OCR, rules, sources and outputs">
+        <div class="schema-head"><span>ARCHITECTURE / SELECTED WORK</span><span class="status"><i aria-hidden="true"></i> DOCUMENTED</span></div>
+        <p class="schema-label">Product logic → meaningful explanation</p>
+        <div class="pipeline" aria-hidden="true">
+          <div class="pipe-node"><div class="pipe-icon">▧</div><span class="pipe-name">Input</span><span class="pipe-small">image</span></div>
+          <div class="pipe-node"><div class="pipe-icon">⌁</div><span class="pipe-name">OCR</span><span class="pipe-small">AI</span></div>
+          <div class="pipe-node"><div class="pipe-icon">{ }</div><span class="pipe-name">Rules</span><span class="pipe-small">Python</span></div>
+          <div class="pipe-node"><div class="pipe-icon">≡</div><span class="pipe-name">Sources</span><span class="pipe-small">evidence</span></div>
+          <div class="pipe-node"><div class="pipe-icon">◫</div><span class="pipe-name">Output</span><span class="pipe-small">layers</span></div>
+        </div>
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-top"><i class="dot"></i><i class="dot"></i><i class="dot"></i><span>botia / system.flow</span></div>
+          <p><span class="dim">// Representative technical flow</span></p>
+          <p><span class="key">extract</span>(label_image) <span class="dim">→</span> <span class="val">ingredient_text</span></p>
+          <p><span class="key">evaluate</span>(rules, sources) <span class="dim">→</span> <span class="val">documented_result</span></p>
+          <p><span class="key">present</span>(layers, language) <span class="dim">→</span> <span class="val">user_explanation</span></p>
+        </div>
+        <div class="schematic-bottom"><span>SEPARATE EXTRACTION FROM DECISION LOGIC</span><span>BOTIA / CASE 01</span></div>
+      </div>
+    </div>
+  </section>
+  <div class="proofbar" aria-label="Selected technical proof points">
+    <div class="wrap proofbar-inner">
+      <div class="proof"><strong>04</strong><span>Selected technical case studies</span></div>
+      <div class="proof"><strong>14</strong><span>Languages supported in BOTIA</span></div>
+      <div class="proof"><strong>Android + Web</strong><span>Published, publicly accessible product</span></div>
+      <div class="proof"><strong>2018–2024</strong><span>Systems & client-facing technical roles</span></div>
+    </div>
+  </div>
+
+  <main>
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow light"><span class="line"></span>01 / Proof of work</div><h2 id="work-title">Selected engineering work.</h2></div>
+          <p class="section-note">Four different systems. Four perspectives on product development, automation, information integrity and operational software. Select a project to explore the technical decisions behind it.</p>
+        </div>
+        <article class="feature">
+          <div class="feature-copy">
+            <span class="project-no">CASE 01 / FLAGSHIP PRODUCT</span>
+            <span class="project-category">PRODUCT ENGINEERING · AI INTEGRATION · INFORMATION QUALITY</span>
+            <h3>BOTIA</h3>
+            <p>A live Android and web product that connects food-label analysis with structured information, documented criteria and evidence-linked explanations. Designed for clarity, not arbitrary food scores.</p>
+            <div class="tags"><span class="tag">Flutter / Dart</span><span class="tag">Gemini OCR</span><span class="tag">Python rules</span><span class="tag">Multilingual web</span></div>
+            <div class="project-actions">
+              <button type="button" class="text-link" data-case="botia">Explore engineering decisions <span>↗</span></button>
+              <a class="text-link" href="https://www.botia-safefood.com/" target="_blank" rel="noopener noreferrer">Live product <span>↗</span></a>
+            </div>
+          </div>
+          <div class="feature-visual" aria-label="Technical workflow diagram for BOTIA">
+            <div class="panel-stack">
+              <div class="feature-visual-header"><span>BOTIA / PROCESS MAP</span><span>LIVE PRODUCT</span></div>
+              <div class="diagram-step"><span class="n">01</span><span><span class="main">Image & text extraction</span><span class="sub">Google Cloud / Gemini OCR</span></span><span class="tick">↗</span></div>
+              <div class="diagram-step"><span class="n">02</span><span><span class="main">Deterministic classification</span><span class="sub">Explicit Python decision rules</span></span><span class="tick">→</span></div>
+              <div class="diagram-step"><span class="n">03</span><span><span class="main">Structured explanations</span><span class="sub">Sources · layers · 14 languages</span></span><span class="tick">✓</span></div>
+            </div>
+          </div>
+        </article>
+        <div class="subprojects">
+          <article class="project-card">
+            <div class="art art-creative" aria-label="Illustration of layouts in different sizes"><div class="mini-stage"><div class="vertical">STORY<br>9:16</div><div class="square">SQUARE<br>1:1</div><div class="wide">FEATURE<br>WIDE</div></div></div>
+            <div class="card-copy">
+              <div class="project-no">CASE 02 / CREATIVE AUTOMATION</div>
+              <h3 class="card-headline">Creative Studio</h3>
+              <p class="card-desc">A configurable visual campaign system: nine pieces, fourteen languages, eight output formats and right-to-left support.</p>
+              <div class="tags"><span class="tag">HTML / CSS / JS</span><span class="tag">i18n</span></div>
+              <button type="button" class="text-link" data-case="creative">Explore the system <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="art art-kb" aria-label="Illustration of an evidence traceability ledger"><div class="doc-ledger"><div class="head">REGULATORY / TRACEABILITY</div><div class="line"><span>Official source</span><span class="valid">VERIFIED</span></div><div class="line"><span>Integrity hash</span><span class="valid">SHA-256</span></div><div class="line"><span>Version status</span><span class="valid">TRACKED</span></div><div class="line"><span>Licence</span><span class="valid">CLASSIFIED</span></div></div></div>
+            <div class="card-copy">
+              <div class="project-no">CASE 03 / DOCUMENT INTELLIGENCE</div>
+              <h3 class="card-headline">Knowledge Base</h3>
+              <p class="card-desc">Scientific and regulatory source governance with classification, versioning, integrity checks and a regulatory watchlist.</p>
+              <div class="tags"><span class="tag">Source traceability</span><span class="tag">SHA-256</span></div>
+              <button type="button" class="text-link" data-case="knowledge">Explore the method <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="art art-mr" aria-label="Illustrative generic activity dashboard with no personal records"><div class="mini-dashboard"><header><span>WORK JOURNAL</span><span>WEEK VIEW</span></header><div class="bars"><span style="height:55%"></span><span style="height:82%"></span><span style="height:41%"></span><span style="height:92%"></span><span style="height:67%"></span><span style="height:32%"></span><span style="height:73%"></span></div><footer><span>ACTIVITY LOG</span><span>REPORTS / EXPORTS</span></footer></div></div>
+            <div class="card-copy">
+              <div class="project-no">CASE 04 / BUSINESS APPLICATIONS</div>
+              <h3 class="card-headline">MyReintegration</h3>
+              <p class="card-desc">A working browser-based journal integrating Google authentication, a private data store, permission controls and reporting.</p>
+              <div class="tags"><span class="tag">Google OAuth</span><span class="tag">Apps Script</span></div>
+              <button type="button" class="text-link" data-case="reintegration">Explore the workflow <span>↗</span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="wrap experience-layout">
+        <div class="experience-intro">
+          <div class="eyebrow light"><span class="line"></span>02 / Professional background</div>
+          <h2 id="experience-title">Experience beyond the portfolio.</h2>
+          <p>The projects above are recent, selected demonstrations of technical capability. They build on earlier professional assignments in client support, systems implementation and operational troubleshooting.</p>
+          <p style="font:10px/1.7 var(--mono);color:#2175D9">CLIENT SYSTEMS / PUBLIC SECTOR / SOFTWARE EVALUATION</p>
+        </div>
+        <div class="experience-table">
+          <div class="exp-row"><div class="date">2022–2024</div><div><h3>Lanaldén, S.A.</h3><p>TicketBAI implementation support for business customers, technical incident analysis, process improvement and practical operational documentation.</p><div class="exp-tech">SYSTEM INTEGRATION · B2B SUPPORT · PROCEDURES</div></div></div>
+          <div class="exp-row"><div class="date">2018–2022</div><div><h3>Zelenza · public-sector projects</h3><p>Systems and connectivity support in complex environments including hospitals and universities, coordinating solutions across devices, access and networking.</p><div class="exp-tech">CONNECTIVITY · TROUBLESHOOTING · INFRASTRUCTURE</div></div></div>
+          <div class="exp-row"><div class="date">Project-based</div><div><h3>Project-based digital & AI evaluation</h3><p>Software testing, issue reporting, data review and evaluation of AI-assisted outputs under documented requirements. </p><div class="exp-tech">QA · AI OUTPUT REVIEW · DATA QUALITY</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow light"><span class="line"></span>03 / Practical contribution</div><h2 id="services-title">What I can deliver.</h2></div>
+          <p class="section-note">Clear scope, verifiable output and documentation. Each engagement begins with a defined problem rather than a generic list of technologies.</p>
+        </div>
+        <div class="deliverables">
+          <article class="deliverable"><span class="num">01 /</span><h3>Digital workflows & integration</h3><p>Build or improve a contained digital process, map inputs and outputs, test error cases and deliver usable technical handover notes.</p></article>
+          <article class="deliverable"><span class="num">02 /</span><h3>AI & information quality</h3><p>Evaluate AI and chatbot outputs in their original language where language proficiency permits; check evidence, test against clear criteria and document reproducible findings.</p></article>
+          <article class="deliverable"><span class="num">03 /</span><h3>Technical documentation & diagnostics</h3><p>Investigate repeatable incidents, describe confirmed causes and design procedures teams can actually follow and maintain.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-cta">
+      <div class="wrap footer-cta-inner">
+        <div><div class="eyebrow" style="color:var(--sky)"><span class="line"></span>04 / Contact</div><h2>Have a defined technical challenge?</h2><p>Let's discuss the problem, the practical scope and the work needed to deliver it.</p></div>
+        <div class="footer-links"><a class="btn btn-bright" href="mailto:palomagarciamuley@gmail.com?subject=Technical%20project%20enquiry">Email Paloma ↗</a><a class="btn btn-outline" href="https://www.linkedin.com/in/paloma-garcia-muley/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div>
+      </div>
+    </div>
+    <div class="footer-small"><div class="wrap"><span>PALOMA GARCÍA MULEY / TECHNICAL WORK / 2026</span><span>Professional portfolio · <a href="https://github.com/servicehubbotia-glitch" target="_blank" rel="noopener noreferrer">GitHub</a></span></div></div>
+  </footer>
+
+  <dialog class="case-dialog" id="caseDialog" aria-labelledby="caseTitle">
+    <div class="case-top"><div class="modal-top-row"><div class="eyebrow"><span class="line"></span><span id="caseIndex">CASE STUDY</span></div><button type="button" class="modal-close" id="closeCase" aria-label="Close case study">×</button></div><h2 id="caseTitle"></h2><p id="caseIntro"></p></div>
+    <div class="case-body">
+      <div class="case-block"><h3>Problem & scope</h3><p id="caseProblem"></p></div>
+      <div class="case-block"><h3>How it works</h3><ul id="caseList"></ul></div>
+      <div class="case-block"><h3>What this demonstrates</h3><p id="caseProof"></p></div>
+      <div class="case-block" id="casePrivacy" hidden><div class="privacy-note"><p id="casePrivacyText" style="margin:0"></p></div></div>
+      <div class="case-block"><h3>Evidence & links</h3><div class="case-links" id="caseLinks"></div></div>
+    </div>
+  </dialog>
+  <script>
+    // This design prototype deliberately contains no analytics, credentials, or external JS.
+    const caseStudies = {
+      botia: {
+        index:'CASE 01 / PRODUCT ENGINEERING', title:'BOTIA',
+        intro:'A published digital product: Android scanning, web explanations and traceable food-label information.',
+        problem:'Ingredient lists are difficult to interpret. The product has to separate what the label declares, what documented sources support and what cannot be concluded.',
+        method:[
+          'Label image is processed through a Google Cloud Function, with OCR assisted by Gemini.',
+          'A deterministic Python rules engine evaluates structured extracted text rather than asking an LLM to make the product decision.',
+          'Results connect to explanatory website content, scientific/regulatory references and multilingual presentation layers.',
+          'The public web repository documents the product information architecture, editorial constraints and source-handling rules.'
+        ],
+        proof:'End-to-end product delivery, AI integration within explicit boundaries, data structuring, multilingual software and technical documentation.',
+        links:[['Live BOTIA website','https://www.botia-safefood.com/'],['Android application','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Public web repository','https://github.com/servicehubbotia-glitch/Botia-web']]
+      },
+      creative: {
+        index:'CASE 02 / CREATIVE AUTOMATION', title:'BOTIA Creative Studio',
+        intro:'A configuration-driven creative production system, developed for multilingual and multi-format campaign composition.',
+        problem:'Campaign assets need to stay consistent when content, languages, layouts and target formats change. Manually rebuilding every variant creates repetitive work and error risk.',
+        method:[
+          'Nine campaign pieces are defined using reusable components and structured data.',
+          'Copy is managed in fourteen languages, with direction-aware support for Arabic right-to-left layouts.',
+          'Eight format presets control dimensions and composition without rewriting each scene.',
+          'Preview, animation and optional PNG export scripts create a repeatable design workflow.'
+        ],
+        proof:'UI engineering, design systems, internationalisation, reusable layouts, content/data separation and practical automation.',
+        privacy:'The source repository is private. A selected demonstration or architecture walkthrough can be shared separately; no private assets are published in this portfolio.',
+        links:[['BOTIA public website','https://www.botia-safefood.com/']]
+      },
+      knowledge: {
+        index:'CASE 03 / DOCUMENT INTELLIGENCE', title:'BOTIA Knowledge Base',
+        intro:'Document governance and source traceability for scientific and regulatory information.',
+        problem:'A system making evidence-linked statements needs to distinguish official sources, scientific literature and internal criteria, and retain version, validity and licence information.',
+        method:[
+          'Documents are classified by source type, verification state, version status and licensing category.',
+          'A structured catalogue and human-readable index preserve provenance and integrity hashes (SHA-256).',
+          'Original institutional publications are separated from BOTIA-developed criteria.',
+          'A twelve-entry EUR-Lex watchlist defines regulations and known consolidation dates; notification execution must be evidenced separately.'
+        ],
+        proof:'Data governance, regulatory research workflows, provenance design, reproducible documentation and version-aware information systems.',
+        privacy:'The document repository is private and includes source-specific redistribution conditions. Only a high-level architecture summary is shown publicly.',
+        links:[['BOTIA product & documentation','https://www.botia-safefood.com/']]
+      },
+      reintegration: {
+        index:'CASE 04 / BUSINESS APPLICATIONS', title:'MyReintegration',
+        intro:'A practical web application to manage activity records, applications, private data and weekly reporting.',
+        problem:'Tracking activities and preparing reports manually creates repetitive work and can make records inconsistent across weeks and devices.',
+        method:[
+          'A responsive JavaScript interface tracks activities, dates, status and duration.',
+          'Google OAuth connects to an Apps Script API and a private Google spreadsheet.',
+          'Role-based access checks, revision comparisons and safe retries help protect against concurrent edits.',
+          'Weekly reports can be exported as PDF, spreadsheet, CSV or reusable email drafts.'
+        ],
+        proof:'Requirements-driven business software, authenticated integration, data handling, workflow design and export/reporting systems.',
+        privacy:'The code repository is public; the actual activity records and private spreadsheet are not. The working application requires appropriate account access to edit.',
+        links:[['Public source repository','https://github.com/servicehubbotia-glitch/My-Reintegration']]
+      }
+    };
+    const dialog=document.getElementById('caseDialog');const close=document.getElementById('closeCase');let priorFocus=null;
+    function openCase(id){
+      const c=(window.portfolioCases?.[window.portfolioLanguage]?.[id]||caseStudies[id]);if(!c)return;priorFocus=document.activeElement;
+      document.getElementById('caseIndex').textContent=c.index;
+      document.getElementById('caseTitle').textContent=c.title;
+      document.getElementById('caseIntro').textContent=c.intro;
+      document.getElementById('caseProblem').textContent=c.problem;
+      document.getElementById('caseProof').textContent=c.proof;
+      const ul=document.getElementById('caseList');ul.replaceChildren(...c.method.map(s=>{const li=document.createElement('li');li.textContent=s;return li}));
+      const p=document.getElementById('casePrivacy');p.hidden=!c.privacy;document.getElementById('casePrivacyText').textContent=c.privacy||'';
+      const links=document.getElementById('caseLinks');links.replaceChildren(...c.links.map(([title,url])=>{const a=document.createElement('a');a.textContent=title+' ↗';a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a}));
+      if(typeof dialog.showModal==='function'){dialog.showModal();close.focus()}else{dialog.setAttribute('open','')}
+    }
+    document.querySelectorAll('[data-case]').forEach(el=>el.addEventListener('click',()=>openCase(el.dataset.case)));
+    close.addEventListener('click',()=>dialog.close());
+    dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
+    dialog.addEventListener('close',()=>priorFocus?.focus?.());
+  </script>
+<script>
+  // International portfolio, English fallback. All translations stay alongside the page.
+  // No automated translation, analytics, tracking pixels or credential storage.
+  (()=>{
+    'use strict';
+    const entries=[{"selector":".brand-label small","mode":"text","en":"SELECTED ENGINEERING WORK","nl":"GESELECTEERD TECHNISCH WERK","es":"PROYECTOS TÉCNICOS SELECCIONADOS"},{"selector":".nav a[href=\"#work\"]","mode":"text","en":"Work","nl":"Projecten","es":"Proyectos"},{"selector":".nav a[href=\"#experience\"]","mode":"text","en":"Experience","nl":"Ervaring","es":"Experiencia"},{"selector":".nav a[href=\"#services\"]","mode":"text","en":"Capabilities","nl":"Diensten","es":"Servicios"},{"selector":".nav a.nav-contact","mode":"text","en":"Contact ↗","nl":"Contact ↗","es":"Contacto ↗"},{"selector":".hero-left .eyebrow","mode":"last","en":"Digital products / systems / evidence","nl":"Digitale producten / systemen / bewijs","es":"Productos digitales / sistemas / evidencia"},{"selector":"#hero-title","mode":"html","en":"Complex systems.<br/><em>Clear outcomes.</em>","nl":"Complexe systemen.<br><em>Heldere resultaten.</em>","es":"Sistemas complejos.<br><em>Resultados claros.</em>"},{"selector":".hero-lede","mode":"text","en":"I develop usable digital products, organise complex information and solve technical problems — from client systems and integrations to published software.","nl":"Ik ontwikkel bruikbare digitale producten, structureer complexe informatie en los technische problemen op — van klantomgevingen en integraties tot gepubliceerde software.","es":"Desarrollo productos digitales útiles, estructuro información compleja y resuelvo problemas técnicos: desde sistemas e integraciones para clientes hasta software publicado."},{"selector":".hero-left .btn-bright","mode":"first","en":"Explore selected work ","nl":"Bekijk geselecteerd werk ","es":"Ver proyectos seleccionados "},{"selector":".hero-left .btn-outline","mode":"first","en":"Professional background ","nl":"Professionele ervaring ","es":"Trayectoria profesional "},{"selector":".hero-subline","mode":"first","en":"Based in the Netherlands ","nl":"Gevestigd in Nederland ","es":"Residente en Países Bajos "},{"selector":".hero-subline","mode":"last","en":" Technical consultant & product developer","nl":" Technisch consultant en productontwikkelaar","es":" Consultora técnica y desarrolladora de productos"},{"selector":".schema-head>span:first-child","mode":"text","en":"ARCHITECTURE / SELECTED WORK","nl":"ARCHITECTUUR / GESELECTEERD WERK","es":"ARQUITECTURA / PROYECTOS"},{"selector":".schema-head .status","mode":"last","en":" DOCUMENTED","nl":" GEDOCUMENTEERD","es":" DOCUMENTADO"},{"selector":".schema-label","mode":"text","en":"Product logic → meaningful explanation","nl":"Productlogica → begrijpelijke uitleg","es":"Lógica del producto → explicación comprensible"},{"selector":".pipeline .pipe-node:nth-child(1) .pipe-name","mode":"text","en":"Input","nl":"Invoer","es":"Entrada"},{"selector":".pipeline .pipe-node:nth-child(1) .pipe-small","mode":"text","en":"image","nl":"afbeelding","es":"imagen"},{"selector":".pipeline .pipe-node:nth-child(2) .pipe-small","mode":"text","en":"AI","nl":"AI","es":"IA"},{"selector":".pipeline .pipe-node:nth-child(3) .pipe-name","mode":"text","en":"Rules","nl":"Regels","es":"Reglas"},{"selector":".pipeline .pipe-node:nth-child(4) .pipe-name","mode":"text","en":"Sources","nl":"Bronnen","es":"Fuentes"},{"selector":".pipeline .pipe-node:nth-child(4) .pipe-small","mode":"text","en":"evidence","nl":"bewijs","es":"evidencia"},{"selector":".pipeline .pipe-node:nth-child(5) .pipe-name","mode":"text","en":"Output","nl":"Uitvoer","es":"Salida"},{"selector":".pipeline .pipe-node:nth-child(5) .pipe-small","mode":"text","en":"layers","nl":"lagen","es":"capas"},{"selector":".terminal .terminal-top span","mode":"text","en":"botia / system.flow","nl":"botia / systeem.stroom","es":"botia / sistema.flujo"},{"selector":".terminal p:first-of-type .dim","mode":"text","en":"// Representative technical flow","nl":"// Schematische technische stroom","es":"// Flujo técnico ilustrativo"},{"selector":".schematic-bottom span:first-child","mode":"text","en":"SEPARATE EXTRACTION FROM DECISION LOGIC","nl":"EXTRACTIE GESCHEIDEN VAN BESLISLOGICA","es":"EXTRACCIÓN SEPARADA DE LA LÓGICA DE DECISIÓN"},{"selector":".schematic-bottom span:last-child","mode":"text","en":"BOTIA / CASE 01","nl":"BOTIA / CASE 01","es":"BOTIA / CASO 01"},{"selector":".proofbar .proof:nth-child(1) span","mode":"text","en":"Selected technical case studies","nl":"Geselecteerde technische cases","es":"Casos técnicos seleccionados"},{"selector":".proofbar .proof:nth-child(2) span","mode":"text","en":"Languages supported in BOTIA","nl":"Talen ondersteund door BOTIA","es":"Idiomas disponibles en BOTIA"},{"selector":".proofbar .proof:nth-child(3) span","mode":"text","en":"Published, publicly accessible product","nl":"Gepubliceerd en publiek toegankelijk product","es":"Producto publicado y accesible al público"},{"selector":".proofbar .proof:nth-child(4) span","mode":"text","en":"Systems & client-facing technical roles","nl":"Technische functies en klantprojecten","es":"Experiencia técnica y trabajo con clientes"},{"selector":"#work .section-head .eyebrow","mode":"last","en":"01 / Proof of work","nl":"01 / Aantoonbaar werk","es":"01 / Trabajos demostrables"},{"selector":"#work-title","mode":"text","en":"Selected engineering work.","nl":"Geselecteerde technische projecten.","es":"Proyectos técnicos seleccionados."},{"selector":"#work .section-note","mode":"text","en":"Four different systems. Four perspectives on product development, automation, information integrity and operational software. Select a project to explore the technical decisions behind it.","nl":"Vier verschillende systemen. Vier manieren om productontwikkeling, automatisering, betrouwbare informatie en operationele software te laten zien. Open een project voor de technische keuzes.","es":"Cuatro sistemas diferentes. Cuatro maneras de mostrar desarrollo de producto, automatización, integridad de la información y software operativo. Abre cada proyecto para conocer las decisiones técnicas."},{"selector":".feature .project-no","mode":"text","en":"CASE 01 / FLAGSHIP PRODUCT","nl":"CASE 01 / HOOFDPROJECT","es":"CASO 01 / PROYECTO PRINCIPAL"},{"selector":".feature .project-category","mode":"text","en":"PRODUCT ENGINEERING · AI INTEGRATION · INFORMATION QUALITY","nl":"PRODUCTONTWIKKELING · AI-INTEGRATIE · INFORMATIEKWALITEIT","es":"DESARROLLO DE PRODUCTO · INTEGRACIÓN DE IA · CALIDAD DE INFORMACIÓN"},{"selector":".feature-copy>p","mode":"text","en":"A live Android and web product that connects food-label analysis with structured information, documented criteria and evidence-linked explanations. Designed for clarity, not arbitrary food scores.","nl":"Een gepubliceerd Android- en webproduct dat etiketanalyses verbindt met gestructureerde informatie, vastgelegde criteria en uitleg met bronverwijzingen. Gericht op duidelijkheid, zonder willekeurige voedselscores.","es":"Un producto Android y web publicado que conecta el análisis de etiquetas con información estructurada, criterios documentados y explicaciones respaldadas por fuentes. Diseñado para explicar, sin puntuaciones alimentarias arbitrarias."},{"selector":".feature-copy .tag:last-child","mode":"text","en":"Multilingual web","nl":"Meertalige website","es":"Web multilingüe"},{"selector":".feature-copy button[data-case=\"botia\"]","mode":"first","en":"Explore engineering decisions ","nl":"Technische keuzes bekijken ","es":"Explorar decisiones técnicas "},{"selector":".feature-copy a.text-link","mode":"first","en":"Live product ","nl":"Bekijk product ","es":"Ver producto "},{"selector":".feature-visual-header span:first-child","mode":"text","en":"BOTIA / PROCESS MAP","nl":"BOTIA / PROCESOVERZICHT","es":"BOTIA / MAPA DE PROCESO"},{"selector":".feature-visual-header span:last-child","mode":"text","en":"LIVE PRODUCT","nl":"LIVE PRODUCT","es":"PRODUCTO PUBLICADO"},{"selector":".panel-stack .diagram-step:nth-child(2) .main","mode":"text","en":"Image & text extraction","nl":"Beeld- en tekstextractie","es":"Extracción de imagen y texto"},{"selector":".panel-stack .diagram-step:nth-child(3) .main","mode":"text","en":"Deterministic classification","nl":"Deterministische classificatie","es":"Clasificación determinista"},{"selector":".panel-stack .diagram-step:nth-child(3) .sub","mode":"text","en":"Explicit Python decision rules","nl":"Expliciete beslisregels in Python","es":"Reglas de decisión explícitas en Python"},{"selector":".panel-stack .diagram-step:nth-child(4) .main","mode":"text","en":"Structured explanations","nl":"Gestructureerde uitleg","es":"Explicaciones estructuradas"},{"selector":".panel-stack .diagram-step:nth-child(4) .sub","mode":"text","en":"Sources · layers · 14 languages","nl":"Bronnen · lagen · 14 talen","es":"Fuentes · capas · 14 idiomas"},{"selector":".project-card:nth-child(1) .project-no","mode":"text","en":"CASE 02 / CREATIVE AUTOMATION","nl":"CASE 02 / CREATIEVE AUTOMATISERING","es":"CASO 02 / AUTOMATIZACIÓN CREATIVA"},{"selector":".project-card:nth-child(1) .card-desc","mode":"text","en":"A configurable visual campaign system: nine pieces, fourteen languages, eight output formats and right-to-left support.","nl":"Configureerbaar systeem voor visuele campagnes: negen onderdelen, veertien talen, acht uitvoerformaten en ondersteuning voor rechts-naar-links.","es":"Sistema configurable de campañas visuales: nueve piezas, catorce idiomas, ocho formatos y soporte para escritura de derecha a izquierda."},{"selector":".project-card:nth-child(1) button","mode":"first","en":"Explore the system ","nl":"Ontdek het systeem ","es":"Explorar el sistema "},{"selector":".project-card:nth-child(2) .project-no","mode":"text","en":"CASE 03 / DOCUMENT INTELLIGENCE","nl":"CASE 03 / DOCUMENT-INTELLIGENTIE","es":"CASO 03 / INTELIGENCIA DOCUMENTAL"},{"selector":".project-card:nth-child(2) .card-desc","mode":"text","en":"Scientific and regulatory source governance with classification, versioning, integrity checks and a regulatory watchlist.","nl":"Beheer van wetenschappelijke en regelgevende bronnen, met classificatie, versiebeheer, integriteitscontroles en een lijst voor regelgevingsmonitoring.","es":"Gestión de fuentes científicas y regulatorias con clasificación, control de versiones, verificaciones de integridad y seguimiento normativo."},{"selector":".project-card:nth-child(2) .tag:first-child","mode":"text","en":"Source traceability","nl":"Brontraceerbaarheid","es":"Trazabilidad de fuentes"},{"selector":".project-card:nth-child(2) button","mode":"first","en":"Explore the method ","nl":"Ontdek de methode ","es":"Explorar el método "},{"selector":".project-card:nth-child(3) .project-no","mode":"text","en":"CASE 04 / BUSINESS APPLICATIONS","nl":"CASE 04 / BEDRIJFSTOEPASSINGEN","es":"CASO 04 / APLICACIONES EMPRESARIALES"},{"selector":".project-card:nth-child(3) .card-desc","mode":"text","en":"A working browser-based journal integrating Google authentication, a private data store, permission controls and reporting.","nl":"Werkende browserapp voor activiteitenregistratie met Google-authenticatie, privéopslag, toegangsrechten en rapportages.","es":"Aplicación web operativa para registrar actividades, con autenticación Google, almacenamiento privado, control de permisos e informes."},{"selector":".project-card:nth-child(3) button","mode":"first","en":"Explore the workflow ","nl":"Bekijk de workflow ","es":"Explorar el flujo "},{"selector":".art-kb .doc-ledger .head","mode":"text","en":"REGULATORY / TRACEABILITY","nl":"REGELGEVING / TRACEERBAARHEID","es":"REGULACIÓN / TRAZABILIDAD"},{"selector":".art-kb .doc-ledger .line:nth-child(2) span:first-child","mode":"text","en":"Official source","nl":"Officiële bron","es":"Fuente oficial"},{"selector":".art-kb .doc-ledger .line:nth-child(2) span:last-child","mode":"text","en":"VERIFIED","nl":"GEVERIFIEERD","es":"VERIFICADA"},{"selector":".art-kb .doc-ledger .line:nth-child(3) span:first-child","mode":"text","en":"Integrity hash","nl":"Integriteitshash","es":"Huella de integridad"},{"selector":".art-kb .doc-ledger .line:nth-child(4) span:first-child","mode":"text","en":"Version status","nl":"Versiestatus","es":"Estado de versión"},{"selector":".art-kb .doc-ledger .line:nth-child(4) span:last-child","mode":"text","en":"TRACKED","nl":"GEVOLGD","es":"SEGUIMIENTO"},{"selector":".art-kb .doc-ledger .line:nth-child(5) span:first-child","mode":"text","en":"Licence","nl":"Licentie","es":"Licencia"},{"selector":".art-kb .doc-ledger .line:nth-child(5) span:last-child","mode":"text","en":"CLASSIFIED","nl":"GECLASSIFICEERD","es":"CLASIFICADA"},{"selector":".art-mr .mini-dashboard header span:first-child","mode":"text","en":"WORK JOURNAL","nl":"WERKJOURNAAL","es":"DIARIO DE ACTIVIDADES"},{"selector":".art-mr .mini-dashboard header span:last-child","mode":"text","en":"WEEK VIEW","nl":"WEEKOVERZICHT","es":"VISTA SEMANAL"},{"selector":".art-mr .mini-dashboard footer span:first-child","mode":"text","en":"ACTIVITY LOG","nl":"ACTIVITEITEN","es":"ACTIVIDADES"},{"selector":".art-mr .mini-dashboard footer span:last-child","mode":"text","en":"REPORTS / EXPORTS","nl":"RAPPORTEN / EXPORT","es":"INFORMES / EXPORTACIÓN"},{"selector":"#experience .eyebrow","mode":"last","en":"02 / Professional background","nl":"02 / Professionele ervaring","es":"02 / Experiencia profesional"},{"selector":"#experience-title","mode":"text","en":"Experience beyond the portfolio.","nl":"Ervaring buiten het portfolio.","es":"Experiencia más allá del portfolio."},{"selector":".experience-intro>p:first-of-type","mode":"text","en":"The projects above are recent, selected demonstrations of technical capability. They build on earlier professional assignments in client support, systems implementation and operational troubleshooting.","nl":"Deze projecten zijn recente voorbeelden van mijn technische werk. Ze bouwen voort op eerdere opdrachten voor klanten, systeemimplementatie en het oplossen van operationele problemen.","es":"Estos proyectos son una selección reciente de mi trabajo técnico. Se apoyan en mi experiencia anterior con clientes, implantación de sistemas y resolución de problemas operativos."},{"selector":".experience-intro>p:last-of-type","mode":"text","en":"CLIENT SYSTEMS / PUBLIC SECTOR / SOFTWARE EVALUATION","nl":"KLANTSYSTEMEN / PUBLIEKE SECTOR / SOFTWARE-EVALUATIE","es":"SISTEMAS DE CLIENTES / SECTOR PÚBLICO / EVALUACIÓN DE SOFTWARE"},{"selector":".exp-row:nth-child(1) p","mode":"text","en":"TicketBAI implementation support for business customers, technical incident analysis, process improvement and practical operational documentation.","nl":"Ondersteuning bij de implementatie van TicketBAI voor zakelijke klanten, analyse van technische incidenten, procesverbetering en praktische documentatie.","es":"Apoyo a la implantación de TicketBAI para clientes empresariales, análisis de incidencias técnicas, mejora de procesos y documentación operativa."},{"selector":".exp-row:nth-child(1) .exp-tech","mode":"text","en":"SYSTEM INTEGRATION · B2B SUPPORT · PROCEDURES","nl":"SYSTEEMINTEGRATIE · B2B-ONDERSTEUNING · PROCEDURES","es":"INTEGRACIÓN DE SISTEMAS · SOPORTE B2B · PROCEDIMIENTOS"},{"selector":".exp-row:nth-child(2) h3","mode":"text","en":"Zelenza · public-sector projects","nl":"Zelenza · projecten publieke sector","es":"Zelenza · proyectos del sector público"},{"selector":".exp-row:nth-child(2) p","mode":"text","en":"Systems and connectivity support in complex environments including hospitals and universities, coordinating solutions across devices, access and networking.","nl":"Ondersteuning van systemen en verbindingen in complexe omgevingen, waaronder ziekenhuizen en universiteiten. Oplossingen werden afgestemd tussen apparaten, toegangsbeheer en netwerken.","es":"Soporte de sistemas y conectividad en entornos complejos, incluidos hospitales y universidades, coordinando soluciones de dispositivos, accesos y redes."},{"selector":".exp-row:nth-child(2) .exp-tech","mode":"text","en":"CONNECTIVITY · TROUBLESHOOTING · INFRASTRUCTURE","nl":"CONNECTIVITEIT · PROBLEEMANALYSE · INFRASTRUCTUUR","es":"CONECTIVIDAD · DIAGNÓSTICO · INFRAESTRUCTURA"},{"selector":".exp-row:nth-child(3) .date","mode":"text","en":"Project-based","nl":"Op projectbasis","es":"Por proyectos"},{"selector":".exp-row:nth-child(3) h3","mode":"text","en":"Project-based digital & AI evaluation","nl":"Projectmatig digitaal werk en AI-evaluatie","es":"Evaluación digital y de IA por proyectos"},{"selector":".exp-row:nth-child(3) p","mode":"text","en":"Software testing, issue reporting, data review and evaluation of AI-assisted outputs under documented requirements. ","nl":"Softwaretests, foutmeldingen, gegevensbeoordeling en evaluatie van AI-ondersteunde resultaten volgens vastgelegde eisen.","es":"Pruebas de software, informes de errores, revisión de datos y evaluación de resultados de IA conforme a requisitos documentados."},{"selector":".exp-row:nth-child(3) .exp-tech","mode":"text","en":"QA · AI OUTPUT REVIEW · DATA QUALITY","nl":"TESTEN · AI-OUTPUTBEOORDELING · DATAKWALITEIT","es":"PRUEBAS · EVALUACIÓN DE IA · CALIDAD DE DATOS"},{"selector":"#services .eyebrow","mode":"last","en":"03 / Practical contribution","nl":"03 / Praktische bijdrage","es":"03 / Servicios profesionales"},{"selector":"#services-title","mode":"text","en":"What I can deliver.","nl":"Wat ik kan opleveren.","es":"Qué puedo aportar."},{"selector":"#services .section-note","mode":"text","en":"Clear scope, verifiable output and documentation. Each engagement begins with a defined problem rather than a generic list of technologies.","nl":"Een duidelijke afbakening, controleerbare resultaten en documentatie. Elke samenwerking begint bij een concreet probleem, niet bij een lange lijst technologieën.","es":"Alcance definido, resultados verificables y documentación. Cada colaboración comienza con un problema concreto, no con una lista genérica de tecnologías."},{"selector":".deliverable:nth-child(1) h3","mode":"text","en":"Digital workflows & integration","nl":"Digitale processen en integratie","es":"Procesos digitales e integración"},{"selector":".deliverable:nth-child(1) p","mode":"text","en":"Build or improve a contained digital process, map inputs and outputs, test error cases and deliver usable technical handover notes.","nl":"Een afgebakend digitaal proces bouwen of verbeteren, invoer en uitvoer in kaart brengen, fouten testen en bruikbare technische overdracht documenteren.","es":"Desarrollar o mejorar un proceso digital delimitado, mapear entradas y salidas, probar errores y entregar documentación útil para el equipo."},{"selector":".deliverable:nth-child(2) h3","mode":"text","en":"AI & information quality","nl":"AI en informatiekwaliteit","es":"IA y calidad de información"},{"selector":".deliverable:nth-child(2) p","mode":"text","en":"Evaluate AI and chatbot outputs in their original language where language proficiency permits; check evidence, test against clear criteria and document reproducible findings.","nl":"AI- en chatbotresultaten beoordelen in de oorspronkelijke taal, voor zover de taalvaardigheid dat toelaat; bronnen controleren, heldere criteria gebruiken en reproduceerbare bevindingen documenteren.","es":"Evaluar resultados de IA y chatbots en su idioma original cuando ese idioma esté dentro de mis competencias; comprobar fuentes, aplicar criterios claros y documentar hallazgos reproducibles."},{"selector":".deliverable:nth-child(3) h3","mode":"text","en":"Technical documentation & diagnostics","nl":"Technische documentatie en diagnose","es":"Documentación técnica y diagnóstico"},{"selector":".deliverable:nth-child(3) p","mode":"text","en":"Investigate repeatable incidents, describe confirmed causes and design procedures teams can actually follow and maintain.","nl":"Herhaalbare incidenten onderzoeken, vastgestelde oorzaken beschrijven en procedures opstellen die teams kunnen gebruiken en onderhouden.","es":"Investigar incidencias reproducibles, describir causas confirmadas y diseñar procedimientos que los equipos puedan utilizar y mantener."},{"selector":".footer-cta .eyebrow","mode":"last","en":"04 / Contact","nl":"04 / Contact","es":"04 / Contacto"},{"selector":".footer-cta h2","mode":"text","en":"Have a defined technical challenge?","nl":"Een concrete technische uitdaging?","es":"¿Tienes un reto técnico concreto?"},{"selector":".footer-cta p","mode":"text","en":"Let's discuss the problem, the practical scope and the work needed to deliver it.","nl":"Laten we het probleem, de afbakening en het werk bespreken dat nodig is om het op te lossen.","es":"Hablemos del problema, el alcance y el trabajo necesario para resolverlo."},{"selector":".footer-links .btn-bright","mode":"first","en":"Email Paloma ↗","nl":"Mail Paloma ","es":"Escribir a Paloma "},{"selector":".footer-small .wrap span:first-child","mode":"text","en":"PALOMA GARCÍA MULEY / TECHNICAL WORK / 2026","nl":"PALOMA GARCÍA MULEY / TECHNISCH WERK / 2026","es":"PALOMA GARCÍA MULEY / TRABAJO TÉCNICO / 2026"},{"selector":".footer-small .wrap span:last-child","mode":"first","en":"Professional portfolio · ","nl":"Professioneel portfolio · ","es":"Portfolio profesional · "},{"selector":".case-body .case-block:nth-child(1) h3","mode":"text","en":"Problem & scope","nl":"Probleem en scope","es":"Problema y alcance"},{"selector":".case-body .case-block:nth-child(2) h3","mode":"text","en":"How it works","nl":"Werking","es":"Cómo funciona"},{"selector":".case-body .case-block:nth-child(3) h3","mode":"text","en":"What this demonstrates","nl":"Wat dit aantoont","es":"Qué demuestra"},{"selector":".case-body .case-block:nth-child(5) h3","mode":"text","en":"Evidence & links","nl":"Bewijs en links","es":"Pruebas y enlaces"}];
+    const cases={nl:{"botia":{"index":"CASE 01 / PRODUCTONTWIKKELING","intro":"Een gepubliceerd digitaal product: Android-scans, webuitleg en traceerbare etiketinformatie.","problem":"Ingrediëntenlijsten zijn lastig te interpreteren. Het product moet onderscheiden wat het etiket vermeldt, wat gedocumenteerde bronnen ondersteunen en wat niet kan worden geconcludeerd.","method":["Een etiketafbeelding wordt verwerkt via een Google Cloud Function, met OCR ondersteund door Gemini.","Een deterministische Python-regelengine verwerkt gestructureerde tekst, in plaats van een LLM de productbeslissing te laten nemen.","Resultaten verwijzen naar webuitleg, wetenschappelijke en regelgevende bronnen en meertalige informatielagen.","De openbare webrepository documenteert de informatiearchitectuur, redactionele beperkingen en bronregels."],"proof":"Productontwikkeling van begin tot eind, AI-integratie binnen expliciete grenzen, datamodellering, meertalige software en technische documentatie.","links":["BOTIA-website","Android-app","Openbare webrepository"]},"creative":{"index":"CASE 02 / CREATIEVE AUTOMATISERING","intro":"Een configuratiegestuurd systeem voor meertalige campagnes in meerdere formaten.","problem":"Campagnemateriaal moet consistent blijven als inhoud, talen, lay-outs en formaten veranderen. Handmatige varianten maken is repetitief en foutgevoelig.","method":["Negen campagneonderdelen worden opgebouwd uit herbruikbare componenten en gestructureerde gegevens.","Campagneteksten zijn beschikbaar in veertien talen, met ondersteuning voor Arabisch van rechts naar links.","Acht formaatinstellingen regelen afmetingen en opbouw zonder iedere scène opnieuw te schrijven.","Preview, animatie en optionele PNG-exportscripts maken het proces herhaalbaar."],"proof":"UI-ontwikkeling, designsystemen, internationalisering, herbruikbare lay-outs en automatisering.","privacy":"De bronrepository is privé. Een geselecteerde demo of architectuuruitleg kan apart worden gedeeld; privébestanden worden hier niet gepubliceerd.","links":["Openbare BOTIA-website"]},"knowledge":{"index":"CASE 03 / DOCUMENT-INTELLIGENTIE","intro":"Documentbeheer en brontraceerbaarheid voor wetenschappelijke en regelgevende informatie.","problem":"Een systeem met bronverwijzingen moet officiële bronnen, wetenschappelijke literatuur en eigen criteria kunnen onderscheiden en versies, geldigheid en licenties vastleggen.","method":["Documenten worden ingedeeld naar brontype, verificatiestatus, versiestatus en licentie.","Een gestructureerde catalogus en leesbare index bewaren herkomst en integriteitshashes (SHA-256).","Officiële publicaties worden gescheiden van door BOTIA opgestelde criteria.","Een EUR-Lex-volglijst met twaalf items bevat regelingen en bekende consolidatiedata; uitgevoerde meldingen moeten afzonderlijk worden aangetoond."],"proof":"Datagovernance, workflows voor regelgeving, herkomstregistratie en versiegericht informatiebeheer.","privacy":"De documentrepository is privé en er gelden beperkingen per bron. Alleen een architectuuroverzicht op hoofdlijnen wordt openbaar gemaakt.","links":["BOTIA-product en documentatie"]},"reintegration":{"index":"CASE 04 / BEDRIJFSTOEPASSINGEN","intro":"Een praktische webapp voor activiteiten, sollicitaties, privégegevens en weekrapporten.","problem":"Handmatige administratie en rapportage kosten tijd en kunnen tot inconsistente gegevens tussen weken en apparaten leiden.","method":["Een responsieve JavaScript-interface registreert activiteiten, data, status en duur.","Google OAuth verbindt de app met een Apps Script-API en een privé-Google Sheet.","Autorisatie, revisiecontroles en veilige nieuwe pogingen helpen bij gelijktijdige wijzigingen.","Weekrapporten zijn te exporteren als PDF, spreadsheet, CSV of concept-e-mail."],"proof":"Bedrijfssoftware op basis van eisen, veilige koppelingen, dataverwerking en rapportageworkflows.","privacy":"De coderepository is openbaar; persoonlijke activiteiten en de privé-spreadsheet niet. Bewerken in de app vereist passende toegangsrechten.","links":["Openbare bronrepository"]}},es:{"botia":{"index":"CASO 01 / DESARROLLO DE PRODUCTO","intro":"Producto digital publicado: escaneo Android, explicaciones web e información trazable sobre etiquetas alimentarias.","problem":"Las listas de ingredientes son difíciles de interpretar. El producto debe distinguir entre lo que declara la etiqueta, lo que respaldan las fuentes y lo que no puede concluirse.","method":["La imagen de la etiqueta se procesa mediante una función de Google Cloud, con OCR asistido por Gemini.","Un motor de reglas deterministas en Python evalúa el texto estructurado; la decisión del producto no se delega a un LLM.","Los resultados se conectan con explicaciones web, referencias científicas y regulatorias y capas multilingües.","El repositorio web público documenta la arquitectura informativa, las reglas editoriales y el tratamiento de fuentes."],"proof":"Desarrollo de producto de extremo a extremo, integración de IA con límites explícitos, estructuración de datos, software multilingüe y documentación técnica.","links":["Web de BOTIA","Aplicación Android","Repositorio web público"]},"creative":{"index":"CASO 02 / AUTOMATIZACIÓN CREATIVA","intro":"Sistema de producción creativa configurable para campañas multilingües y multiformato.","problem":"Las piezas deben mantener coherencia cuando cambian los textos, los idiomas, las composiciones y los formatos. Reconstruir cada variante manualmente multiplica las tareas y los errores.","method":["Nueve piezas de campaña se definen mediante componentes reutilizables y datos estructurados.","Los textos se organizan en catorce idiomas, incluido árabe con disposición de derecha a izquierda.","Ocho formatos controlan dimensiones y composición sin reescribir cada escena.","La previsualización, la animación y los scripts opcionales de exportación PNG facilitan un flujo de trabajo repetible."],"proof":"Ingeniería de interfaces, sistemas de diseño, internacionalización, composiciones reutilizables, separación de contenido y código y automatización.","privacy":"El repositorio de código es privado. Puede compartirse una demostración seleccionada o una explicación de arquitectura sin publicar los recursos privados.","links":["Web pública de BOTIA"]},"knowledge":{"index":"CASO 03 / INTELIGENCIA DOCUMENTAL","intro":"Gobernanza documental y trazabilidad de fuentes científicas y regulatorias.","problem":"Un sistema que presenta información respaldada por fuentes debe distinguir documentos oficiales, literatura científica y criterios internos, además de conservar versiones, vigencia y licencias.","method":["Los documentos se clasifican por tipo de fuente, estado de verificación, versión y condiciones de licencia.","Un catálogo estructurado y un índice legible conservan procedencia y huellas de integridad SHA-256.","Las publicaciones institucionales se separan físicamente de los criterios desarrollados por BOTIA.","Una lista EUR-Lex de doce entradas registra normas y fechas de consolidación conocidas; la ejecución de las alertas requiere evidencia aparte."],"proof":"Gobernanza de datos, investigación regulatoria, trazabilidad de procedencia y documentación reproducible orientada a versiones.","privacy":"El repositorio documental es privado y contiene materiales con condiciones particulares de redistribución. Solo se publica un resumen general de arquitectura.","links":["BOTIA y su documentación"]},"reintegration":{"index":"CASO 04 / APLICACIONES EMPRESARIALES","intro":"Aplicación web práctica para gestionar actividades, candidaturas, datos privados e informes semanales.","problem":"El registro y los informes manuales generan tareas repetitivas y pueden provocar inconsistencias entre semanas o dispositivos.","method":["Una interfaz adaptable en JavaScript registra actividades, fechas, estados y duraciones.","Google OAuth se conecta con una API de Apps Script y una hoja privada de Google Sheets.","Los controles de acceso, la comparación de revisiones y los reintentos seguros ayudan a proteger los datos ante ediciones simultáneas.","Los informes semanales pueden exportarse en PDF, hojas de cálculo, CSV o borradores de correo."],"proof":"Software empresarial orientado a requisitos, integración autenticada, tratamiento de datos, diseño de procesos e informes.","privacy":"El repositorio de código es público; los registros personales y la hoja privada no. La edición exige autorización de la cuenta correspondiente.","links":["Repositorio público"]}}};
+    for(const translated of Object.values(cases)){
+      for(const [key,value] of Object.entries(translated)){
+        value.links=value.links.map((label,i)=>[label,caseStudies[key].links[i][1]]);
+      }
+    }
+    const locales={en:'English',nl:'Nederlands',es:'Español'};
+    const metaDescriptions={
+      en:'Selected technical work and professional experience of Paloma García Muley: digital products, integration, AI quality and documentation.',
+      nl:'Geselecteerd technisch werk en professionele ervaring van Paloma García Muley: digitale producten, integratie, AI-kwaliteit en documentatie.',
+      es:'Proyectos técnicos y experiencia profesional de Paloma García Muley: productos digitales, integración, calidad de IA y documentación.'
+    };
+    const metaTitle={en:'Paloma García Muley — Selected Technical Work',nl:'Paloma García Muley — Geselecteerd Technisch Werk',es:'Paloma García Muley — Proyectos Técnicos'};
+    const accessible={
+      en:{language:'Portfolio language',goTop:'Go to top',mainNav:'Main navigation',diagram:'Illustrative BOTIA architecture diagram: input, OCR, Python rules, sources and explanatory layers',proofs:'Selected technical proof points',workflow:'Technical workflow diagram for BOTIA',creative:'Illustration of different campaign layouts',knowledge:'Illustration of evidence traceability',dashboard:'Illustrative dashboard without personal records',close:'Close case study'},
+      nl:{language:'Taal van portfolio',goTop:'Naar boven',mainNav:'Hoofdnavigatie',diagram:'Schematische BOTIA-architectuur: invoer, OCR, Python-regels, bronnen en informatielagen',proofs:'Geselecteerde technische bewijsstukken',workflow:'Technisch processchema van BOTIA',creative:'Illustratie van verschillende campagneformaten',knowledge:'Illustratie van brontraceerbaarheid',dashboard:'Voorbeelddashboard zonder persoonlijke gegevens',close:'Casestudy sluiten'},
+      es:{language:'Idioma del portfolio',goTop:'Volver arriba',mainNav:'Navegación principal',diagram:'Diagrama ilustrativo de BOTIA: entrada, OCR, reglas Python, fuentes y capas explicativas',proofs:'Evidencias técnicas seleccionadas',workflow:'Diagrama técnico de BOTIA',creative:'Ilustración de distintos formatos de campaña',knowledge:'Ilustración de trazabilidad documental',dashboard:'Panel ilustrativo sin datos personales',close:'Cerrar el caso'}
+    };
+    const params=()=>{try{return new URLSearchParams(location.search).get('lang')}catch{return null}};
+    const chosen=(params()||'en').toLowerCase();
+    let language=Object.hasOwn(locales,chosen)?chosen:'en';
+    function replaceTextNode(el,text,fromEnd){
+      const nodes=[...el.childNodes].filter(n=>n.nodeType===Node.TEXT_NODE);
+      const node=fromEnd?nodes[nodes.length-1]:nodes[0];
+      if(node)node.nodeValue=text;
+      else el.append(document.createTextNode(text));
+    }
+    function apply(lang,updateUrl){
+      if(!Object.hasOwn(locales,lang))return;
+      language=lang;
+      for(const item of entries){
+        const el=document.querySelector(item.selector);if(!el)continue;
+        const v=item[lang];
+        if(item.mode==='html')el.innerHTML=v;
+        else if(item.mode==='first'||item.mode==='last')replaceTextNode(el,v,item.mode==='last');
+        else el.textContent=v;
+      }
+      document.documentElement.lang=lang;
+      document.title=metaTitle[lang];
+      const description=document.querySelector('meta[name="description"]');if(description)description.content=metaDescriptions[lang];
+      const a=accessible[lang];
+      document.querySelector('.lang-switch').setAttribute('aria-label',a.language);
+      document.querySelector('.wordmark').setAttribute('aria-label',a.goTop);
+      document.querySelector('.nav').setAttribute('aria-label',a.mainNav);
+      document.querySelector('.schematic').setAttribute('aria-label',a.diagram);
+      document.querySelector('.proofbar').setAttribute('aria-label',a.proofs);
+      document.querySelector('.feature-visual').setAttribute('aria-label',a.workflow);
+      document.querySelector('.art-creative').setAttribute('aria-label',a.creative);
+      document.querySelector('.art-kb').setAttribute('aria-label',a.knowledge);
+      document.querySelector('.art-mr').setAttribute('aria-label',a.dashboard);
+      document.querySelector('#closeCase').setAttribute('aria-label',a.close);
+      document.querySelectorAll('[data-lang]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.lang===lang));b.title=locales[b.dataset.lang]});
+      window.portfolioLanguage=lang;
+      window.portfolioCases=cases;
+      if(updateUrl){try{const u=new URL(location.href);u.searchParams.set('lang',lang);history.replaceState(null,'',u.href)}catch(e){/* file:// preview works without URL rewriting */}}
+    }
+    document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>apply(b.dataset.lang,true)));
+    apply(language,false);
+  })();
+</script>
+</body>
+</html>
