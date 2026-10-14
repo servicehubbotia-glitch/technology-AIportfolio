@@ -1,0 +1,21 @@
+{
+  "note": "Selected non-sensitive example based on documented BOTIA Knowledge Base watchlist configuration. This is not the full private watchers.json and does not execute alerts.",
+  "updated_in_private_source": "2026-08-14",
+  "regulations": [
+    {
+      "celex": "02008R1333",
+      "known_consolidation": "2026-02-18",
+      "priority": "CRITICA"
+    },
+    {
+      "celex": "02008R1334",
+      "known_consolidation": "2026-02-16",
+      "priority": "CRITICA"
+    },
+    {
+      "celex": "02011R1169",
+      "known_consolidation": "2025-04-01",
+      "priority": "ALTA"
+    }
+  ]
+}
