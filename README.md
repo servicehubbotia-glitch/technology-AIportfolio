@@ -1,4 +1,8 @@
-# Paloma García Muley — Professional portfolio (draft v0.3)
+# Paloma García Muley — Professional portfolio (EN · NL · ES)
+
+**Live website:** https://servicehubbotia-glitch.github.io/technology-AIportfolio/
+
+Current website version: 0.3 (editorial and visual refinement ongoing).
 
 A static, responsive, interactive technical portfolio with three editorially drafted languages: English (default), Dutch and Spanish. No server, framework, API credentials, backend, analytics or database are required.
 
@@ -8,14 +12,14 @@ Open `index.html` directly in a modern browser, or run `python -m http.server 80
 
 Use the top-right language selector: EN / NL / ES. Share a language-specific URL by appending `?lang=en`, `?lang=nl` or `?lang=es` to the published address. The English version is the fallback and source language. Dutch copy should receive a final native-speaker review before wide distribution.
 
-## GitHub Pages publication
+## GitHub Pages
 
-1. Repository: [`servicehubbotia-glitch/technology-AIportfolio`](https://github.com/servicehubbotia-glitch/technology-AIportfolio), public and independent of BOTIA production repositories.
-2. The files `index.html`, `.nojekyll` and this README are in the repository root on `main`.
-3. To enable the site, open **Settings → Pages**, select **Deploy from a branch**, branch `main`, folder `/(root)`, then save.
-4. Wait for GitHub to confirm the published URL and verify all three language links and all four case-study dialogs on desktop and mobile.
+This repository is published from `main` / `/(root)` through GitHub Pages.
 
-The published Pages URL is not verified until GitHub actually returns it. GitHub may take some time to deploy and changes can require refreshing the browser cache.
+- Website: https://servicehubbotia-glitch.github.io/technology-AIportfolio/
+- Language URLs: `?lang=en`, `?lang=nl`, `?lang=es`
+- Update `index.html` on `main` to publish subsequent revisions.
+- After changes, allow GitHub Pages to finish the deployment and refresh the browser.
 
 ## Editorial and privacy rules
 
