@@ -38,3 +38,7 @@ Design: Netherlands-inspired blue/white palette with Source Sans 3, aligned with
 The homepage includes an illustrated, keyboard-accessible interactive explorer in English, Dutch and Spanish. `portfolio-proof-lab.css` and `portfolio-proof-lab.js` contain its presentation and localized explanations. Every project has a dedicated tab and a direct link from its case card.
 
 The public BOTIA website, Google Play listing and web source repository provide live evidence. The two private repositories (Creative Studio and Knowledge Base) are represented with schematic illustrations only. MyReintegration uses synthetic display data; its actual personal records remain private and its editing interface requires authorized Google login. These illustrated panels are not simulations of live backend execution.
+
+## Case studies v0.6
+
+Three multilingual examples are available at `case-studies.html`: Creative Studio shows real campaign text with documented dimensions; Knowledge Base displays a limited regulatory watchlist excerpt and an illustrative (not live) comparison script; MyReintegration describes an anonymised person's Excel-to-web workflow with fictitious records. Original private repositories and personal records remain private.
