@@ -116,22 +116,63 @@
   });return root;
  }
  function creative(data){
+  /* Portfolio reconstruction from real Creative Studio piece 05 (not a private-editor screenshot). */
+  const textByLanguage={
+    en:['Take the photo.','BOTIA takes it from there.'],
+    nl:['Maak de foto.','BOTIA doet de rest.'],
+    es:['Haz la foto.','Del resto se encarga BOTIA.']
+  };
+  const copy=textByLanguage[window.portfolioLanguage]||textByLanguage.en;
+  const dims=['1080 × 1920','1080 × 1080','1024 × 500'];
   const root=node('div','proof-mock-card');root.dataset.layout=['portrait','square','landscape'][selected];
-  const h=node('div','proof-mock-top');h.append(node('span','', visualLocale().studio),node('span','', ['9:16','1:1','16:9'][selected]));
-  const name=node('div','proof-mock-main',data.steps[selected][1]);
-  const sub=node('div','proof-mock-sub',visualLocale().formats);
-  root.append(h,name,sub);return root;
+  const h=node('div','proof-mock-top');h.append(node('span','','BOTIA / 05'),node('span','',dims[selected]));
+  root.append(h,node('div','proof-mock-main',copy[0]),node('div','proof-mock-sub',copy[1]));
+  const illustration=node('div','proof-real-creative');
+  const image=node('img');image.src='https://www.botia-safefood.com/botia_jar_512.png';image.alt='BOTIA';image.loading='lazy';
+  image.addEventListener('error',()=>{image.hidden=true});
+  illustration.append(image,node('strong','','BOTIA'));root.append(illustration);
+  return root;
  }
  function knowledge(data){
-  const root=node('div','proof-doc-table');root.append(node('div','proof-doc-head',visualLocale().ledger));
-  const rows=visualLocale().rows;
-  rows.forEach(([label,value],i)=>{const row=node('div','proof-doc-row');if(i===selected)row.style.background='#E6F2FF';row.append(node('span','',label),node('strong','',value));root.append(row)});
+  const root=node('div','proof-doc-table');
+  const isWatch=selected===3;
+  root.append(node('div','proof-doc-head',isWatch?'EUR-LEX / WATCHLIST':'DOCUMENT / SOURCE GOVERNANCE'));
+  const rows=isWatch?
+    [['CELEX','02008R1333'],['KNOWN VERSION','2026-02-18'],['PRIORITY','CRITICA'],['MODE','CONFIGURATION']]:
+    visualLocale().rows;
+  rows.forEach(([label,value],i)=>{
+    const row=node('div','proof-doc-row');if((isWatch&&i===1)||(!isWatch&&i===selected))row.style.background='#E6F2FF';
+    row.append(node('span','',label),node('strong','',value));root.append(row);
+  });
   return root;
  }
  function reintegration(data){
-  const root=node('div','proof-bars');const h=node('div','proof-bars-head');h.append(node('span','',visualLocale().week),node('span','',visualLocale().privateData));root.append(h);
-  const bars=node('div','proof-bars-row');[34,74,46,85,62,28,57].forEach(v=>{const bar=node('span');bar.style.height=v+'%';bars.append(bar)});root.append(bars);
-  const foot=node('div','proof-bars-foot');foot.append(node('span','',visualLocale().example),node('span','',data.steps[selected][0]));root.append(foot);return root;
+  const locale=window.portfolioLanguage||'en';
+  const words={
+    en:{excel:'EXCEL / ORIGINAL ENTRY',form:'WEB / EXPANDED FORM',report:'WEEK / EXAMPLE REPORT',date:'Date',activity:'Activity',time:'Minutes',category:'Category',status:'Status',example:'FICTITIOUS DATA',total:'1 h 15 m'},
+    nl:{excel:'EXCEL / EERSTE INVOER',form:'WEB / UITGEBREID FORMULIER',report:'WEEK / VOORBEELDRAPPORT',date:'Datum',activity:'Activiteit',time:'Minuten',category:'Categorie',status:'Status',example:'FICTIEVE GEGEVENS',total:'1 u 15 m'},
+    es:{excel:'EXCEL / ENTRADA INICIAL',form:'WEB / FORMULARIO AMPLIADO',report:'SEMANA / INFORME ILUSTRATIVO',date:'Fecha',activity:'Actividad',time:'Minutos',category:'Categoría',status:'Estado',example:'DATOS FICTICIOS',total:'1 h 15 min'}
+  }[locale]||{
+    excel:'EXCEL / ORIGINAL ENTRY',form:'WEB / EXPANDED FORM',report:'WEEK / EXAMPLE REPORT',date:'Date',activity:'Activity',time:'Minutes',category:'Category',status:'Status',example:'FICTITIOUS DATA',total:'1 h 15 m'
+  };
+  const root=node('div','proof-journey');
+  root.append(node('div','proof-journey-head',[words.excel,words.form,words.report][selected]));
+  if(selected===2){
+    root.append(node('div','proof-journey-total',words.total));
+    root.append(node('div','proof-journey-summary','PDF  ·  Excel  ·  CSV  ·  Email'));
+  }else{
+    const table=node('div','proof-journey-table');
+    const headers=selected===0?[words.date,words.activity,words.time]:
+      [words.date,words.activity,words.category,words.status,words.time];
+    headers.forEach(x=>table.append(node('span','proof-journey-cell is-heading',x)));
+    const vals=selected===0?['02-03','Example', '45']:
+      ['02-03','Example','Research','Yes','45'];
+    vals.forEach(x=>table.append(node('span','proof-journey-cell',x)));
+    table.style.gridTemplateColumns='repeat('+headers.length+',minmax(0,1fr))';
+    root.append(table);
+  }
+  root.append(node('div','proof-journey-note',words.example));
+  return root;
  }
  function display(){
   const locale=lang(), project=locale.projects[active];
