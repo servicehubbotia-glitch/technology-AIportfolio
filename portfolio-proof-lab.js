@@ -17,7 +17,7 @@
      ['Result','Useful explanation','The Android and multilingual website present relevant information in separate layers.']
     ],links:[['Visit BOTIA','https://www.botia-safefood.com/'],['Try public interface','https://www.botia-safefood.com/try.html'],['Android on Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Public web code','https://github.com/servicehubbotia-glitch/Botia-web']]},
     creative:{status:'CONFIGURABLE DESIGN SYSTEM · PRIVATE SOURCE',title:'Real campaign copy, multiple formats',intro:'Creative Studio composes nine real campaign pieces in fourteen languages and eight documented formats. Change the format, then open the full case to see authentic campaign text.',steps:[
-     ['Portrait','Portrait composition','A tall arrangement adapts spacing and hierarchy for story-oriented placements. The preview uses invented sample content.'],
+     ['Portrait','Portrait composition','A tall arrangement adapts spacing and hierarchy for story-oriented placements. This view uses the authentic wording of Creative Studio campaign piece 05.'],
      ['Square','Square composition','A square preset reflows the same conceptual components to a balanced format without duplicating the campaign source.'],
      ['Landscape','Wide composition','A landscape preset changes the presentation shape while keeping the campaign structure consistent.']
     ],links:[],private:true},
@@ -28,8 +28,8 @@
      ['Watchlist','Monitor change','A twelve-entry EUR-Lex watchlist records regulatory identifiers and known consolidation dates. The interface shown here is a schematic, not proof that an alert was dispatched.']
     ],links:[['Public BOTIA documentation','https://www.botia-safefood.com/']],private:true},
     reintegration:{status:'WORKING APPLICATION · PUBLIC CODE / PRIVATE DATA',title:'From someone’s Excel sheet to a personal web tool',intro:'An individual was entering activities into an Excel sheet. The recording workflow was extended into a private web app with more fields and reports. This demonstration only uses invented values.',steps:[
-     ['Activities','Capture structured records','Records include dates, activity descriptions, status and time spent; a weekly view aggregates them.'],
-     ['Access','Protect editing','Google OAuth, service-side role checks and revision controls distinguish the account owner from readers and help manage concurrent changes.'],
+     ['Excel starting point','A record sheet used by one person','The starting point was an Excel sheet for entering activities. The requirement was to extend it with more detail.'],
+     ['Extended entry','More fields, private access','The web application supports expanded records while Google OAuth and revision checks protect editing.'],
      ['Reports','Export useful reports','The application provides week-based PDF, Excel, CSV and draft-email outputs for operational reporting.']
     ],links:[['Inspect public GitHub code','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Open app (sign-in required)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]}
    }
@@ -45,7 +45,7 @@
      ['Resultaat','Begrijpelijke uitleg','De Android-app en meertalige website tonen relevante informatie in afzonderlijke lagen.']
     ],links:[['Bezoek BOTIA','https://www.botia-safefood.com/'],['Probeer de openbare interface','https://www.botia-safefood.com/try.html'],['Android op Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Openbare webcode','https://github.com/servicehubbotia-glitch/Botia-web']]},
     creative:{status:'CONFIGUREERBAAR ONTWERPSYSTEEM · PRIVÉBRONCODE',title:'Echte campagneteksten in meerdere formaten',intro:'Creative Studio combineert negen echte campagneonderdelen, veertien talen en acht gedocumenteerde formaten. Bekijk daarna de volledige casestudy met echte teksten.',steps:[
-     ['Staand','Staande compositie','Een langwerpige indeling past witruimte en hiërarchie aan voor een story-formaat. De voorbeeldinhoud is fictief.'],
+     ['Staand','Staande compositie','Een langwerpige indeling past witruimte en hiërarchie aan voor een story-formaat. De tekst komt uit het echte Creative Studio-campagneonderdeel 05.'],
      ['Vierkant','Vierkante compositie','Een vierkante indeling herschikt dezelfde onderdelen zonder de campagnebron te dupliceren.'],
      ['Liggend','Brede compositie','Een horizontale indeling past het formaat aan en houdt de campagnestructuur consistent.']
     ],links:[],private:true},
@@ -56,8 +56,8 @@
      ['Volglijst','Wijzigingen volgen','Een lijst van twaalf EUR-Lex-verordeningen bevat identificaties en bekende consolidatiedata. De illustratie toont geen bewijs dat meldingen zijn verzonden.']
     ],links:[['Openbare BOTIA-documentatie','https://www.botia-safefood.com/']],private:true},
     reintegration:{status:'WERKENDE WEBAPP · OPENBARE CODE / PRIVÉDATA',title:'Van iemands Excel-blad naar een persoonlijke webapp',intro:'Iemand registreerde activiteiten in Excel. De invoer werd uitgebreid tot een privéwebapp met meer velden en rapporten. Dit voorbeeld bevat alleen fictieve gegevens.',steps:[
-     ['Activiteiten','Gestructureerd registreren','Activiteiten bevatten datum, beschrijving, status en bestede tijd; een weekoverzicht telt de waarden op.'],
-     ['Toegang','Bewerken beveiligen','Google OAuth, rollencontrole op de server en revisiebeheer scheiden eigenaarsrechten van leestoegang en beperken conflicten bij gelijktijdig bewerken.'],
+     ['Excel-begin','Een blad voor de registratie van één persoon','Het begon met een Excel-overzicht. De bedoeling was de invoer uit te breiden en makkelijker te maken.'],
+     ['Uitgebreide invoer','Meer velden en privétoegang','De webapp ondersteunt uitgebreidere registraties en gebruikt OAuth en revisiecontrole voor veilig bewerken.'],
      ['Rapporten','Rapporten exporteren','De toepassing ondersteunt PDF-, Excel-, CSV- en concept-e-mailrapporten per week.']
     ],links:[['Bekijk openbare GitHub-code','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Open app (aanmelding vereist)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]}
    }
@@ -73,7 +73,7 @@
      ['Resultado','Explicaciones útiles','La aplicación Android y la web multilingüe presentan información relevante en distintas capas.']
     ],links:[['Visitar BOTIA','https://www.botia-safefood.com/'],['Probar la interfaz pública','https://www.botia-safefood.com/try.html'],['Android en Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Código web público','https://github.com/servicehubbotia-glitch/Botia-web']]},
     creative:{status:'SISTEMA VISUAL CONFIGURABLE · CÓDIGO PRIVADO',title:'Textos de campaña reales en varios formatos',intro:'Creative Studio combina nueve piezas reales, catorce idiomas y ocho formatos documentados. Explora los formatos y abre el caso completo para ver textos auténticos.',steps:[
-     ['Vertical','Composición vertical','El formato vertical adapta espacios y jerarquía para piezas de tipo story. El contenido de la muestra es ficticio.'],
+     ['Vertical','Composición vertical','El formato vertical adapta espacios y jerarquía para piezas de tipo story. El texto corresponde a la pieza 05 real de Creative Studio.'],
      ['Cuadrado','Composición cuadrada','El formato cuadrado reorganiza los mismos componentes sin duplicar la fuente de la campaña.'],
      ['Horizontal','Composición panorámica','La composición horizontal cambia la disposición sin perder coherencia entre las piezas.']
     ],links:[],private:true},
@@ -84,8 +84,8 @@
      ['Vigilancia','Seguimiento de cambios','Una lista de doce normas de EUR-Lex recoge identificadores y fechas de consolidación conocidas. Esta ilustración no demuestra que se haya enviado una alerta.']
     ],links:[['Documentación pública de BOTIA','https://www.botia-safefood.com/']],private:true},
     reintegration:{status:'APLICACIÓN OPERATIVA · CÓDIGO PÚBLICO / DATOS PRIVADOS',title:'De la hoja Excel de una persona a una aplicación útil',intro:'Una persona registraba actividades en Excel. Amplié la entrada de datos y desarrollé una aplicación web privada con informes. Esta demostración utiliza únicamente datos inventados.',steps:[
-     ['Actividades','Registros estructurados','Cada actividad tiene fecha, descripción, estado y tiempo; la vista semanal agrega la información.'],
-     ['Acceso','Edición protegida','Google OAuth, comprobaciones de permisos en el servidor y control de revisiones separan la cuenta propietaria de los lectores y gestionan cambios simultáneos.'],
+     ['Inicio en Excel','Una hoja de registro para una persona','El punto de partida era una hoja Excel donde se introducían actividades. El objetivo era ampliar la información disponible.'],
+     ['Entrada ampliada','Más campos y acceso protegido','La aplicación web permite registrar más información y emplea OAuth y control de revisiones para proteger la edición.'],
      ['Informes','Exportación de informes','La aplicación ofrece PDF, Excel, CSV y borradores de correo para informes semanales.']
     ],links:[['Consultar código público en GitHub','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Abrir aplicación (requiere acceso)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]}
    }
