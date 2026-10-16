@@ -42,3 +42,17 @@ The public BOTIA website, Google Play listing and web source repository provide 
 ## Case studies v0.6
 
 Three multilingual examples are available at `case-studies.html`: Creative Studio shows real campaign text with documented dimensions; Knowledge Base displays a limited regulatory watchlist excerpt and an illustrative (not live) comparison script; MyReintegration describes an anonymised person's Excel-to-web workflow with fictitious records. Original private repositories and personal records remain private.
+
+
+## BOTIA marketing campaign showcase
+
+The public page [BOTIA marketing campaign](https://servicehubbotia-glitch.github.io/technology-AIportfolio/marketing-campaign.html?lang=en) now presents **Creative Studio as a marketing-production system**, rather than only a format-resizing exercise.
+
+- All nine numbered campaign pieces (00–08) can be explored with selected authentic photos, robot imagery and original Spanish app screenshots.
+- `marketing-campaign-data.json` contains a **public-facing extract** of genuine campaign copy for 14 locales, plus all eight documented format presets. This is not the complete private Creative Studio source or its scientific data.
+- The preview intentionally creates **portfolio-specific compositions** from the original visual ingredients; it is not a pixel-exact exported PNG or a newly generated Flutter screenshot. The Android screenshot assets remain labelled as original ES captures.
+- A separate interactive sequence follows the seven scenes and durations of the real 25-second Studio video storyboard. It is a preview, not an exported MP4.
+- Validation of 1,008 configuration combinations comes from the private repository documentation. The portfolio does not imply paid advertising ran or that any campaign achieved measured results.
+- Only selected original marketing photos and publicly displayable brand assets were copied. The full Studio repository remains private.
+
+The main portfolio card and short project overview link to this gallery. The portfolio's English, Dutch and Spanish interface is independent from the campaign's fourteen-language selector.
