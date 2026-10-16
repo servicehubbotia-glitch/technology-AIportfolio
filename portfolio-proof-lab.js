@@ -208,7 +208,7 @@
   }));
   if(active!=='botia'){
     const label=({en:'See the detailed case ↗',nl:'Bekijk de uitgebreide casestudy ↗',es:'Ver el caso completo ↗'})[window.portfolioLanguage]||'See the detailed case ↗';
-    const a=node('a','',label);a.href='./case-studies.html?project='+active+'&lang='+(window.portfolioLanguage||'en');
+    const a=node('a','',active==='creative'?({en:'Explore BOTIA campaign ↗',nl:'Bekijk de BOTIA-campagne ↗',es:'Explorar la campaña de BOTIA ↗'})[window.portfolioLanguage||'en']:label);a.href=active==='creative'?'./marketing-campaign.html?lang='+(window.portfolioLanguage||'en'):'./case-studies.html?project='+active+'&lang='+(window.portfolioLanguage||'en');
     links.prepend(a);
   }
   const note=$('lab-private-note');note.hidden=!project.private;note.textContent=project.private?locale.privateNote:'';
