@@ -17,12 +17,7 @@
      ['Result','Useful explanation','The Android and multilingual website present relevant information in separate layers.']
     ],links:[['Visit BOTIA','https://www.botia-safefood.com/'],['Try public interface','https://www.botia-safefood.com/try.html'],['Android on Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Public web code','https://github.com/servicehubbotia-glitch/Botia-web']]},
     creative:{"status":"BOTIA MARKETING CAMPAIGN · ORIGINAL ASSETS","title":"A marketing campaign produced through Creative Studio.","intro":"The Studio organizes nine marketing pieces using genuine BOTIA photography, app captures and campaign copy. Explore three moments of that story, then open the complete fourteen-language campaign.","steps":[["The campaign","Real product, real label","The campaign introduces BOTIA using photographs of a product's front and its actual ingredient label, accompanied by the original robot artwork."],["Take the photo","From packaging to product use","The marketing explains the core action: photograph the ingredients. The composition incorporates an original Spanish application capture."],["The evidence","Documentation closes the story","The story ends with BOTIA's evidence-linked explanations and the ability to consult the sources. The result screenshot is an original Spanish capture."]],"links":[],"private":true},
-    knowledge:{status:'DOCUMENT GOVERNANCE · PRIVATE REPOSITORY',title:'Evidence that can be traced',intro:'The knowledge base separates source authority, integrity, licensing and version awareness. Select a control to explore the documented method.',steps:[
-     ['Sources','Classify the source','Official institutional documents, scholarly literature and internally developed criteria are stored as separate classes.'],
-     ['Integrity','Preserve integrity','Document records include provenance and SHA-256 hashes where the source file can be verified.'],
-     ['Licences','Respect reuse rights','The catalogue distinguishes materials that can be redistributed from sources that must remain linked or restricted.'],
-     ['Watchlist','Monitor change','A twelve-entry EUR-Lex watchlist records regulatory identifiers and known consolidation dates. The interface shown here is a schematic, not proof that an alert was dispatched.']
-    ],links:[['Public BOTIA documentation','https://www.botia-safefood.com/']],private:true},
+    knowledge:{"status":"REGULATORY WATCHER · 3 VERIFIED RUNS","title":"Real documentary monitoring, with an audit trail.","intro":"The BOTIA watcher has completed three daily GitHub Actions runs. Its report for 16 October 2026 covers 231 active checks, records explicit failures and retains sixteen detections for editorial review.","steps":[["Coverage","231 active checks","35 EU acts, 7 Codex references, 14 EFSA sources, 34 FDA/eCFR sources and 141 WHO/JECFA/IARC references are monitored with validated adapters."],["Outcomes","230 unchanged · 1 updated · 0 failed","The latest recorded check (16 October 2026) distinguishes unchanged results, newly observed changes and failed requests. The one new source result was an EFSA feed update."],["Detections","16 events recorded","Nine legal consolidations, six EFSA publications and one eCFR revision remain individually traceable, including public source links."],["Editorial review","Nothing incorporated automatically","The watcher retains DETECTADO for editorial review, deduplicates events and protects catalogue/index data from automated edits."]],"links":[["Public Regulatory Explorer","https://www.botia-safefood.com/regulatory/"]],"private":true},
     reintegration:{status:'WORKING APPLICATION · PUBLIC CODE / PRIVATE DATA',title:'From someone’s Excel sheet to a personal web tool',intro:'An individual was entering activities into an Excel sheet. The recording workflow was extended into a private web app with more fields and reports. This demonstration only uses invented values.',steps:[
      ['Excel starting point','A record sheet used by one person','The starting point was an Excel sheet for entering activities. The requirement was to extend it with more detail.'],
      ['Extended entry','More fields, private access','The web application supports expanded records while Google OAuth and revision checks protect editing.'],
@@ -41,12 +36,7 @@
      ['Resultaat','Begrijpelijke uitleg','De Android-app en meertalige website tonen relevante informatie in afzonderlijke lagen.']
     ],links:[['Bezoek BOTIA','https://www.botia-safefood.com/'],['Probeer de openbare interface','https://www.botia-safefood.com/try.html'],['Android op Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Openbare webcode','https://github.com/servicehubbotia-glitch/Botia-web']]},
     creative:{"status":"BOTIA-MARKETINGCAMPAGNE · ORIGINELE MATERIALEN","title":"Een marketingcampagne geproduceerd met Creative Studio.","intro":"De Studio organiseert negen marketingonderdelen met echte BOTIA-foto’s, app-schermafbeeldingen en campagneteksten. Bekijk drie momenten en open daarna de volledige campagne in veertien talen.","steps":[["De campagne","Echt product, echt etiket","De campagne introduceert BOTIA met originele foto’s van de voorkant en de ingrediëntenlijst van een product, aangevuld met het echte robotontwerp."],["Maak de foto","Van verpakking naar gebruik","De marketing legt de hoofdhandeling uit: fotografeer de ingrediënten. De compositie bevat een originele Spaanse app-schermafbeelding."],["De bronnen","Documentatie sluit het verhaal af","Het verhaal eindigt bij BOTIA's onderbouwde uitleg en raadpleegbare bronnen. De resultaatweergave komt uit een originele Spaanse schermafbeelding."]],"links":[],"private":true},
-    knowledge:{status:'DOCUMENTBEHEER · PRIVÉREPOSITORY',title:'Traceerbare onderbouwing',intro:'De kennisbank scheidt bronstatus, integriteit, licenties en versiebeheer. Kies een onderdeel om de documentatiemethode te verkennen.',steps:[
-     ['Bronnen','Bronnen classificeren','Officiële documenten, wetenschappelijke publicaties en eigen criteria worden in verschillende categorieën bewaard.'],
-     ['Integriteit','Integriteit vastleggen','Documentrecords bevatten herkomstgegevens en waar mogelijk SHA-256-controlewaarden.'],
-     ['Licenties','Hergebruik respecteren','De catalogus onderscheidt herpubliceerbaar materiaal van bronnen die alleen mogen worden gelinkt of beperkt toegankelijk blijven.'],
-     ['Volglijst','Wijzigingen volgen','Een lijst van twaalf EUR-Lex-verordeningen bevat identificaties en bekende consolidatiedata. De illustratie toont geen bewijs dat meldingen zijn verzonden.']
-    ],links:[['Openbare BOTIA-documentatie','https://www.botia-safefood.com/']],private:true},
+    knowledge:{"status":"REGELGEVINGSMONITOR · 3 GEVERIFIEERDE RUNS","title":"Echte documentmonitoring met controlelogboek.","intro":"De BOTIA-watcher heeft drie dagelijkse GitHub Actions-runs voltooid. Op 16 oktober 2026 zijn 231 actieve controles gemeld en zestien detecties bewaard voor redactionele beoordeling.","steps":[["Dekking","231 actieve controles","35 EU-akten, 7 Codex-bronnen, 14 EFSA-verwijzingen, 34 FDA/eCFR-bronnen en 141 WHO/JECFA/IARC-referenties."],["Resultaten","230 ongewijzigd · 1 nieuw · 0 fouten","Het rapport van 16 oktober onderscheidt ongewijzigde resultaten, nieuwe waarnemingen en fouten. De ene nieuwe bronwaarneming betrof de EFSA-feed."],["Detecties","16 gebeurtenissen vastgelegd","Negen EU-consolidaties, zes EFSA-publicaties en één eCFR-revisie blijven herleidbaar."],["Redactionele controle","Geen automatische opname","De watcher bewaart DETECTADO voor menselijke beoordeling, voorkomt dubbele events en beschermt catalogus/index."]],"links":[["Openbaar Regulatory-register","https://www.botia-safefood.com/regulatory/"]],"private":true},
     reintegration:{status:'WERKENDE WEBAPP · OPENBARE CODE / PRIVÉDATA',title:'Van iemands Excel-blad naar een persoonlijke webapp',intro:'Iemand registreerde activiteiten in Excel. De invoer werd uitgebreid tot een privéwebapp met meer velden en rapporten. Dit voorbeeld bevat alleen fictieve gegevens.',steps:[
      ['Excel-begin','Een blad voor de registratie van één persoon','Het begon met een Excel-overzicht. De bedoeling was de invoer uit te breiden en makkelijker te maken.'],
      ['Uitgebreide invoer','Meer velden en privétoegang','De webapp ondersteunt uitgebreidere registraties en gebruikt OAuth en revisiecontrole voor veilig bewerken.'],
@@ -65,12 +55,7 @@
      ['Resultado','Explicaciones útiles','La aplicación Android y la web multilingüe presentan información relevante en distintas capas.']
     ],links:[['Visitar BOTIA','https://www.botia-safefood.com/'],['Probar la interfaz pública','https://www.botia-safefood.com/try.html'],['Android en Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Código web público','https://github.com/servicehubbotia-glitch/Botia-web']]},
     creative:{"status":"CAMPAÑA DE MARKETING BOTIA · MATERIALES ORIGINALES","title":"La campaña de marketing producida con Creative Studio.","intro":"El Studio organiza nueve piezas de marketing con fotografías auténticas de BOTIA, capturas de la aplicación y textos reales de campaña. Explora tres momentos y después abre la campaña completa en catorce idiomas.","steps":[["La campaña","Producto y etiqueta reales","La presentación de BOTIA parte de fotografías auténticas del frente del producto y su lista de ingredientes, acompañadas del robot original."],["Haz la foto","Del envase al uso de BOTIA","La comunicación muestra la acción principal: fotografiar los ingredientes. La composición incluye una captura original de la aplicación en español."],["La evidencia","La documentación completa la historia","La campaña termina explicando que BOTIA ofrece información documentada y fuentes consultables. La pantalla de resultados es una captura real en español."]],"links":[],"private":true},
-    knowledge:{status:'GOBERNANZA DOCUMENTAL · REPOSITORIO PRIVADO',title:'Evidencia que puede rastrearse',intro:'La base documental diferencia autoridad de las fuentes, integridad, licencias y versiones. Selecciona una opción para explorar el método.',steps:[
-     ['Fuentes','Clasificación de fuentes','Los documentos oficiales, la literatura científica y los criterios internos se conservan en categorías diferenciadas.'],
-     ['Integridad','Integridad documental','Los registros conservan procedencia y huellas SHA-256 cuando es posible verificar el archivo original.'],
-     ['Licencias','Derechos de reutilización','El catálogo distingue material redistribuible, fuentes que solo pueden enlazarse y contenido restringido.'],
-     ['Vigilancia','Seguimiento de cambios','Una lista de doce normas de EUR-Lex recoge identificadores y fechas de consolidación conocidas. Esta ilustración no demuestra que se haya enviado una alerta.']
-    ],links:[['Documentación pública de BOTIA','https://www.botia-safefood.com/']],private:true},
+    knowledge:{"status":"VIGILANCIA REGULATORIA · 3 EJECUCIONES VERIFICADAS","title":"Vigilancia documental real, con registro auditable.","intro":"El watcher de BOTIA lleva tres ejecuciones diarias correctas en GitHub Actions. El informe del 16 de octubre de 2026 recoge 231 comprobaciones activas y conserva dieciséis detecciones pendientes de revisión.","steps":[["Cobertura","231 comprobaciones activas","35 normas europeas, 7 referencias Codex, 14 fuentes EFSA, 34 FDA/eCFR y 141 OMS/JECFA/IARC, con adaptadores verificados."],["Resultados","230 sin cambios · 1 novedad · 0 fallos","El último informe, del 16 de octubre, diferencia resultados sin cambios, versiones nuevas y consultas fallidas. La novedad fue una actualización del RSS de EFSA."],["Detecciones","16 eventos registrados","Nueve consolidaciones normativas, seis publicaciones EFSA y una revisión eCFR, conservadas con enlaces a sus fuentes."],["Revisión editorial","Ninguna incorporación automática","El sistema mantiene DETECTADO hasta la revisión humana, evita duplicados y protege el catálogo y su índice."]],"links":[["Regulatory público de BOTIA","https://www.botia-safefood.com/regulatory/"]],"private":true},
     reintegration:{status:'APLICACIÓN OPERATIVA · CÓDIGO PÚBLICO / DATOS PRIVADOS',title:'De la hoja Excel de una persona a una aplicación útil',intro:'Una persona registraba actividades en Excel. Amplié la entrada de datos y desarrollé una aplicación web privada con informes. Esta demostración utiliza únicamente datos inventados.',steps:[
      ['Inicio en Excel','Una hoja de registro para una persona','El punto de partida era una hoja Excel donde se introducían actividades. El objetivo era ampliar la información disponible.'],
      ['Entrada ampliada','Más campos y acceso protegido','La aplicación web permite registrar más información y emplea OAuth y control de revisiones para proteger la edición.'],
@@ -143,19 +128,37 @@
   root.append(legend);
   return root;
  } function knowledge(data){
-  const root=node('div','proof-doc-table');
-  const isWatch=selected===3;
-  root.append(node('div','proof-doc-head',isWatch?'EUR-LEX / WATCHLIST':'DOCUMENT / SOURCE GOVERNANCE'));
-  const rows=isWatch?
-    [['CELEX','02008R1333'],['KNOWN VERSION','2026-02-18'],['PRIORITY','CRITICA'],['MODE','CONFIGURATION']]:
-    visualLocale().rows;
-  rows.forEach(([label,value],i)=>{
-    const row=node('div','proof-doc-row');if((isWatch&&i===1)||(!isWatch&&i===selected))row.style.background='#E6F2FF';
-    row.append(node('span','',label),node('strong','',value));root.append(row);
-  });
-  return root;
- }
- function reintegration(data){
+   // Snapshot: 16 October 2026. This is not a live query to the private watcher.
+   const locale=window.portfolioLanguage||'en';
+   const rows={
+      en:[
+       [['EUR-LEX','35'],['CODEX','7'],['EFSA','14'],['FDA / eCFR','34'],['WHO / JECFA / IARC','141']],
+       [['SIN_CAMBIOS','230'],['VERSION_NUEVA','1'],['CONSULTA_FALLIDA','0']],
+       [['EU CONSOLIDATIONS','9'],['EFSA PUBLICATIONS','6'],['eCFR REVISION','1']],
+       [['PENDING REVIEW','16'],['AUTO-INCORPORATED','0'],['FAILED QUERIES','0']]
+      ],
+      nl:[
+       [['EUR-LEX','35'],['CODEX','7'],['EFSA','14'],['FDA / eCFR','34'],['WHO / JECFA / IARC','141']],
+       [['SIN_CAMBIOS','230'],['VERSION_NUEVA','1'],['CONSULTA_FALLIDA','0']],
+       [['EU-CONSOLIDATIES','9'],['EFSA-PUBLICATIES','6'],['eCFR-REVISIE','1']],
+       [['NOG TE BEOORDELEN','16'],['AUTOMATISCH OPGENOMEN','0'],['FOUTEN','0']]
+      ],
+      es:[
+       [['EUR-LEX','35'],['CODEX','7'],['EFSA','14'],['FDA / eCFR','34'],['OMS / JECFA / IARC','141']],
+       [['SIN_CAMBIOS','230'],['VERSION_NUEVA','1'],['CONSULTA_FALLIDA','0']],
+       [['CONSOLIDACIONES UE','9'],['PUBLICACIONES EFSA','6'],['REVISIÓN eCFR','1']],
+       [['PENDIENTES REVISIÓN','16'],['INCORPORADOS AUTOMÁTICAMENTE','0'],['CONSULTAS FALLIDAS','0']]
+      ]
+    };
+   const source=rows[locale]||rows.en;
+   const root=node('div','proof-doc-table proof-real-watch');
+   const head=selected===0?'COVERAGE / 2026-10-16':selected===1?'LATEST RUN / 2026-10-16':selected===2?'DETECTIONS / 2026-10-16':'EDITORIAL CONTROL / 2026-10-16';
+   root.append(node('div','proof-doc-head',head));
+   source[selected].forEach(([name,value])=>{
+     const row=node('div','proof-doc-row');row.append(node('span','',name),node('strong','',value));root.append(row);
+   });
+   return root;
+ } function reintegration(data){
   const locale=window.portfolioLanguage||'en';
   const words={
     en:{excel:'EXCEL / ORIGINAL ENTRY',form:'WEB / EXPANDED FORM',report:'WEEK / EXAMPLE REPORT',date:'Date',activity:'Activity',time:'Minutes',category:'Category',status:'Status',example:'FICTITIOUS DATA',total:'1 h 15 m'},
@@ -217,7 +220,10 @@
   }));
   if(active!=='botia'){
     const label=({en:'See the detailed case ↗',nl:'Bekijk de uitgebreide casestudy ↗',es:'Ver el caso completo ↗'})[window.portfolioLanguage]||'See the detailed case ↗';
-    const a=node('a','',active==='creative'?({en:'Explore BOTIA campaign ↗',nl:'Bekijk de BOTIA-campagne ↗',es:'Explorar la campaña de BOTIA ↗'})[window.portfolioLanguage||'en']:label);a.href=active==='creative'?'./marketing-campaign.html?lang='+(window.portfolioLanguage||'en'):'./case-studies.html?project='+active+'&lang='+(window.portfolioLanguage||'en');
+    const viewLang=window.portfolioLanguage||'en';
+    const titles={en:'Explore verified watcher ↗',nl:'Bekijk de echte bronmonitor ↗',es:'Explorar el watcher real ↗'};
+    const a=node('a','',active==='creative'?({en:'Explore BOTIA campaign ↗',nl:'Bekijk de BOTIA-campagne ↗',es:'Explorar la campaña de BOTIA ↗'})[viewLang]:active==='knowledge'?titles[viewLang]:label);
+    a.href=active==='creative'?'./marketing-campaign.html?lang='+viewLang:active==='knowledge'?'./knowledge-monitor.html?lang='+viewLang:'./case-studies.html?project='+active+'&lang='+viewLang;
     links.prepend(a);
   }
   const note=$('lab-private-note');note.hidden=!project.private;note.textContent=project.private?(active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].note:locale.privateNote):'';
