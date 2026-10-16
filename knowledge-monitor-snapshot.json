@@ -1,0 +1,212 @@
+{
+  "schema": "portfolio-case-study-snapshot-v1",
+  "source_description": "Curated, public-safe extract of a private BOTIA Knowledge Base monitoring report. This is a frozen demonstration of observed activity, NOT a live feed, audit of legal compliance or redistribution of source documents.",
+  "checked_at": "2026-10-16T11:32:08+00:00",
+  "daily_results": [
+    {
+      "date": "2026-10-14",
+      "unchanged": 231,
+      "new": 0,
+      "failed": 0,
+      "action": "success"
+    },
+    {
+      "date": "2026-10-15",
+      "unchanged": 229,
+      "new": 2,
+      "failed": 0,
+      "action": "success"
+    },
+    {
+      "date": "2026-10-16",
+      "unchanged": 230,
+      "new": 1,
+      "failed": 0,
+      "action": "success"
+    }
+  ],
+  "latest": {
+    "unchanged": 230,
+    "new": 1,
+    "failed": 0
+  },
+  "total_monitored": 231,
+  "exclusions": 114,
+  "catalog_records": 452,
+  "editorial_events": 16,
+  "active_coverage": [
+    {
+      "code": "eu",
+      "en": "EU legislation · EUR-Lex",
+      "nl": "EU-wetgeving · EUR-Lex",
+      "es": "Normativa UE · EUR-Lex",
+      "count": 35
+    },
+    {
+      "code": "codex",
+      "en": "Codex",
+      "nl": "Codex",
+      "es": "Codex",
+      "count": 7
+    },
+    {
+      "code": "efsa",
+      "en": "EFSA",
+      "nl": "EFSA",
+      "es": "EFSA",
+      "count": 14
+    },
+    {
+      "code": "fda",
+      "en": "FDA / eCFR",
+      "nl": "FDA / eCFR",
+      "es": "FDA / eCFR",
+      "count": 34
+    },
+    {
+      "code": "who",
+      "en": "WHO / JECFA / IARC",
+      "nl": "WHO / JECFA / IARC",
+      "es": "OMS / JECFA / IARC",
+      "count": 141
+    }
+  ],
+  "events": [
+    {
+      "title": "Reglamento (UE) 2023/915 — contaminantes",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R0915-20260819"
+    },
+    {
+      "title": "European Union — 100% xylitol chewing gum and dental plaque",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1024-20091119"
+    },
+    {
+      "title": "Commission Regulation (EU) No 142/2011 implementing Regulation (EC) No 1069/2009 laying down health rules as regards animal by-products and derived products not intended for human consumption and implementing Council Directive 97/78/EC",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011R0142-20251029"
+    },
+    {
+      "title": "Commission Regulation (EU) No 1047/2012 amending Regulation (EC) No 1924/2006 with regard to the list of nutrition claims",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R1047-20121129"
+    },
+    {
+      "title": "European Union — Regulation (EU) No 497/2014, Advantame E969",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0497-20140515"
+    },
+    {
+      "title": "Directive (EU) 2015/2203 on the approximation of the laws of the Member States relating to caseins and caseinates intended for human consumption and repealing Council Directive 83/417/EEC",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015L2203-20151201"
+    },
+    {
+      "title": "EU Regulation 2019/934 — authorised oenological use of lysozyme",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0934-20241229"
+    },
+    {
+      "title": "Commission Regulation (EU) 2022/63 amending Annexes II and III to Regulation (EC) No 1333/2008 as regards titanium dioxide (E 171)",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022R0063-20220118"
+    },
+    {
+      "title": "Commission Regulation (EU) 2023/1329 — E422 glycerol definition: vegetable oils and fats",
+      "type": "EU_CONSOLIDATION",
+      "detected_on": "2026-10-14",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R1329-20230630"
+    },
+    {
+      "title": "United States eCFR — 21 CFR § 136.110 Bread, rolls, and buns",
+      "type": "ECFR_REVISION",
+      "detected_on": "2026-10-15",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-136/subpart-B/section-136.110"
+    },
+    {
+      "title": "Assessment of genetically modified maize Bt11 × MIR162 × MON 89034 × NK603 (application GMFF-2025-33624)",
+      "type": "EFSA_PUBLICATION",
+      "detected_on": "2026-10-15",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2026.10364"
+    },
+    {
+      "title": "Safety evaluation of the food enzyme endo-polygalacturonase from the non-genetically modified Rhizopus oryzae strain MC3-3-9",
+      "type": "EFSA_PUBLICATION",
+      "detected_on": "2026-10-15",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2026.10333"
+    },
+    {
+      "title": "Determinants of African swine fever occurrence, persistence and spread across Europe",
+      "type": "EFSA_PUBLICATION",
+      "detected_on": "2026-10-16",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2026.EN-10386"
+    },
+    {
+      "title": "Risk Assessment Activities on Cat and Dog extreme features: exchange with the EFSA Animal Welfare Network",
+      "type": "EFSA_PUBLICATION",
+      "detected_on": "2026-10-16",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2026.EN-10377"
+    },
+    {
+      "title": "Overall conclusions on the application for approval of chitosan hydrochloride as a basic substance for extension of use in plant protection for oilseed rape crops and potatoes",
+      "type": "EFSA_PUBLICATION",
+      "detected_on": "2026-10-16",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/sp.efsa.2026.EN-10392"
+    },
+    {
+      "title": "Surveillance of West Nile virus infections in humans and animals in Europe, monthly report – data submitted up to 7 October 2026",
+      "type": "EFSA_PUBLICATION",
+      "detected_on": "2026-10-16",
+      "editorial_status": "DETECTADO",
+      "official_url": "https://www.efsa.europa.eu/en/efsajournal/pub/10410"
+    }
+  ],
+  "review_sample": {
+    "title": "EU Regulation 2023/915 · contaminants",
+    "celex": "02023R0915",
+    "previous_catalogued": "2025-10-08",
+    "observed_consolidation": "2026-08-19",
+    "observed_at": "2026-10-14",
+    "status": "DETECTADO",
+    "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R0915-20260819"
+  },
+  "verified_checks": {
+    "daily_github_actions_runs": 3,
+    "workflow": "Python 3.12 · GitHub Actions · daily scheduled / manual",
+    "states": [
+      "SIN_CAMBIOS",
+      "VERSION_NUEVA",
+      "CONSULTA_FALLIDA"
+    ],
+    "editorial_states": [
+      "DETECTADO",
+      "INCORPORADO"
+    ],
+    "safety": "Source errors are not recorded as unchanged; catalogue/index protected by SHA-256. The monitor does not auto-incorporate documents.",
+    "source_exclusions": "Unverifiable, blocked or unsupported sources are excluded with reasons, never silently claimed as monitored."
+  }
+}

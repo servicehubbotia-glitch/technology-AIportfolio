@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#104F9C">
+<meta name="description" content="BOTIA Knowledge Base: documented source provenance, regulatory monitoring, version tracking and reproducible review. Professional case study by Paloma García Muley.">
+<title>BOTIA Knowledge Base — Regulatory Intelligence | Paloma García Muley</title>
+<link rel="stylesheet" href="./knowledge-monitor.css">
+<script src="./knowledge-monitor.js" defer></script>
+</head>
+<body>
+<a href="#system" class="skip" id="skip">Skip to the system</a>
+<header class="site-header"><div class="wrap nav">
+ <a class="back" id="back" href="./?lang=en#work">← <span id="back-text">Back to portfolio</span></a>
+ <div class="wordmark"><span class="mark">PG/</span><span>PALOMA GARCÍA MULEY<small id="wordmark-sub">TECHNICAL CASE STUDIES</small></span></div>
+ <div class="languages" role="group" aria-label="Language" id="language-switch">
+  <button type="button" data-lang="en" lang="en" aria-pressed="true">EN</button>
+  <button type="button" data-lang="nl" lang="nl" aria-pressed="false">NL</button>
+  <button type="button" data-lang="es" lang="es" aria-pressed="false">ES</button>
+ </div>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+ <div>
+  <p class="kicker" id="hero-kicker">03 / KNOWLEDGE BASE · DOCUMENTARY INTELLIGENCE</p>
+  <h1 id="hero-title">A knowledge base that can track its sources.</h1>
+  <p class="hero-lede" id="hero-description">BOTIA's knowledge base separates official evidence from internal criteria and observes changes to regulations and documentary sources. Every detection stays traceable and waits for editorial review.</p>
+  <div class="hero-actions">
+    <a href="#system" class="cta primary" id="explore-button">Explore the system ↘</a>
+    <a href="https://www.botia-safefood.com/regulatory/" class="cta outline" id="regulatory-button" target="_blank" rel="noopener noreferrer">Public BOTIA Regulatory ↗</a>
+  </div>
+  <p class="as-of" id="hero-asof">Verified monitoring snapshot · 16 October 2026</p>
+ </div>
+ <div class="hero-visual" role="img" aria-label="Overview of source monitoring and editorial review">
+  <div class="visual-head"><span>BOTIA / MONITOR</span><span>2026.10.16</span></div>
+  <div class="visual-stages">
+    <div class="visual-stage"><span class="node">01</span><span id="vis-source">OFFICIAL SOURCES</span></div>
+    <div class="vertical-link"></div>
+    <div class="visual-stage"><span class="node">02</span><span id="vis-check">VERSION / CONTENT CHECK</span></div>
+    <div class="vertical-link"></div>
+    <div class="visual-stage"><span class="node">03</span><span id="vis-result">PERSISTED OBSERVATION</span></div>
+    <div class="vertical-link"></div>
+    <div class="visual-stage active"><span class="node">04</span><span id="vis-review">HUMAN EDITORIAL REVIEW</span></div>
+  </div>
+  <p class="visual-foot" id="vis-foot">Detection ≠ automatic incorporation</p>
+ </div>
+</div></section>
+<section class="metrics wrap" aria-label="Documented monitoring statistics" id="metrics">
+ <div><strong id="metric-active">231</strong><span id="metric-active-label">active checks</span></div>
+ <div><strong id="metric-law">35</strong><span id="metric-law-label">EU legal acts</span></div>
+ <div><strong id="metric-events">16</strong><span id="metric-events-label">detections to review</span></div>
+ <div><strong id="metric-excluded">114</strong><span id="metric-excluded-label">documented exclusions</span></div>
+</section>
+<section class="section system-section" id="system">
+ <div class="wrap">
+  <div class="section-intro"><p class="eyebrow" id="system-eyebrow">A WORKING SYSTEM, NOT A MOCKUP</p><h2 id="system-title">What the monitoring actually does.</h2><p id="system-lede">The source collection was catalogued first. The watcher then compares trusted identifiers, revisions and fingerprints, logs results and preserves the difference between discovery and approval.</p></div>
+  <div class="system-grid">
+   <article><span>01 /</span><h3 id="cap-h1">Source governance</h3><p id="cap-p1">Official institutions, scientific studies, BOTIA criteria and unclassified material remain distinguishable. Each catalogue entry can carry version, provenance, licence and SHA-256 information.</p></article>
+   <article><span>02 /</span><h3 id="cap-h2">Repeatable source checks</h3><p id="cap-p2">Python adapters check verified EUR-Lex consolidations, EFSA publications, FDA/eCFR references, Codex and WHO/JECFA/IARC material.</p></article>
+   <article><span>03 /</span><h3 id="cap-h3">Three explicit outcomes</h3><p id="cap-p3">SIN_CAMBIOS, VERSION_NUEVA and CONSULTA_FALLIDA are different results. A network or verification failure is never treated as an unchanged source.</p></article>
+   <article><span>04 /</span><h3 id="cap-h4">Human review and safeguards</h3><p id="cap-p4">Detection events remain DETECTADO until an editorial decision. Source version records and the catalogue are not silently updated by the monitoring job.</p></article>
+  </div>
+ </div>
+</section>
+<section class="section dashboard-section" id="dashboard">
+ <div class="wrap">
+  <div class="section-intro"><p class="eyebrow" id="dashboard-eyebrow">VERIFIED REPORT · FROZEN SNAPSHOT</p><h2 id="dashboard-title">Three days of actual monitoring.</h2><p id="dashboard-description">A static extract from the real private monitoring reports, dated 14–16 October 2026. It is not a live connection to the watcher.</p></div>
+  <div class="dash-grid">
+   <div class="report">
+    <header class="report-header"><div><strong id="history-title">Daily outcomes</strong><span id="history-subtitle">Three successful GitHub Actions runs</span></div><span class="report-tag" id="history-tag">VERIFIED EXECUTIONS</span></header>
+    <div id="history" class="history"></div>
+    <div class="legend" id="history-legend">
+      <span><i class="legend-same"></i><span id="legend-same">Unchanged</span></span><span><i class="legend-new"></i><span id="legend-new">New version / update</span></span><span><i class="legend-failed"></i><span id="legend-failed">Failed</span></span>
+    </div>
+    <p class="report-note" id="history-note">An RSS feed update counts as one source result, even when it contains several new publications.</p>
+   </div>
+   <div class="report">
+    <header class="report-header"><div><strong id="coverage-title">Monitoring coverage</strong><span id="coverage-subtitle">231 active checks from five source groups</span></div><span class="report-tag" id="coverage-tag">SOURCE DISTRIBUTION</span></header>
+    <div id="coverage" class="coverage"></div>
+    <p class="report-note" id="coverage-note">114 references excluded with explicit reasons. Monitoring is not claimed for all 452 catalogue records.</p>
+   </div>
+  </div>
+ </div>
+</section>
+<section class="section events-section" id="events">
+ <div class="wrap">
+  <div class="section-intro"><p class="eyebrow" id="events-eyebrow">AUDIT TRAIL · DETECTED EVENTS</p><h2 id="events-title">Changes are visible before they are accepted.</h2><p id="events-description">Explore 16 recorded detections. Open their original official source. The records are still awaiting editorial review; the watcher has not incorporated them into the knowledge catalogue.</p></div>
+  <div class="event-panel">
+   <div class="filters" role="group" aria-label="Filter detection types" id="event-filters">
+    <button type="button" data-filter="all" aria-pressed="true" id="filter-all">All</button>
+    <button type="button" data-filter="EU_CONSOLIDATION" aria-pressed="false" id="filter-eu">EU consolidation</button>
+    <button type="button" data-filter="EFSA_PUBLICATION" aria-pressed="false" id="filter-efsa">EFSA publications</button>
+    <button type="button" data-filter="ECFR_REVISION" aria-pressed="false" id="filter-ecfr">eCFR revision</button>
+   </div>
+   <div class="event-count" id="event-count">16 recorded detections</div>
+   <div class="events" id="event-list"></div>
+  </div>
+ </div>
+</section>
+<section class="section example-section" id="example">
+ <div class="wrap">
+  <div class="section-intro"><p class="eyebrow" id="example-eyebrow">A REAL REGULATORY CASE</p><h2 id="example-title">An example: Regulation (EU) 2023/915.</h2><p id="example-description">The watcher found a consolidated version dated 19 August 2026, while the knowledge catalogue retained 8 October 2025. It recorded the finding, including a source link, without altering the catalogue.</p></div>
+  <div class="example-grid">
+   <article class="version-card"><p class="eyebrow" id="version-label">EUR-LEX / CELEX 02023R0915</p><div class="version-flow"><div><span id="old-label">Catalogued date</span><strong>2025-10-08</strong></div><span class="flow-arrow">→</span><div><span id="new-label">Observed consolidation</span><strong>2026-08-19</strong></div></div><p id="editorial-label">Editorial status: DETECTADO · pending review</p><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R0915-20260819" id="official-example-link" target="_blank" rel="noopener noreferrer">Open original EU source ↗</a></article>
+   <article class="status-card">
+    <h3 id="state-title">What does each result mean?</h3>
+    <div class="state-tabs" role="group" aria-label="Choose result status">
+     <button type="button" data-status="SIN_CAMBIOS" aria-pressed="true">SIN_CAMBIOS</button>
+     <button type="button" data-status="VERSION_NUEVA" aria-pressed="false">VERSION_NUEVA</button>
+     <button type="button" data-status="CONSULTA_FALLIDA" aria-pressed="false">CONSULTA_FALLIDA</button>
+    </div>
+    <div class="state-explain"><strong id="state-heading">Observed source matches known reference</strong><p id="state-description">No newer version was observed by the chosen adapter. This does not prove universal legal or scientific completeness.</p></div>
+    <p class="state-caveat" id="state-caveat">These descriptions explain the implemented logic; buttons do not run production checks.</p>
+   </article>
+  </div>
+ </div>
+</section>
+<section class="section transfer-section">
+ <div class="wrap">
+  <div class="section-intro"><p class="eyebrow" id="transfer-eyebrow">ENGINEERING CAPABILITIES / BUSINESS APPLICATIONS</p><h2 id="transfer-title">Designed for decisions, not just data collection.</h2><p id="transfer-description">The same engineering methods can support other document-heavy domains that require traceability, reproducible checks and reviewable changes.</p></div>
+  <div class="transfer-grid">
+   <article><span class="transfer-icon">⌘</span><h3 id="transfer-h1">Source provenance</h3><p id="transfer-p1">Keep track of where each assertion originates and whether a document is official, a study or an internal interpretation.</p></article>
+   <article><span class="transfer-icon">↻</span><h3 id="transfer-h2">Scheduled change detection</h3><p id="transfer-p2">Monitor selected references daily, retain historical comparisons and handle inaccessible sources explicitly.</p></article>
+   <article><span class="transfer-icon">⊞</span><h3 id="transfer-h3">Reproducible audit trails</h3><p id="transfer-p3">Persist dated outcomes, record updates without duplicates and protect editorial data from automated alteration.</p></article>
+  </div>
+  <div class="privacy-footer"><p id="privacy-description">Portfolio disclosure: this page shows an attributed snapshot of public-source metadata and operational results. The underlying source-document library, full configuration, access-controlled repository and source code stay private. No regulatory compliance certification is claimed.</p><div class="public-links"><a href="https://www.botia-safefood.com/regulatory/" id="footer-regulatory" target="_blank" rel="noopener noreferrer">Public Regulatory Explorer ↗</a><a href="./examples/compare-consolidations.example.js" id="footer-code" target="_blank" rel="noopener noreferrer">Illustrative comparison code ↗</a><a href="mailto:palomagarciamuley@gmail.com?subject=Documentary%20intelligence%20project" id="footer-contact">Discuss a similar project ↗</a></div></div>
+ </div>
+</section>
+</main>
+<footer class="site-footer"><div class="wrap footer-inner"><span>PALOMA GARCÍA MULEY / KNOWLEDGE SYSTEMS / 2026</span><a href="./" id="footer-return">Back to portfolio ↑</a></div></footer>
+</body>
+</html>
