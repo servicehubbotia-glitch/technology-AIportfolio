@@ -222,8 +222,8 @@
     const label=({en:'See the detailed case ↗',nl:'Bekijk de uitgebreide casestudy ↗',es:'Ver el caso completo ↗'})[window.portfolioLanguage]||'See the detailed case ↗';
     const viewLang=window.portfolioLanguage||'en';
     const titles={en:'Explore verified watcher ↗',nl:'Bekijk de echte bronmonitor ↗',es:'Explorar el watcher real ↗'};
-    const a=node('a','',active==='creative'?({en:'Explore BOTIA campaign ↗',nl:'Bekijk de BOTIA-campagne ↗',es:'Explorar la campaña de BOTIA ↗'})[viewLang]:active==='knowledge'?titles[viewLang]:label);
-    a.href=active==='creative'?'./marketing-campaign.html?lang='+viewLang:active==='knowledge'?'./knowledge-monitor.html?lang='+viewLang:'./case-studies.html?project='+active+'&lang='+viewLang;
+    const a=node('a','',active==='creative'?({en:'Explore BOTIA campaign ↗',nl:'Bekijk de BOTIA-campagne ↗',es:'Explorar la campaña de BOTIA ↗'})[viewLang]:active==='knowledge'?titles[viewLang]:active==='reintegration'?({en:'See Excel-to-app in action ↗',nl:'Bekijk Excel-naar-webapp ↗',es:'Probar Excel convertido en aplicación ↗'})[viewLang]:label);
+    a.href=active==='creative'?'./marketing-campaign.html?lang='+viewLang:active==='knowledge'?'./knowledge-monitor.html?lang='+viewLang:active==='reintegration'?'./excel-to-app.html?lang='+viewLang:'./case-studies.html?project='+active+'&lang='+viewLang;
     links.prepend(a);
   }
   const note=$('lab-private-note');note.hidden=!project.private;note.textContent=project.private?(active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].note:locale.privateNote):'';
