@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1557A1">
+<meta name="description" content="A real individual-use Excel-to-web application, demonstrated through a fictional office workflow: structured records, search, filters and reports. Portfolio of Paloma García Muley.">
+<title>From Excel to an interactive application — Paloma García Muley</title>
+<link rel="stylesheet" href="./excel-to-app.css">
+<script src="./excel-to-app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#interactive" id="skip-link">Skip to demonstration</a>
+<header class="site-header"><div class="wrap header">
+ <a id="back-link" class="back" href="./?lang=en#work">← <span id="back-text">Back to portfolio</span></a>
+ <span class="brand"><span class="mark">PG/</span><span>PALOMA GARCÍA MULEY<small id="brand-sub">SELECTED TECHNICAL WORK</small></span></span>
+ <div id="lang-switch" class="lang-switch" role="group" aria-label="Language">
+  <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
+  <button type="button" data-lang="nl" aria-pressed="false" lang="nl">NL</button>
+  <button type="button" data-lang="es" aria-pressed="false" lang="es">ES</button>
+ </div>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+ <div>
+  <p id="hero-eyebrow" class="eyebrow">04 / PERSON-CENTRED SOFTWARE · TRANSFERABLE WORKFLOW</p>
+  <h1 id="hero-title">From an Excel log to an interactive application.</h1>
+  <p id="hero-desc" class="hero-lede">The starting point was simple: one person used a spreadsheet to record activities. I developed a more practical web-based workflow with structured entry, protected data and useful reports. The same engineering pattern can support an office.</p>
+  <div class="hero-actions">
+   <a id="hero-cta" class="cta bright" href="#interactive">Try the office example ↘</a>
+   <a id="hero-code" class="cta light" href="https://github.com/servicehubbotia-glitch/My-Reintegration" target="_blank" rel="noopener noreferrer">Inspect public app code ↗</a>
+  </div>
+ </div>
+ <div class="hero-visual" aria-hidden="true">
+  <div class="hero-visual-label">WORKFLOW / EXCEL → APPLICATION</div>
+  <div class="hero-flow">
+   <div class="hero-flow-cell"><span>01</span><strong>XLSX</strong><small>TABLE</small></div>
+   <span class="hero-arrow">→</span>
+   <div class="hero-flow-cell active"><span>02</span><strong>WEB</strong><small>INTERFACE</small></div>
+   <span class="hero-arrow">→</span>
+   <div class="hero-flow-cell"><span>03</span><strong>CSV</strong><small>REPORT</small></div>
+  </div>
+  <div class="hero-code-lines"><span>record → structured form</span><span>data → search + filters</span><span>summary → reusable report</span></div>
+ </div>
+</div></section>
+
+<section class="facts wrap" aria-label="Key characteristics">
+ <div><strong id="fact1-head">Real starting problem</strong><span id="fact1-text">Personal spreadsheet-based record keeping</span></div>
+ <div><strong id="fact2-head">Implemented application</strong><span id="fact2-text">Google OAuth · Apps Script · private Google Sheet</span></div>
+ <div><strong id="fact3-head">Practical result</strong><span id="fact3-text">Organised entries · weekly summaries · exports</span></div>
+</section>
+
+<section class="section context-section"><div class="wrap">
+ <div class="section-intro">
+  <p id="context-eyebrow" class="eyebrow blue">THE PROBLEM AND THE OPPORTUNITY</p>
+  <h2 id="context-title">A spreadsheet is a starting point, not always the best interface.</h2>
+  <p id="context-desc">Excel is valuable for tabular records, but a growing collection of activities can be difficult to explore consistently. A purpose-built interface can display relevant fields, support controlled entry and produce understandable summaries without forcing a user to navigate raw rows.</p>
+ </div>
+ <div class="context-grid">
+  <article><span>01 /</span><h3 id="problem1-title">Before: spreadsheet entry</h3><p id="problem1-desc">Dates, activities and results are recorded in cells. The person must interpret the layout and keep the structure consistent.</p></article>
+  <article><span>02 /</span><h3 id="problem2-title">Engineering transformation</h3><p id="problem2-desc">The data is modelled as records, with validation, an interface, access rules and reporting separated from the underlying spreadsheet.</p></article>
+  <article><span>03 /</span><h3 id="problem3-title">After: usable information</h3><p id="problem3-desc">A user can navigate records, inspect a selected item, review weekly totals and generate outputs through a dedicated application.</p></article>
+ </div>
+</div></section>
+
+<section class="section interactive-section" id="interactive"><div class="wrap">
+ <div class="section-intro">
+  <p id="demo-eyebrow" class="eyebrow blue">INTERACTIVE / FICTIONAL OFFICE EXAMPLE</p>
+  <h2 id="demo-title">See the difference.</h2>
+  <p id="demo-desc">This small demonstration uses invented office activities to illustrate how structured rows can become a more usable web experience. It does not connect to MyReintegration, load a real Excel workbook or write to a private spreadsheet.</p>
+ </div>
+ <div class="demo-shell">
+  <div class="demo-toolbar" role="tablist" aria-label="View example" id="demo-tabs">
+   <button id="tab-excel" type="button" role="tab" aria-selected="true" aria-controls="demo-view" tabindex="0" data-view="excel"><span class="tab-no">01</span><span id="tab-excel-label">Original table</span></button>
+   <button id="tab-web" type="button" role="tab" aria-selected="false" aria-controls="demo-view" tabindex="-1" data-view="web"><span class="tab-no">02</span><span id="tab-web-label">Interactive application</span></button>
+   <button id="tab-report" type="button" role="tab" aria-selected="false" aria-controls="demo-view" tabindex="-1" data-view="report"><span class="tab-no">03</span><span id="tab-report-label">Report</span></button>
+  </div>
+  <div class="demo-view" id="demo-view" role="tabpanel" tabindex="0" aria-labelledby="tab-excel">
+   <div class="demo-stage-header"><span id="stage-title">SOURCE / SPREADSHEET VIEW</span><span id="demo-label">SAMPLE RECORDS · NO PERSONAL DATA</span></div>
+   <div id="view-content" class="view-content"></div>
+  </div>
+ </div>
+ <div class="demo-explainer">
+  <div><strong id="explainer-title">Starting with rows and columns</strong><p id="explainer-text">A sheet is a good storage format, but an interface designed around the work helps a person find and act on information.</p></div>
+  <span id="demo-disclaimer">No imported files, real people or persistent data in this example.</span>
+ </div>
+</div></section>
+
+<section class="section engineering-section"><div class="wrap">
+ <div class="section-intro">
+  <p id="engineering-eyebrow" class="eyebrow blue">THE ACTUAL SOFTWARE ENGINEERING</p>
+  <h2 id="engineering-title">What MyReintegration really implements.</h2>
+  <p id="engineering-desc">The original application is a private activity and application journal, not a generic office document-management package. Its implementation demonstrates reusable engineering methods.</p>
+ </div>
+ <div class="engineering-grid">
+  <article><span>01</span><h3 id="tech1-title">Structured entry</h3><p id="tech1-desc">Responsive forms capture activity descriptions, dates, status, duration and results. Records can be reviewed and edited by authorized users.</p></article>
+  <article><span>02</span><h3 id="tech2-title">Private data connection</h3><p id="tech2-desc">Google OAuth and an Apps Script API connect the interface to a private spreadsheet with service-side access controls and revision checks.</p></article>
+  <article><span>03</span><h3 id="tech3-title">Reporting & portability</h3><p id="tech3-desc">Weekly views and reports support Excel, PDF, CSV, JSON and editable email drafts. Exports preserve useful structured information.</p></article>
+  <article><span>04</span><h3 id="tech4-title">Recovery & consistency</h3><p id="tech4-desc">Draft recovery, guarded retries, backups and conflict detection help avoid losing work when connections are interrupted.</p></article>
+ </div>
+ <div class="limitations"><p id="limits-text">Portfolio scope: the office dataset above is hypothetical. The real MyReintegration app solves an individual record-keeping need. Adapting this approach to another organization would require its actual document types, permissions, retention rules and workflows. No automatic Excel-to-app conversion or production document storage is claimed.</p>
+ <div class="links"><a id="link-source" href="https://github.com/servicehubbotia-glitch/My-Reintegration" target="_blank" rel="noopener noreferrer">Public source code ↗</a><a id="link-app" href="https://servicehubbotia-glitch.github.io/My-Reintegration/" target="_blank" rel="noopener noreferrer">Published application (authorized login) ↗</a><a id="link-contact" href="mailto:palomagarciamuley@gmail.com?subject=Excel%20to%20web%20project" title="palomagarciamuley@gmail.com">Email me about a project ↗</a></div>
+ </div>
+</div></section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span>PALOMA GARCÍA MULEY / USER-CENTRED SOFTWARE / 2026</span><a id="footer-back" href="./?lang=en#work">Back to portfolio ↑</a></div></footer>
+</body></html>
