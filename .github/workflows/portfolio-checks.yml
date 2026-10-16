@@ -20,6 +20,7 @@ jobs:
           node --check case-studies.js
           node --check marketing-campaign.js
           node --check knowledge-monitor.js
+          node --check excel-to-app.js
           node --check examples/compare-consolidations.example.js
       - name: Check sample data and links
         run: |
@@ -40,3 +41,7 @@ jobs:
         run: |
           node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('knowledge-monitor-snapshot.json','utf8'));if(d.total_monitored!==231||d.daily_results.length!==3||d.events.length!==16||d.editorial_events!==16||d.exclusions!==114)throw Error('Unexpected monitored totals');if(d.active_coverage.reduce((n,x)=>n+x.count,0)!==231)throw Error('Coverage mismatch');if(d.daily_results.some(x=>x.unchanged+x.new+x.failed!==231))throw Error('Invalid run summary');"
           node -e "const fs=require('fs');for(const f of ['knowledge-monitor.html','knowledge-monitor.css','knowledge-monitor.js','knowledge-monitor-snapshot.json'])if(!fs.existsSync(f))throw Error('Missing '+f);const s=fs.readFileSync('index.html','utf8');if(!s.includes('knowledge-monitor.html'))throw Error('Knowledge monitor not linked');"
+
+      - name: Validate Excel-to-web office case
+        run: |
+          node -e "const fs=require('fs');for(const name of ['excel-to-app.html','excel-to-app.css','excel-to-app.js'])if(!fs.existsSync(name))throw Error('Missing '+name);const h=fs.readFileSync('excel-to-app.html','utf8');const js=fs.readFileSync('excel-to-app.js','utf8');for(const token of ['tab-excel','tab-web','tab-report','view-content'])if(!h.includes(token))throw Error('Missing control '+token);for(const token of ['en:{','nl:{','es:{','exportCSV','recordDetails','recordsList','newEntryForm'])if(!js.includes(token))throw Error('Missing behavior '+token);const index=fs.readFileSync('index.html','utf8');if(!index.includes('excel-to-app.html'))throw Error('Homepage missing case link');"
