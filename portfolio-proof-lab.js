@@ -16,11 +16,7 @@
      ['Sources','Documented evidence','Structured ingredient information links explanations with scientific and regulatory source material, including limits and uncertainty.'],
      ['Result','Useful explanation','The Android and multilingual website present relevant information in separate layers.']
     ],links:[['Visit BOTIA','https://www.botia-safefood.com/'],['Try public interface','https://www.botia-safefood.com/try.html'],['Android on Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Public web code','https://github.com/servicehubbotia-glitch/Botia-web']]},
-    creative:{status:'CONFIGURABLE DESIGN SYSTEM · PRIVATE SOURCE',title:'Real campaign copy, multiple formats',intro:'Creative Studio composes nine real campaign pieces in fourteen languages and eight documented formats. Change the format, then open the full case to see authentic campaign text.',steps:[
-     ['Portrait','Portrait composition','A tall arrangement adapts spacing and hierarchy for story-oriented placements. This view uses the authentic wording of Creative Studio campaign piece 05.'],
-     ['Square','Square composition','A square preset reflows the same conceptual components to a balanced format without duplicating the campaign source.'],
-     ['Landscape','Wide composition','A landscape preset changes the presentation shape while keeping the campaign structure consistent.']
-    ],links:[],private:true},
+    creative:{"status":"BOTIA MARKETING CAMPAIGN · ORIGINAL ASSETS","title":"A marketing campaign produced through Creative Studio.","intro":"The Studio organizes nine marketing pieces using genuine BOTIA photography, app captures and campaign copy. Explore three moments of that story, then open the complete fourteen-language campaign.","steps":[["The campaign","Real product, real label","The campaign introduces BOTIA using photographs of a product's front and its actual ingredient label, accompanied by the original robot artwork."],["Take the photo","From packaging to product use","The marketing explains the core action: photograph the ingredients. The composition incorporates an original Spanish application capture."],["The evidence","Documentation closes the story","The story ends with BOTIA's evidence-linked explanations and the ability to consult the sources. The result screenshot is an original Spanish capture."]],"links":[],"private":true},
     knowledge:{status:'DOCUMENT GOVERNANCE · PRIVATE REPOSITORY',title:'Evidence that can be traced',intro:'The knowledge base separates source authority, integrity, licensing and version awareness. Select a control to explore the documented method.',steps:[
      ['Sources','Classify the source','Official institutional documents, scholarly literature and internally developed criteria are stored as separate classes.'],
      ['Integrity','Preserve integrity','Document records include provenance and SHA-256 hashes where the source file can be verified.'],
@@ -44,11 +40,7 @@
      ['Bronnen','Onderbouwde informatie','Gestructureerde ingrediënteninformatie koppelt uitleg aan wetenschappelijke en wettelijke bronnen, met aandacht voor grenzen en onzekerheid.'],
      ['Resultaat','Begrijpelijke uitleg','De Android-app en meertalige website tonen relevante informatie in afzonderlijke lagen.']
     ],links:[['Bezoek BOTIA','https://www.botia-safefood.com/'],['Probeer de openbare interface','https://www.botia-safefood.com/try.html'],['Android op Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Openbare webcode','https://github.com/servicehubbotia-glitch/Botia-web']]},
-    creative:{status:'CONFIGUREERBAAR ONTWERPSYSTEEM · PRIVÉBRONCODE',title:'Echte campagneteksten in meerdere formaten',intro:'Creative Studio combineert negen echte campagneonderdelen, veertien talen en acht gedocumenteerde formaten. Bekijk daarna de volledige casestudy met echte teksten.',steps:[
-     ['Staand','Staande compositie','Een langwerpige indeling past witruimte en hiërarchie aan voor een story-formaat. De tekst komt uit het echte Creative Studio-campagneonderdeel 05.'],
-     ['Vierkant','Vierkante compositie','Een vierkante indeling herschikt dezelfde onderdelen zonder de campagnebron te dupliceren.'],
-     ['Liggend','Brede compositie','Een horizontale indeling past het formaat aan en houdt de campagnestructuur consistent.']
-    ],links:[],private:true},
+    creative:{"status":"BOTIA-MARKETINGCAMPAGNE · ORIGINELE MATERIALEN","title":"Een marketingcampagne geproduceerd met Creative Studio.","intro":"De Studio organiseert negen marketingonderdelen met echte BOTIA-foto’s, app-schermafbeeldingen en campagneteksten. Bekijk drie momenten en open daarna de volledige campagne in veertien talen.","steps":[["De campagne","Echt product, echt etiket","De campagne introduceert BOTIA met originele foto’s van de voorkant en de ingrediëntenlijst van een product, aangevuld met het echte robotontwerp."],["Maak de foto","Van verpakking naar gebruik","De marketing legt de hoofdhandeling uit: fotografeer de ingrediënten. De compositie bevat een originele Spaanse app-schermafbeelding."],["De bronnen","Documentatie sluit het verhaal af","Het verhaal eindigt bij BOTIA's onderbouwde uitleg en raadpleegbare bronnen. De resultaatweergave komt uit een originele Spaanse schermafbeelding."]],"links":[],"private":true},
     knowledge:{status:'DOCUMENTBEHEER · PRIVÉREPOSITORY',title:'Traceerbare onderbouwing',intro:'De kennisbank scheidt bronstatus, integriteit, licenties en versiebeheer. Kies een onderdeel om de documentatiemethode te verkennen.',steps:[
      ['Bronnen','Bronnen classificeren','Officiële documenten, wetenschappelijke publicaties en eigen criteria worden in verschillende categorieën bewaard.'],
      ['Integriteit','Integriteit vastleggen','Documentrecords bevatten herkomstgegevens en waar mogelijk SHA-256-controlewaarden.'],
@@ -72,11 +64,7 @@
      ['Fuentes','Evidencia documentada','La información estructurada enlaza explicaciones con fuentes científicas y regulatorias, incluyendo sus límites e incertidumbres.'],
      ['Resultado','Explicaciones útiles','La aplicación Android y la web multilingüe presentan información relevante en distintas capas.']
     ],links:[['Visitar BOTIA','https://www.botia-safefood.com/'],['Probar la interfaz pública','https://www.botia-safefood.com/try.html'],['Android en Google Play','https://play.google.com/store/apps/details?id=com.botia.safefood'],['Código web público','https://github.com/servicehubbotia-glitch/Botia-web']]},
-    creative:{status:'SISTEMA VISUAL CONFIGURABLE · CÓDIGO PRIVADO',title:'Textos de campaña reales en varios formatos',intro:'Creative Studio combina nueve piezas reales, catorce idiomas y ocho formatos documentados. Explora los formatos y abre el caso completo para ver textos auténticos.',steps:[
-     ['Vertical','Composición vertical','El formato vertical adapta espacios y jerarquía para piezas de tipo story. El texto corresponde a la pieza 05 real de Creative Studio.'],
-     ['Cuadrado','Composición cuadrada','El formato cuadrado reorganiza los mismos componentes sin duplicar la fuente de la campaña.'],
-     ['Horizontal','Composición panorámica','La composición horizontal cambia la disposición sin perder coherencia entre las piezas.']
-    ],links:[],private:true},
+    creative:{"status":"CAMPAÑA DE MARKETING BOTIA · MATERIALES ORIGINALES","title":"La campaña de marketing producida con Creative Studio.","intro":"El Studio organiza nueve piezas de marketing con fotografías auténticas de BOTIA, capturas de la aplicación y textos reales de campaña. Explora tres momentos y después abre la campaña completa en catorce idiomas.","steps":[["La campaña","Producto y etiqueta reales","La presentación de BOTIA parte de fotografías auténticas del frente del producto y su lista de ingredientes, acompañadas del robot original."],["Haz la foto","Del envase al uso de BOTIA","La comunicación muestra la acción principal: fotografiar los ingredientes. La composición incluye una captura original de la aplicación en español."],["La evidencia","La documentación completa la historia","La campaña termina explicando que BOTIA ofrece información documentada y fuentes consultables. La pantalla de resultados es una captura real en español."]],"links":[],"private":true},
     knowledge:{status:'GOBERNANZA DOCUMENTAL · REPOSITORIO PRIVADO',title:'Evidencia que puede rastrearse',intro:'La base documental diferencia autoridad de las fuentes, integridad, licencias y versiones. Selecciona una opción para explorar el método.',steps:[
      ['Fuentes','Clasificación de fuentes','Los documentos oficiales, la literatura científica y los criterios internos se conservan en categorías diferenciadas.'],
      ['Integridad','Integridad documental','Los registros conservan procedencia y huellas SHA-256 cuando es posible verificar el archivo original.'],
@@ -92,10 +80,11 @@
   }
  };
  const visualText={
-  en:{ids:['BOTIA','DESIGN','SOURCES','JOURNAL'],studio:'STUDIO / SAMPLE',formats:'14 languages · 8 format presets · RTL support',ledger:'DOCUMENT / SCHEMA EXAMPLE',rows:[['SOURCE TYPE','OFFICIAL / STUDY / INTERNAL'],['CHECKSUM','SHA-256'],['RIGHTS','REVIEWED'],['CONSOLIDATION','TRACKED']],week:'WEEK / SAMPLE',privateData:'NO PERSONAL DATA',example:'Example records only'},
-  nl:{ids:['BOTIA','ONTWERP','BRONNEN','DAGBOEK'],studio:'STUDIO / VOORBEELD',formats:'14 talen · 8 formaatinstellingen · RTL-ondersteuning',ledger:'DOCUMENT / SCHEMA VOORBEELD',rows:[['BRONTYPE','OFFICIEEL / STUDIE / INTERN'],['CONTROLEWAARDE','SHA-256'],['RECHTEN','GECONTROLEERD'],['CONSOLIDATIE','GEVOLGD']],week:'WEEK / VOORBEELD',privateData:'GEEN PERSOONSGEGEVENS',example:'Alleen fictieve gegevens'},
-  es:{ids:['BOTIA','DISEÑO','FUENTES','REGISTRO'],studio:'ESTUDIO / EJEMPLO',formats:'14 idiomas · 8 formatos · soporte RTL',ledger:'DOCUMENTO / ESQUEMA ILUSTRATIVO',rows:[['TIPO DE FUENTE','OFICIAL / ESTUDIO / INTERNO'],['HUELLA DIGITAL','SHA-256'],['DERECHOS','REVISADOS'],['CONSOLIDACIÓN','SEGUIMIENTO']],week:'SEMANA / EJEMPLO',privateData:'SIN DATOS PERSONALES',example:'Registros ficticios'}
+  en:{ids:['BOTIA','CAMPAIGN','SOURCES','JOURNAL'],studio:'STUDIO / SAMPLE',formats:'14 languages · 8 format presets · RTL support',ledger:'DOCUMENT / SCHEMA EXAMPLE',rows:[['SOURCE TYPE','OFFICIAL / STUDY / INTERNAL'],['CHECKSUM','SHA-256'],['RIGHTS','REVIEWED'],['CONSOLIDATION','TRACKED']],week:'WEEK / SAMPLE',privateData:'NO PERSONAL DATA',example:'Example records only'},
+  nl:{ids:['BOTIA','CAMPAGNE','BRONNEN','DAGBOEK'],studio:'STUDIO / VOORBEELD',formats:'14 talen · 8 formaatinstellingen · RTL-ondersteuning',ledger:'DOCUMENT / SCHEMA VOORBEELD',rows:[['BRONTYPE','OFFICIEEL / STUDIE / INTERN'],['CONTROLEWAARDE','SHA-256'],['RECHTEN','GECONTROLEERD'],['CONSOLIDATIE','GEVOLGD']],week:'WEEK / VOORBEELD',privateData:'GEEN PERSOONSGEGEVENS',example:'Alleen fictieve gegevens'},
+  es:{ids:['BOTIA','CAMPAÑA','FUENTES','REGISTRO'],studio:'ESTUDIO / EJEMPLO',formats:'14 idiomas · 8 formatos · soporte RTL',ledger:'DOCUMENTO / ESQUEMA ILUSTRATIVO',rows:[['TIPO DE FUENTE','OFICIAL / ESTUDIO / INTERNO'],['HUELLA DIGITAL','SHA-256'],['DERECHOS','REVISADOS'],['CONSOLIDACIÓN','SEGUIMIENTO']],week:'SEMANA / EJEMPLO',privateData:'SIN DATOS PERSONALES',example:'Registros ficticios'}
  };
+ const campaignSourceText={"en":{"status":"BOTIA MARKETING CAMPAIGN · ORIGINAL ASSETS","title":"A marketing campaign produced through Creative Studio.","intro":"The Studio organizes nine marketing pieces using genuine BOTIA photography, app captures and campaign copy. Explore three moments of that story, then open the complete fourteen-language campaign.","steps":[["The campaign","Real product, real label","The campaign introduces BOTIA using photographs of a product's front and its actual ingredient label, accompanied by the original robot artwork."],["Take the photo","From packaging to product use","The marketing explains the core action: photograph the ingredients. The composition incorporates an original Spanish application capture."],["The evidence","Documentation closes the story","The story ends with BOTIA's evidence-linked explanations and the ability to consult the sources. The result screenshot is an original Spanish capture."]],"copy":[["The front tells you a story.","The ingredients are on the back.","Photograph the label and BOTIA helps you read it."],["Take the photo.","BOTIA takes it from there.",""],["It's not magic. It's documented.","And you can check it yourself.",""]],"sceneNote":"Original BOTIA assets · portfolio composition, not an exact Studio export.","note":"The original editor stays private. The photos, robot artwork and Spanish app captures shown here come from the real campaign. View all nine pieces and languages in the public gallery.","preview":"REAL CAMPAIGN MATERIALS / SELECTED MOMENT","caption":"Original photographs, app screenshots (ES) and robot artwork, assembled for the portfolio.","imageLabel":"ORIGINAL APP CAPTURE · ES","heading":"MARKETING /","stageIds":["00","05","08"],"originalLabel":"ORIGINAL BOTIA MATERIAL"},"nl":{"status":"BOTIA-MARKETINGCAMPAGNE · ORIGINELE MATERIALEN","title":"Een marketingcampagne geproduceerd met Creative Studio.","intro":"De Studio organiseert negen marketingonderdelen met echte BOTIA-foto’s, app-schermafbeeldingen en campagneteksten. Bekijk drie momenten en open daarna de volledige campagne in veertien talen.","steps":[["De campagne","Echt product, echt etiket","De campagne introduceert BOTIA met originele foto’s van de voorkant en de ingrediëntenlijst van een product, aangevuld met het echte robotontwerp."],["Maak de foto","Van verpakking naar gebruik","De marketing legt de hoofdhandeling uit: fotografeer de ingrediënten. De compositie bevat een originele Spaanse app-schermafbeelding."],["De bronnen","Documentatie sluit het verhaal af","Het verhaal eindigt bij BOTIA's onderbouwde uitleg en raadpleegbare bronnen. De resultaatweergave komt uit een originele Spaanse schermafbeelding."]],"copy":[["Op de voorkant vertellen ze een verhaal.","Op de achterkant staan de ingrediënten.","Fotografeer het etiket en BOTIA helpt je het te lezen."],["Maak de foto.","BOTIA doet de rest.",""],["Geen magie. Wel documentatie.","En die kun je zelf controleren.",""]],"sceneNote":"Originele BOTIA-materialen · portfoliocompositie, geen exacte Studio-export.","note":"De originele editor blijft privé. De foto's, robot en Spaanse app-schermafbeeldingen zijn afkomstig uit de echte campagne. Alle negen onderdelen zijn in de openbare galerij te bekijken.","preview":"ECHT CAMPAGNEMATERIAAL / SELECTIE","caption":"Originele productfoto’s, app-schermafbeeldingen (ES) en robotmateriaal, samengebracht voor het portfolio.","imageLabel":"ORIGINELE APP-SCHERMAFBEELDING · ES","heading":"CAMPAGNE /","stageIds":["00","05","08"],"originalLabel":"ORIGINELE BOTIA-BESTANDEN"},"es":{"status":"CAMPAÑA DE MARKETING BOTIA · MATERIALES ORIGINALES","title":"La campaña de marketing producida con Creative Studio.","intro":"El Studio organiza nueve piezas de marketing con fotografías auténticas de BOTIA, capturas de la aplicación y textos reales de campaña. Explora tres momentos y después abre la campaña completa en catorce idiomas.","steps":[["La campaña","Producto y etiqueta reales","La presentación de BOTIA parte de fotografías auténticas del frente del producto y su lista de ingredientes, acompañadas del robot original."],["Haz la foto","Del envase al uso de BOTIA","La comunicación muestra la acción principal: fotografiar los ingredientes. La composición incluye una captura original de la aplicación en español."],["La evidencia","La documentación completa la historia","La campaña termina explicando que BOTIA ofrece información documentada y fuentes consultables. La pantalla de resultados es una captura real en español."]],"copy":[["Por delante te cuentan una historia.","Por detrás están los ingredientes.","Fotografía la etiqueta y BOTIA te ayuda a leerla."],["Haz la foto.","Del resto se encarga BOTIA.",""],["No es magia. Está documentado.","Y tú puedes comprobarlo.",""]],"sceneNote":"Material original de BOTIA · composición para el portfolio, no una exportación idéntica del Studio.","note":"El editor original sigue privado. Las fotos, los robots y las capturas de la aplicación en español proceden de la campaña auténtica. Puedes explorar las nueve piezas y los idiomas en la galería completa.","preview":"MATERIALES REALES / MOMENTOS DE CAMPAÑA","caption":"Fotografías originales, capturas de la app (ES) y robot auténtico, reunidos para el portfolio.","imageLabel":"CAPTURA ORIGINAL DE LA APP · ES","heading":"CAMPAÑA /","stageIds":["00","05","08"],"originalLabel":"MATERIAL ORIGINAL DE BOTIA"}};
  const visualLocale=()=>visualText[window.portfolioLanguage]||visualText.en;
  const $=id=>document.getElementById(id);
  const tabs=[...section.querySelectorAll('[data-lab-project]')];
@@ -116,24 +105,44 @@
   });return root;
  }
  function creative(data){
-  /* Portfolio reconstruction from real Creative Studio piece 05 (not a private-editor screenshot). */
-  const textByLanguage={
-    en:['Take the photo.','BOTIA takes it from there.'],
-    nl:['Maak de foto.','BOTIA doet de rest.'],
-    es:['Haz la foto.','Del resto se encarga BOTIA.']
+  // A marketing overview using source materials already published in marketing-assets/.
+  // The compositions are created for the portfolio, not passed off as Studio exports.
+  const langCode=window.portfolioLanguage||'en';
+  const info=campaignSourceText[langCode]||campaignSourceText.en;
+  const piece=info.stageIds[selected];
+  const root=node('figure','proof-campaign-card');
+  root.dataset.piece=piece;
+  const meta=node('div','proof-campaign-meta');
+  meta.append(node('span','',"BOTIA / "+piece),node('span','',info.originalLabel));
+  root.append(meta);
+  const message=node('div','proof-campaign-message');
+  message.append(node('strong','',info.copy[selected][0]),node('span','',info.copy[selected][1]));
+  if(info.copy[selected][2])message.append(node('small','',info.copy[selected][2]));
+  root.append(message);
+  const visuals=node('div','proof-campaign-images');
+  const addImg=(filename,kind,alt)=>{
+    const im=node('img','proof-campaign-image '+kind);
+    im.src='./marketing-assets/'+filename;im.alt=alt;im.loading='lazy';
+    im.decoding='async';visuals.append(im);return im;
   };
-  const copy=textByLanguage[window.portfolioLanguage]||textByLanguage.en;
-  const dims=['1080 × 1920','1080 × 1080','1024 × 500'];
-  const root=node('div','proof-mock-card');root.dataset.layout=['portrait','square','landscape'][selected];
-  const h=node('div','proof-mock-top');h.append(node('span','','BOTIA / 05'),node('span','',dims[selected]));
-  root.append(h,node('div','proof-mock-main',copy[0]),node('div','proof-mock-sub',copy[1]));
-  const illustration=node('div','proof-real-creative');
-  const image=node('img');image.src='https://www.botia-safefood.com/botia_jar_512.png';image.alt='BOTIA';image.loading='lazy';
-  image.addEventListener('error',()=>{image.hidden=true});
-  illustration.append(image,node('strong','','BOTIA'));root.append(illustration);
+  if(selected===0){
+    addImg('front.jpeg','product','Product front');
+    addImg('ingredients.jpeg','product','Ingredient label');
+    addImg('robot-magnifier.png','robot','Original BOTIA robot');
+  }else if(selected===1){
+    addImg('ingredients.jpeg','product','Ingredient label');
+    addImg('app-home-es.jpeg','screen','Original app screenshot (ES)');
+    addImg('robot-pointing.png','robot','Original BOTIA robot');
+  }else{
+    addImg('app-results-es.jpeg','screen','Original results screenshot (ES)');
+    addImg('robot-pointing.png','robot','Original BOTIA robot');
+  }
+  root.append(visuals);
+  if(selected!==0)root.append(node('div','proof-campaign-capture-note',info.imageLabel));
+  const legend=node('figcaption','proof-campaign-legend',info.sceneNote);
+  root.append(legend);
   return root;
- }
- function knowledge(data){
+ } function knowledge(data){
   const root=node('div','proof-doc-table');
   const isWatch=selected===3;
   root.append(node('div','proof-doc-head',isWatch?'EUR-LEX / WATCHLIST':'DOCUMENT / SOURCE GOVERNANCE'));
@@ -188,9 +197,9 @@
   $('lab-project-status').textContent=project.status;
   $('lab-project-title').textContent=project.title;
   $('lab-project-intro').textContent=project.intro;
-  titlebar.textContent=locale.preview;
+  titlebar.textContent=active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].preview:locale.preview;
   $('lab-preview-code').textContent=String(order.indexOf(active)+1).padStart(2,'0')+' / '+visualLocale().ids[order.indexOf(active)];
-  $('lab-caption').textContent=locale.caption;
+  $('lab-caption').textContent=active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].caption:locale.caption;
   $('lab-controls').setAttribute('aria-label',locale.stageAria);
   controls.replaceChildren(...project.steps.map(([name],i)=>{
    const b=node('button','',name);b.type='button';b.setAttribute('aria-pressed',String(i===selected));b.addEventListener('click',()=>{selected=i;display()});return b;
@@ -202,7 +211,7 @@
   else if(active==='knowledge')visual=knowledge(project);
   else if(active==='reintegration')visual=reintegration(project);
   else visual=pipeline(project);
-  preview.replaceChildren(visual);
+  preview.replaceChildren(visual);preview.classList.toggle('proof-campaign-preview',active==='creative');
   links.replaceChildren(...project.links.map(([name,url])=>{
    const a=node('a','',name+' ↗');a.href=url;a.target='_blank';a.rel='noopener noreferrer';return a;
   }));
@@ -211,7 +220,7 @@
     const a=node('a','',active==='creative'?({en:'Explore BOTIA campaign ↗',nl:'Bekijk de BOTIA-campagne ↗',es:'Explorar la campaña de BOTIA ↗'})[window.portfolioLanguage||'en']:label);a.href=active==='creative'?'./marketing-campaign.html?lang='+(window.portfolioLanguage||'en'):'./case-studies.html?project='+active+'&lang='+(window.portfolioLanguage||'en');
     links.prepend(a);
   }
-  const note=$('lab-private-note');note.hidden=!project.private;note.textContent=project.private?locale.privateNote:'';
+  const note=$('lab-private-note');note.hidden=!project.private;note.textContent=project.private?(active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].note:locale.privateNote):'';
   document.querySelectorAll('[data-open-lab]').forEach(a=>{
     a.textContent=({'en':'Interactive walkthrough ↗','nl':'Interactieve demonstratie ↗','es':'Demostración interactiva ↗'})[window.portfolioLanguage]||'Interactive walkthrough ↗';
   });
