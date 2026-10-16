@@ -26,7 +26,7 @@
       evidence:'PUBLIC EVIDENCE',facts:'What this demonstrates',source:'Configuration / logic',sourceStatus:'DOCUMENTED EXCERPT',
       footer:'The previews use documented configuration, public material or fictitious example records. Private repositories and personal data remain protected.',contact:'Contact ↗',
       creative:{
-        category:'CREATIVE AUTOMATION',title:'One campaign. Many controlled outputs.',
+        category:'CREATIVE MARKETING ENGINEERING',title:'A marketing campaign built as a production system.',
         lede:'BOTIA Creative Studio was developed as a configurable composition system: nine campaign pieces, fourteen languages, eight format presets and right-to-left support for Arabic. Here is a compact portfolio rendering of its actual campaign texts and selected dimensions.',
         caution:'The wording and format dimensions come from Creative Studio. This view is a separate HTML reconstruction, not a screenshot or live session of the private editor.',
         pieces:'Campaign piece',formats:'Display format',
@@ -35,7 +35,7 @@
         explanationTitle:'Composition driven by data',explanation:'The text belongs to a campaign piece; the dimensions and layout come from a separate format preset. The same campaign does not need to be recreated manually for each output.',
         brand:'FOOD LABEL INTELLIGENCE', preview:'CAMPAIGN / PREVIEW', facts:[['9 pieces','One campaign composition system'],['14 languages','Localized copy with Arabic RTL'],['8 presets','Dimensions and layout controlled through JSON']],
         sourceCaption:'Adapted, limited extract from Creative Studio configuration. The full editor and its asset collection remain private.',
-        links:[['Public BOTIA website','https://www.botia-safefood.com/'],['Android application','https://play.google.com/store/apps/details?id=com.botia.safefood']]
+        links:[['Explore the complete marketing campaign','./marketing-campaign.html?lang=en'],['Public BOTIA website','https://www.botia-safefood.com/'],['Android application','https://play.google.com/store/apps/details?id=com.botia.safefood']]
       },
       knowledge:{
         category:'REGULATORY INTELLIGENCE',title:'A regulatory watchlist you can inspect.',
@@ -73,7 +73,7 @@
       evidence:'OPENBAAR BEWIJSMATERIAAL',facts:'Wat dit aantoont',source:'Configuratie / logica',sourceStatus:'GEDOCUMENTEERD FRAGMENT',
       footer:'De previews gebruiken gedocumenteerde instellingen, openbaar materiaal of fictieve voorbeeldgegevens. Privérepositories en persoonsgegevens blijven beschermd.',contact:'Contact ↗',
       creative:{
-        category:'CREATIEVE AUTOMATISERING',title:'Eén campagne. Meerdere gecontroleerde versies.',
+        category:'TECHNOLOGIE VOOR MARKETING',title:'Een marketingcampagne als productiesysteem.',
         lede:'BOTIA Creative Studio is opgebouwd als een configureerbaar compositiesysteem: negen campagneonderdelen, veertien talen, acht formaatinstellingen en rechts-naar-links ondersteuning voor Arabisch. Deze portfolioweergave gebruikt echte campagneteksten en gedocumenteerde afmetingen.',
         caution:'De teksten en afmetingen komen uit Creative Studio. Deze afzonderlijke HTML-weergave is geen screenshot of live sessie van de privé-editor.',
         pieces:'Campagneonderdeel',formats:'Weergaveformaat',pieceNames:{'05':'05 · Camera','08':'08 · Bronnen'},
@@ -82,7 +82,7 @@
         brand:'VOEDSELETIKET-INTELLIGENTIE',preview:'CAMPAGNE / VOORBEELD',
         facts:[['9 onderdelen','Eén systeem voor campagnecompositie'],['14 talen','Gelokaliseerde teksten inclusief Arabisch RTL'],['8 formaten','Afmetingen en indeling uit JSON']],
         sourceCaption:'Beperkt, aangepast fragment uit de configuratie. De volledige editor en materialen zijn privé.',
-        links:[['Openbare BOTIA-website','https://www.botia-safefood.com/'],['Android-app','https://play.google.com/store/apps/details?id=com.botia.safefood']]
+        links:[['Bekijk de volledige marketingcampagne','./marketing-campaign.html?lang=nl'],['Openbare BOTIA-website','https://www.botia-safefood.com/'],['Android-app','https://play.google.com/store/apps/details?id=com.botia.safefood']]
       },
       knowledge:{
         category:'REGELGEVINGSINFORMATIE',title:'Een inzichtelijke lijst voor regelgeving.',
@@ -120,7 +120,7 @@
       evidence:'EVIDENCIA PÚBLICA',facts:'Qué demuestra',source:'Configuración / lógica',sourceStatus:'EXTRACTO DOCUMENTADO',
       footer:'Las vistas usan configuraciones documentadas, material público o registros ficticios. Los repositorios privados y los datos personales siguen protegidos.',contact:'Contacto ↗',
       creative:{
-        category:'AUTOMATIZACIÓN CREATIVA',title:'Una campaña. Múltiples formatos controlados.',
+        category:'INGENIERÍA APLICADA AL MARKETING',title:'Una campaña de marketing construida como sistema.',
         lede:'BOTIA Creative Studio es un sistema configurable de composición: nueve piezas de campaña, catorce idiomas, ocho formatos y soporte de escritura árabe de derecha a izquierda. Esta muestra utiliza los textos reales de dos piezas y dimensiones documentadas.',
         caution:'Los textos y las dimensiones proceden de Creative Studio. Esta composición HTML es una recreación para el portfolio, no una captura ni una sesión del editor privado.',
         pieces:'Pieza de campaña',formats:'Formato de salida',pieceNames:{'05':'05 · Cámara','08':'08 · Evidencia'},
@@ -129,7 +129,7 @@
         brand:'INTELIGENCIA DE ETIQUETAS ALIMENTARIAS',preview:'CAMPAÑA / MUESTRA',
         facts:[['9 piezas','Un solo sistema de composición'],['14 idiomas','Textos localizados, incluido árabe RTL'],['8 formatos','Dimensiones y disposición desde JSON']],
         sourceCaption:'Extracto reducido y adaptado de la configuración de Creative Studio. El editor y sus materiales completos son privados.',
-        links:[['Web pública de BOTIA','https://www.botia-safefood.com/'],['Aplicación Android','https://play.google.com/store/apps/details?id=com.botia.safefood']]
+        links:[['Explorar la campaña de marketing completa','./marketing-campaign.html?lang=es'],['Web pública de BOTIA','https://www.botia-safefood.com/'],['Aplicación Android','https://play.google.com/store/apps/details?id=com.botia.safefood']]
       },
       knowledge:{
         category:'INTELIGENCIA REGULATORIA',title:'Un seguimiento normativo que se puede examinar.',
