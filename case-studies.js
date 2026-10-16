@@ -14,7 +14,7 @@
   ];
   /* Selected, non-sensitive EUR-Lex identifiers and dates from the documented watchlist. */
   const regulations=[
-    {celex:'02008R1333',known:'2026-02-18',priority:'CRITICA',en:'Food additives',nl:'Voedingsadditieven',es:'Aditivos alimentarios'},
+    {celex:'02008R1333',known:'2026-08-18',priority:'CRITICA',en:'Food additives',nl:'Voedingsadditieven',es:'Aditivos alimentarios'},
     {celex:'02008R1334',known:'2026-02-16',priority:'CRITICA',en:'Flavourings',nl:'Aromastoffen',es:'Aromas'},
     {celex:'02011R1169',known:'2025-04-01',priority:'ALTA',en:'Food information',nl:'Voedselinformatie',es:'Información alimentaria'}
   ];
@@ -39,14 +39,14 @@
       },
       knowledge:{
         category:'REGULATORY INTELLIGENCE',title:'A regulatory watchlist you can inspect.',
-        lede:'The private knowledge base maintains provenance, document status, usage rights and SHA-256 checksums. A separate twelve-entry watchlist records EUR-Lex identifiers and known consolidated dates. This example exposes a small configuration extract and a clearly simulated date comparison.',
+        lede:'The private knowledge base maintains provenance, document status, usage rights and SHA-256 checksums. The working watcher now makes 231 active source checks, including 35 EU acts. This historical teaching example shows three selected CELEX records; the verified run history is available in the full technical case.',
         caution:'The identifiers and stored consolidation dates come from the documented configuration. The comparison below uses hypothetical observations: it does not call EUR-Lex or prove a live alert was sent.',
         select:'Watchlist entry', scenario:'Comparison scenario', scenarioNames:['Known version','Hypothetical newer version'],
         known:'KNOWN CONSOLIDATION',observed:'COMPARED VALUE',priority:'PRIORITY',stable:'No later date in this sample',changed:'Potential newer consolidation · simulated',
         explanationTitle:'Version-aware review',explanation:'A regulation is identified by CELEX. A monitoring process can compare its stored consolidation date to a newly observed version, then flag records that need a human review of the official source.',
-        facts:[['12 watchlist entries','CELEX identifiers, dates and priorities'],['Source separation','Official, scholarly and internal criteria'],['Traceable records','Licences, status, provenance and integrity']],
+        facts:[['231 active checks','Including 35 EU acts and cross-agency sources'],['Source separation','Official, scholarly and internal criteria'],['Traceable records','Licences, status, provenance and integrity']],
         sourceCaption:'Public teaching example derived from non-sensitive watchlist fields. Neither the private repository nor the live watcher executable is published here.',
-        links:[['Public BOTIA regulatory register','https://www.botia-safefood.com/regulatory/'],['Public regulatory page source','https://github.com/servicehubbotia-glitch/Botia-web/blob/main/regulatory/regulatory.js'],['Watchlist sample (JSON)','./examples/regulatory-watch.sample.json'],['Comparison logic (JS)','./examples/compare-consolidations.example.js']]
+        links:[['Verified watcher case','./knowledge-monitor.html?lang=en'],['Public BOTIA regulatory register','https://www.botia-safefood.com/regulatory/'],['Public regulatory page source','https://github.com/servicehubbotia-glitch/Botia-web/blob/main/regulatory/regulatory.js'],['Watchlist sample (JSON)','./examples/regulatory-watch.sample.json'],['Comparison logic (JS)','./examples/compare-consolidations.example.js']]
       },
       reintegration:{
         category:'PERSON-CENTRED SOFTWARE',title:'From an Excel log to a useful personal workflow.',
@@ -86,14 +86,14 @@
       },
       knowledge:{
         category:'REGELGEVINGSINFORMATIE',title:'Een inzichtelijke lijst voor regelgeving.',
-        lede:'De besloten kennisbank bewaart herkomst, documentstatus, gebruiksrechten en SHA-256-controlewaarden. Een aparte volglijst met twaalf items bewaart EUR-Lex-identificaties en bekende consolidatiedata. Hier tonen we enkele configuratievelden en een duidelijk gesimuleerde vergelijking.',
+        lede:'De besloten kennisbank bewaart herkomst, documentstatus, gebruiksrechten en SHA-256-controlewaarden. De werkende watcher controleert 231 bronnen, waaronder 35 EU-akten. Dit beperkte uitlegvoorbeeld toont drie CELEX-vermeldingen; de echte uitvoeringen staan in de volledige casestudy.',
         caution:'De identificaties en opgeslagen data komen uit de vastgelegde configuratie. De vergelijking gebruikt hypothetische waarden: er wordt geen live EUR-Lex-verzoek gedaan en geen verzonden melding aangetoond.',
         select:'Volglijstitem',scenario:'Vergelijkingsscenario',scenarioNames:['Bekende versie','Hypothetisch nieuwere versie'],
         known:'BEKENDE CONSOLIDATIE',observed:'VERGELEKEN WAARDE',priority:'PRIORITEIT',stable:'Geen latere datum in dit voorbeeld',changed:'Mogelijk nieuwere consolidatie · simulatie',
         explanationTitle:'Versiebeheer voor beoordeling',explanation:'Een verordening wordt aangeduid met CELEX. Een volgsysteem kan de opgeslagen consolidatiedatum vergelijken met een recent waargenomen versie en wijzigingen markeren voor menselijke controle bij de officiële bron.',
-        facts:[['12 volglijstitems','CELEX, consolidatiedata en prioriteiten'],['Scheiden van bronnen','Officieel, wetenschappelijk en eigen criteria'],['Traceerbare records','Licenties, status, herkomst en integriteit']],
+        facts:[['231 actieve controles','Waaronder 35 EU-akten en andere institutionele bronnen'],['Scheiden van bronnen','Officieel, wetenschappelijk en eigen criteria'],['Traceerbare records','Licenties, status, herkomst en integriteit']],
         sourceCaption:'Openbaar uitlegvoorbeeld op basis van niet-gevoelige velden. De privérepository en de uitvoerbare live watcher staan hier niet online.',
-        links:[['Openbaar BOTIA-register','https://www.botia-safefood.com/regulatory/'],['Openbare broncode regelgeving','https://github.com/servicehubbotia-glitch/Botia-web/blob/main/regulatory/regulatory.js'],['Voorbeeldvolglijst (JSON)','./examples/regulatory-watch.sample.json'],['Vergelijkingslogica (JS)','./examples/compare-consolidations.example.js']]
+        links:[['Gecontroleerde monitoringscasestudy','./knowledge-monitor.html?lang=nl'],['Openbaar BOTIA-register','https://www.botia-safefood.com/regulatory/'],['Openbare broncode regelgeving','https://github.com/servicehubbotia-glitch/Botia-web/blob/main/regulatory/regulatory.js'],['Voorbeeldvolglijst (JSON)','./examples/regulatory-watch.sample.json'],['Vergelijkingslogica (JS)','./examples/compare-consolidations.example.js']]
       },
       reintegration:{
         category:'SOFTWARE VOOR EEN PERSOON',title:'Van Excel-overzicht naar een bruikbare persoonlijke werkwijze.',
@@ -133,14 +133,14 @@
       },
       knowledge:{
         category:'INTELIGENCIA REGULATORIA',title:'Un seguimiento normativo que se puede examinar.',
-        lede:'La base privada conserva procedencia, estado documental, derechos de uso y huellas SHA-256. Una lista de doce normas registra identificadores EUR-Lex y fechas conocidas de consolidación. Aquí mostramos unos campos auténticos de configuración y una comparación de fechas claramente simulada.',
+        lede:'La base privada conserva procedencia, estado documental, derechos de uso y huellas SHA-256. El watcher operativo comprueba 231 fuentes, incluidos 35 actos europeos. Esta demostración didáctica muestra tres registros CELEX; las ejecuciones reales figuran en la ficha técnica completa.',
         caution:'Los identificadores y fechas guardadas provienen de la configuración documentada. La comparación utiliza fechas hipotéticas: no consulta EUR-Lex en directo ni acredita el envío de alertas.',
         select:'Norma vigilada',scenario:'Escenario de comparación',scenarioNames:['Versión conocida','Supuesto de nueva versión'],
         known:'CONSOLIDACIÓN CONOCIDA',observed:'FECHA COMPARADA',priority:'PRIORIDAD',stable:'Sin fecha posterior en este ejemplo',changed:'Posible nueva consolidación · simulación',
         explanationTitle:'Revisión consciente de versiones',explanation:'Cada norma se identifica mediante CELEX. Un monitor puede comparar la fecha de consolidación registrada con la de una versión observada y señalar qué documentos necesitan revisión humana de la fuente oficial.',
-        facts:[['12 normas vigiladas','CELEX, fechas y prioridades'],['Separación de fuentes','Oficiales, literatura y criterios propios'],['Registros trazables','Licencias, estado, origen e integridad']],
+        facts:[['231 comprobaciones activas','Incluye 35 normas UE y fuentes de distintos organismos'],['Separación de fuentes','Oficiales, literatura y criterios propios'],['Registros trazables','Licencias, estado, origen e integridad']],
         sourceCaption:'Ejemplo público a partir de campos documentados y no sensibles. Ni el repositorio privado ni el ejecutable del watcher se publican aquí.',
-        links:[['Registro Regulatory de BOTIA','https://www.botia-safefood.com/regulatory/'],['Código público de Regulatory','https://github.com/servicehubbotia-glitch/Botia-web/blob/main/regulatory/regulatory.js'],['Ejemplo de configuración (JSON)','./examples/regulatory-watch.sample.json'],['Ejemplo de comparación (JS)','./examples/compare-consolidations.example.js']]
+        links:[['Caso real de vigilancia documental','./knowledge-monitor.html?lang=es'],['Registro Regulatory de BOTIA','https://www.botia-safefood.com/regulatory/'],['Código público de Regulatory','https://github.com/servicehubbotia-glitch/Botia-web/blob/main/regulatory/regulatory.js'],['Ejemplo de configuración (JSON)','./examples/regulatory-watch.sample.json'],['Ejemplo de comparación (JS)','./examples/compare-consolidations.example.js']]
       },
       reintegration:{
         category:'SOFTWARE PARA UNA PERSONA',title:'De una hoja Excel a un proceso personal más útil.',
