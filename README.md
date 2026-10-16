@@ -56,3 +56,7 @@ The public page [BOTIA marketing campaign](https://servicehubbotia-glitch.github
 - Only selected original marketing photos and publicly displayable brand assets were copied. The full Studio repository remains private.
 
 The main portfolio card and short project overview link to this gallery. The portfolio's English, Dutch and Spanish interface is independent from the campaign's fourteen-language selector.
+
+## Knowledge Base monitoring case
+
+The public [Knowledge Base technical case study](https://servicehubbotia-glitch.github.io/technology-AIportfolio/knowledge-monitor.html?lang=en) presents a **dated, read-only extract** from the private BOTIA documentary watcher. It includes verified daily summaries from 14–16 October 2026, grouped institutional source coverage (231 active checks), 114 justified exclusions and 16 recorded editorial detections with public official-source links. The 16 October report is 230 unchanged, one newly observed source change and zero query failures. The page does not retrieve or publish private documents or present the extracted records as live data. It separates an official-source observation from human editorial incorporation and includes clear limitations. The underlying 452-record catalogue and private original watcher code remain unpublished. The portfolio’s other project case studies are unchanged.
