@@ -40,7 +40,7 @@ stateTitle:'Three different technical results',stateCaveat:'These interactive co
 transfer:['TECHNICAL SKILLS / BUSINESS APPLICATIONS','Systems designed for decisions.','The same traceability and version-monitoring methods could be applied in other document-intensive business domains.'],
 skills:[['Source provenance','Track whether a statement comes from an official publication, study or internal interpretation.'],['Scheduled monitoring','Compare selected sources repeatedly and keep a dated observation history, including failed access.'],['Protected editorial records','Prevent duplicate detections, retain evidence and keep approval separate from automatic discovery.']],
 privacy:'This is a dated public-safe portfolio extract. The complete repository, document files, full watcher configuration and original source code remain private. It is not a regulatory compliance certification.',
-links:['Public BOTIA Regulatory ↗','Illustrative comparison script ↗','Discuss a similar project ↗','Back to portfolio ↑']
+links:['Public BOTIA Regulatory ↗','Illustrative comparison script ↗','Email me ↗','Back to portfolio ↑']
 },
 nl:{
 brand:'TECHNISCHE CASESTUDIES',back:'Terug naar portfolio',skip:'Naar het systeem',
@@ -68,7 +68,7 @@ stateTitle:'Drie verschillende resultaten',stateCaveat:'Deze knoppen leggen de g
 transfer:['TECHNISCHE VAARDIGHEDEN / BEDRIJFSTOEPASSINGEN','Ontworpen voor beslissingen.','Dezelfde technieken zijn bruikbaar voor herkomst en versiebeheer in andere documentintensieve sectoren.'],
 skills:[['Herkomst van bronnen','Onderscheid officiële publicaties, onderzoeken en eigen interpretaties.'],['Geplande monitoring','Vergelijk geselecteerde bronnen herhaaldelijk en bewaar observaties en fouten.'],['Beschermd redactioneel register','Voorkom dubbele detecties en houd opname gescheiden van automatische vondsten.']],
 privacy:'Dit is een gedateerd openbaar fragment. De volledige privérepository, documenten, watcher-configuratie en originele broncode blijven privé. Er wordt geen wettelijke conformiteit gecertificeerd.',
-links:['Openbaar BOTIA Regulatory ↗','Illustratieve vergelijkingscode ↗','Bespreek een vergelijkbaar project ↗','Terug naar portfolio ↑']
+links:['Openbaar BOTIA Regulatory ↗','Illustratieve vergelijkingscode ↗','Stuur me een e-mail ↗','Terug naar portfolio ↑']
 },
 es:{
 brand:'CASOS TÉCNICOS',back:'Volver al portfolio',skip:'Ir al sistema',
@@ -97,7 +97,7 @@ stateTitle:'Tres resultados técnicos diferentes',stateCaveat:'Estos botones exp
 transfer:['COMPETENCIAS TÉCNICAS / APLICACIÓN EMPRESARIAL','Sistemas diseñados para tomar decisiones.','Estos mismos métodos pueden aplicarse a otros sectores que necesitan trazabilidad documental y vigilancia de versiones.'],
 skills:[['Procedencia documental','Distinguir fuentes oficiales, estudios y criterios propios y conservar el origen de cada afirmación.'],['Vigilancia programada','Consultar fuentes seleccionadas, conservar observaciones fechadas y registrar fallos.'],['Registro editorial protegido','Evitar detecciones duplicadas y separar incorporación de descubrimiento automático.']],
 privacy:'Esta presentación es un extracto público fechado. El repositorio privado, documentos, configuración completa y código original del watcher no se publican. No constituye una certificación de cumplimiento normativo.',
-links:['Explorador Regulatory público ↗','Script ilustrativo de comparación ↗','Hablar sobre un proyecto similar ↗','Volver al portfolio ↑']
+links:['Explorador Regulatory público ↗','Script ilustrativo de comparación ↗','Escríbeme por correo ↗','Volver al portfolio ↑']
 }
 };
 function el(tag,cls,value){const a=document.createElement(tag);if(cls)a.className=cls;if(value!==undefined)a.textContent=value;return a}
@@ -166,6 +166,7 @@ function translate(){
  for(let i=0;i<3;i++){set('transfer-h'+(i+1),t.skills[i][0]);set('transfer-p'+(i+1),t.skills[i][1]);}
  ['filter-all','filter-eu','filter-efsa','filter-ecfr'].forEach((x,i)=>set(x,t.filters[i]));
  ['footer-regulatory','footer-code','footer-contact','footer-return'].forEach((x,i)=>set(x,t.links[i]));
+ $('footer-contact').setAttribute('title','palomagarciamuley@gmail.com');
  $('back').href='./?lang='+lang+'#work';
  document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));
  if(snapshot){
