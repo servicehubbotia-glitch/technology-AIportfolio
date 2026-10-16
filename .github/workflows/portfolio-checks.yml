@@ -19,6 +19,7 @@ jobs:
           node --check portfolio-proof-lab.js
           node --check case-studies.js
           node --check marketing-campaign.js
+          node --check knowledge-monitor.js
           node --check examples/compare-consolidations.example.js
       - name: Check sample data and links
         run: |
@@ -34,3 +35,8 @@ jobs:
       - name: Verify Creative Studio campaign proof
         run: |
           node -e "const fs=require('fs');const x=fs.readFileSync('portfolio-proof-lab.js','utf8');for(const s of ['proof-campaign-card','./marketing-assets/','front.jpeg','ingredients.jpeg','app-results-es.jpeg','campaignSourceText'])if(!x.includes(s))throw Error('Missing '+s);for(const f of ['marketing-assets/front.jpeg','marketing-assets/ingredients.jpeg','marketing-assets/app-home-es.jpeg','marketing-assets/app-results-es.jpeg','marketing-assets/robot-pointing.png','marketing-assets/robot-magnifier.png'])if(!fs.existsSync(f))throw Error('Missing '+f);"
+
+      - name: Verify actual documentary monitoring case
+        run: |
+          node -e "const fs=require('fs');const d=JSON.parse(fs.readFileSync('knowledge-monitor-snapshot.json','utf8'));if(d.total_monitored!==231||d.daily_results.length!==3||d.events.length!==16||d.editorial_events!==16||d.exclusions!==114)throw Error('Unexpected monitored totals');if(d.active_coverage.reduce((n,x)=>n+x.count,0)!==231)throw Error('Coverage mismatch');if(d.daily_results.some(x=>x.unchanged+x.new+x.failed!==231))throw Error('Invalid run summary');"
+          node -e "const fs=require('fs');for(const f of ['knowledge-monitor.html','knowledge-monitor.css','knowledge-monitor.js','knowledge-monitor-snapshot.json'])if(!fs.existsSync(f))throw Error('Missing '+f);const s=fs.readFileSync('index.html','utf8');if(!s.includes('knowledge-monitor.html'))throw Error('Knowledge monitor not linked');"
