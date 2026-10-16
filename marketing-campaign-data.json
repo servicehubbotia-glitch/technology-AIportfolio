@@ -1,0 +1,1002 @@
+{
+  "version": "1.0",
+  "note": "Selected public-facing campaign texts and format settings from BOTIA Creative Studio; not its private source, the production app, a live ad account or a performance report.",
+  "campaign": {
+    "id": "magdalenas-2026",
+    "title": "La etiqueta, por dentro",
+    "pages": [
+      "00",
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08"
+    ],
+    "marketing_context": "Campaign assets intended for Google Play and cross-format marketing production; no claim of Google Ads campaign execution."
+  },
+  "formats": [
+    {
+      "id": "play",
+      "name": "Google Play",
+      "width": 1080,
+      "height": 1920,
+      "layout": "portrait",
+      "safe": {
+        "top": 0.055,
+        "bottom": 0.055,
+        "inline": 0.065
+      }
+    },
+    {
+      "id": "feature",
+      "name": "Play · Feature graphic",
+      "width": 1024,
+      "height": 500,
+      "layout": "landscape",
+      "safe": {
+        "top": 0.055,
+        "bottom": 0.055,
+        "inline": 0.065
+      }
+    },
+    {
+      "id": "appstore",
+      "name": "App Store · 6.9″",
+      "width": 1260,
+      "height": 2736,
+      "layout": "tall",
+      "safe": {
+        "top": 0.055,
+        "bottom": 0.055,
+        "inline": 0.065
+      }
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram · 1:1",
+      "width": 1080,
+      "height": 1080,
+      "layout": "square",
+      "safe": {
+        "top": 0.055,
+        "bottom": 0.055,
+        "inline": 0.065
+      }
+    },
+    {
+      "id": "post",
+      "name": "Publicación · 4:5",
+      "width": 1080,
+      "height": 1350,
+      "layout": "post",
+      "safe": {
+        "top": 0.055,
+        "bottom": 0.055,
+        "inline": 0.065
+      }
+    },
+    {
+      "id": "story",
+      "name": "Story / Reel · 9:16",
+      "width": 1080,
+      "height": 1920,
+      "layout": "portrait",
+      "safe": {
+        "top": 0.09,
+        "bottom": 0.11,
+        "inline": 0.065
+      }
+    },
+    {
+      "id": "banner",
+      "name": "Banner · 3:1",
+      "width": 1500,
+      "height": 500,
+      "layout": "banner",
+      "safe": {
+        "top": 0.055,
+        "bottom": 0.055,
+        "inline": 0.065
+      }
+    },
+    {
+      "id": "video",
+      "name": "Portada de vídeo · 16:9",
+      "width": 1920,
+      "height": 1080,
+      "layout": "landscape",
+      "safe": {
+        "top": 0.055,
+        "bottom": 0.055,
+        "inline": 0.065
+      }
+    }
+  ],
+  "languages": {
+    "ar": {
+      "dir": "rtl",
+      "brand": {
+        "name": "BOTIA",
+        "line": "ذكاء ملصقات الأغذية"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "ذكاء ملصقات الأغذية",
+          "medium": "ماذا في طعامك — ومَن يقول ذلك."
+        },
+        "01": {
+          "headline": "رأيت هذا الملصق مئة مرة.",
+          "short": "اليوم ستفهم ما يقوله.",
+          "medium": "رأيت هذا الملصق مئة مرة.\nاليوم ستفهم ما يقوله."
+        },
+        "02": {
+          "headline": "على واجهة العبوة يروون لك قصة.",
+          "short": "",
+          "medium": "على واجهة العبوة يروون لك قصة."
+        },
+        "03": {
+          "headline": "أما المكونات فعلى الظهر.",
+          "short": "حظًا موفقًا مع الخط الصغير.",
+          "medium": "أما المكونات فعلى الظهر.\nحظًا موفقًا مع الخط الصغير."
+        },
+        "04": {
+          "headline": "اختر الطبقات التي تهمك",
+          "short": "",
+          "medium": "اختر الطبقات التي تهمك"
+        },
+        "05": {
+          "headline": "التقط الصورة.",
+          "short": "واترك الباقي لـ BOTIA.",
+          "medium": "التقط الصورة.\nواترك الباقي لـ BOTIA."
+        },
+        "06": {
+          "headline": "صورة واحدة. كل هذه المعلومات.",
+          "short": "",
+          "medium": "صورة واحدة. كل هذه المعلومات."
+        },
+        "07": {
+          "headline": "لا نبحث جميعًا عن الشيء نفسه على الملصق.",
+          "short": "أنت تختار ما تريد معرفته.",
+          "medium": "لا نبحث جميعًا عن الشيء نفسه على الملصق.\nأنت تختار ما تريد معرفته."
+        },
+        "08": {
+          "headline": "ليس سحرًا. كل شيء موثّق.",
+          "short": "ويمكنك التحقق بنفسك.",
+          "medium": "ليس سحرًا. كل شيء موثّق.\nويمكنك التحقق بنفسك."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "على واجهة العبوة يروون لك قصة.",
+        "frontBackLine2": "أما المكونات فعلى الظهر.",
+        "frontCaption": "واجهة المنتج",
+        "backCaption": "الخلف: المكونات",
+        "helpLine": "صوّر الملصق وستساعدك BOTIA على قراءته.",
+        "footerLine1": "مبنيّ على معايير.",
+        "footerLine2": "مدعوم بالوثائق."
+      }
+    },
+    "de": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "LEBENSMITTELETIKETTEN-INTELLIGENZ"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "LEBENSMITTELETIKETTEN-INTELLIGENZ",
+          "medium": "Was in Ihrem Essen steckt — und wer das sagt."
+        },
+        "01": {
+          "headline": "Du hast es hundertmal angeschaut.",
+          "short": "Heute wirst du es verstehen.",
+          "medium": "Du hast es hundertmal angeschaut.\nHeute wirst du es verstehen."
+        },
+        "02": {
+          "headline": "Vorne wird dir eine Geschichte erzählt.",
+          "short": "",
+          "medium": "Vorne wird dir eine Geschichte erzählt."
+        },
+        "03": {
+          "headline": "Hinten stehen die Zutaten.",
+          "short": "Viel Glück mit dem Kleingedruckten.",
+          "medium": "Hinten stehen die Zutaten.\nViel Glück mit dem Kleingedruckten."
+        },
+        "04": {
+          "headline": "Wähle die Ebenen, die dir wichtig sind",
+          "short": "",
+          "medium": "Wähle die Ebenen, die dir wichtig sind"
+        },
+        "05": {
+          "headline": "Mach ein Foto.",
+          "short": "Den Rest übernimmt BOTIA.",
+          "medium": "Mach ein Foto.\nDen Rest übernimmt BOTIA."
+        },
+        "06": {
+          "headline": "Ein Foto. All das.",
+          "short": "",
+          "medium": "Ein Foto. All das."
+        },
+        "07": {
+          "headline": "Nicht alle suchen auf einem Etikett dasselbe.",
+          "short": "Du entscheidest, was du wissen willst.",
+          "medium": "Nicht alle suchen auf einem Etikett dasselbe.\nDu entscheidest, was du wissen willst."
+        },
+        "08": {
+          "headline": "Keine Magie. Alles dokumentiert.",
+          "short": "Und du kannst es selbst nachprüfen.",
+          "medium": "Keine Magie. Alles dokumentiert.\nUnd du kannst es selbst nachprüfen."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Vorne wird dir eine Geschichte erzählt.",
+        "frontBackLine2": "Hinten stehen die Zutaten.",
+        "frontCaption": "Produktvorderseite",
+        "backCaption": "Rückseite: Zutaten",
+        "helpLine": "Fotografiere das Etikett und BOTIA hilft dir, es zu lesen.",
+        "footerLine1": "Auf Kriterien gebaut.",
+        "footerLine2": "Durch Dokumentation belegt."
+      }
+    },
+    "en": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "FOOD LABEL INTELLIGENCE"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "FOOD LABEL INTELLIGENCE",
+          "medium": "What's in your food — and who says so."
+        },
+        "01": {
+          "headline": "You've looked at it a hundred times.",
+          "short": "Today, you'll understand it.",
+          "medium": "You've looked at it a hundred times.\nToday, you'll understand it."
+        },
+        "02": {
+          "headline": "The front tells you a story.",
+          "short": "",
+          "medium": "The front tells you a story."
+        },
+        "03": {
+          "headline": "The ingredients are on the back.",
+          "short": "Good luck with the small print.",
+          "medium": "The ingredients are on the back.\nGood luck with the small print."
+        },
+        "04": {
+          "headline": "Choose the layers that matter to you",
+          "short": "",
+          "medium": "Choose the layers that matter to you"
+        },
+        "05": {
+          "headline": "Take the photo.",
+          "short": "BOTIA takes it from there.",
+          "medium": "Take the photo.\nBOTIA takes it from there."
+        },
+        "06": {
+          "headline": "One photo. All this.",
+          "short": "",
+          "medium": "One photo. All this."
+        },
+        "07": {
+          "headline": "We don't all look for the same things on a label.",
+          "short": "You choose what you want to know.",
+          "medium": "We don't all look for the same things on a label.\nYou choose what you want to know."
+        },
+        "08": {
+          "headline": "It's not magic. It's documented.",
+          "short": "And you can check it yourself.",
+          "medium": "It's not magic. It's documented.\nAnd you can check it yourself."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "The front tells you a story.",
+        "frontBackLine2": "The ingredients are on the back.",
+        "frontCaption": "Front of the product",
+        "backCaption": "Back: the ingredients",
+        "helpLine": "Photograph the label and BOTIA helps you read it.",
+        "footerLine1": "Built on criteria.",
+        "footerLine2": "Backed by documentation."
+      }
+    },
+    "es": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "INTELIGENCIA DE ETIQUETAS ALIMENTARIAS"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "INTELIGENCIA DE ETIQUETAS ALIMENTARIAS",
+          "medium": "Qué hay en tu comida, y quién lo dice."
+        },
+        "01": {
+          "headline": "La has mirado cien veces.",
+          "short": "Hoy vas a entenderla.",
+          "medium": "La has mirado cien veces.\nHoy vas a entenderla."
+        },
+        "02": {
+          "headline": "Por delante te cuentan una historia.",
+          "short": "",
+          "medium": "Por delante te cuentan una historia."
+        },
+        "03": {
+          "headline": "Por detrás están los ingredientes.",
+          "short": "Suerte con la letra.",
+          "medium": "Por detrás están los ingredientes.\nSuerte con la letra."
+        },
+        "04": {
+          "headline": "Elige las capas que te importan",
+          "short": "",
+          "medium": "Elige las capas que te importan"
+        },
+        "05": {
+          "headline": "Haz la foto.",
+          "short": "Del resto se encarga BOTIA.",
+          "medium": "Haz la foto.\nDel resto se encarga BOTIA."
+        },
+        "06": {
+          "headline": "Una foto. Todo esto.",
+          "short": "",
+          "medium": "Una foto. Todo esto."
+        },
+        "07": {
+          "headline": "No todos miramos lo mismo en una etiqueta.",
+          "short": "Tú eliges qué quieres saber.",
+          "medium": "No todos miramos lo mismo en una etiqueta.\nTú eliges qué quieres saber."
+        },
+        "08": {
+          "headline": "No es magia. Está documentado.",
+          "short": "Y tú puedes comprobarlo.",
+          "medium": "No es magia. Está documentado.\nY tú puedes comprobarlo."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Por delante te cuentan una historia.",
+        "frontBackLine2": "Por detrás están los ingredientes.",
+        "frontCaption": "Frente del producto",
+        "backCaption": "Detrás: los ingredientes",
+        "helpLine": "Fotografía la etiqueta y BOTIA te ayuda a leerla.",
+        "footerLine1": "Construido con criterios.",
+        "footerLine2": "Defendido con documentación."
+      }
+    },
+    "fr": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "INTELLIGENCE DES ÉTIQUETTES ALIMENTAIRES"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "INTELLIGENCE DES ÉTIQUETTES ALIMENTAIRES",
+          "medium": "Ce qu'il y a dans votre alimentation, et qui le dit."
+        },
+        "01": {
+          "headline": "Vous l’avez regardée cent fois.",
+          "short": "Aujourd’hui, vous allez la comprendre.",
+          "medium": "Vous l’avez regardée cent fois.\nAujourd’hui, vous allez la comprendre."
+        },
+        "02": {
+          "headline": "Devant, on vous raconte une histoire.",
+          "short": "",
+          "medium": "Devant, on vous raconte une histoire."
+        },
+        "03": {
+          "headline": "Derrière, il y a les ingrédients.",
+          "short": "Bonne chance avec les petits caractères.",
+          "medium": "Derrière, il y a les ingrédients.\nBonne chance avec les petits caractères."
+        },
+        "04": {
+          "headline": "Choisis les couches qui comptent pour toi",
+          "short": "",
+          "medium": "Choisis les couches qui comptent pour toi"
+        },
+        "05": {
+          "headline": "Prenez la photo.",
+          "short": "BOTIA s’occupe du reste.",
+          "medium": "Prenez la photo.\nBOTIA s’occupe du reste."
+        },
+        "06": {
+          "headline": "Une photo. Tout ça.",
+          "short": "",
+          "medium": "Une photo. Tout ça."
+        },
+        "07": {
+          "headline": "On ne cherche pas tous la même chose sur une étiquette.",
+          "short": "À vous de choisir ce que vous voulez savoir.",
+          "medium": "On ne cherche pas tous la même chose sur une étiquette.\nÀ vous de choisir ce que vous voulez savoir."
+        },
+        "08": {
+          "headline": "Ce n’est pas de la magie. C’est documenté.",
+          "short": "Et vous pouvez le vérifier.",
+          "medium": "Ce n’est pas de la magie. C’est documenté.\nEt vous pouvez le vérifier."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Devant, on vous raconte une histoire.",
+        "frontBackLine2": "Derrière, il y a les ingrédients.",
+        "frontCaption": "Face avant du produit",
+        "backCaption": "Au dos : les ingrédients",
+        "helpLine": "Photographiez l’étiquette et BOTIA vous aide à la lire.",
+        "footerLine1": "Construit sur des critères.",
+        "footerLine2": "Appuyé par la documentation."
+      }
+    },
+    "id": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "KECERDASAN LABEL PANGAN"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "KECERDASAN LABEL PANGAN",
+          "medium": "Apa yang ada dalam makananmu — dan siapa yang mengatakannya."
+        },
+        "01": {
+          "headline": "Sudah seratus kali kamu melihat labelnya.",
+          "short": "Hari ini, kamu akan memahaminya.",
+          "medium": "Sudah seratus kali kamu melihat labelnya.\nHari ini, kamu akan memahaminya."
+        },
+        "02": {
+          "headline": "Bagian depan kemasan menceritakan sesuatu.",
+          "short": "",
+          "medium": "Bagian depan kemasan menceritakan sesuatu."
+        },
+        "03": {
+          "headline": "Daftar bahan ada di belakang.",
+          "short": "Selamat berjuang membaca huruf kecilnya.",
+          "medium": "Daftar bahan ada di belakang.\nSelamat berjuang membaca huruf kecilnya."
+        },
+        "04": {
+          "headline": "Pilih lapisan yang penting bagimu",
+          "short": "",
+          "medium": "Pilih lapisan yang penting bagimu"
+        },
+        "05": {
+          "headline": "Ambil fotonya.",
+          "short": "Selebihnya, serahkan pada BOTIA.",
+          "medium": "Ambil fotonya.\nSelebihnya, serahkan pada BOTIA."
+        },
+        "06": {
+          "headline": "Satu foto. Semua informasi ini.",
+          "short": "",
+          "medium": "Satu foto. Semua informasi ini."
+        },
+        "07": {
+          "headline": "Kita mencari hal yang berbeda pada label.",
+          "short": "Kamu pilih apa yang ingin kamu ketahui.",
+          "medium": "Kita mencari hal yang berbeda pada label.\nKamu pilih apa yang ingin kamu ketahui."
+        },
+        "08": {
+          "headline": "Bukan sulap. Ada dokumentasinya.",
+          "short": "Dan kamu bisa memeriksanya sendiri.",
+          "medium": "Bukan sulap. Ada dokumentasinya.\nDan kamu bisa memeriksanya sendiri."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Bagian depan kemasan menceritakan sesuatu.",
+        "frontBackLine2": "Daftar bahan ada di belakang.",
+        "frontCaption": "Bagian depan produk",
+        "backCaption": "Belakang: bahan-bahan",
+        "helpLine": "Foto labelnya dan BOTIA membantu membacanya.",
+        "footerLine1": "Dibangun di atas kriteria.",
+        "footerLine2": "Didukung oleh dokumentasi."
+      }
+    },
+    "it": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "INTELLIGENZA DELLE ETICHETTE ALIMENTARI"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "INTELLIGENZA DELLE ETICHETTE ALIMENTARI",
+          "medium": "Cosa c'è nel tuo cibo, e chi lo dice."
+        },
+        "01": {
+          "headline": "L’hai guardata cento volte.",
+          "short": "Oggi la capirai.",
+          "medium": "L’hai guardata cento volte.\nOggi la capirai."
+        },
+        "02": {
+          "headline": "Davanti ti raccontano una storia.",
+          "short": "",
+          "medium": "Davanti ti raccontano una storia."
+        },
+        "03": {
+          "headline": "Dietro ci sono gli ingredienti.",
+          "short": "Buona fortuna con i caratteri minuscoli.",
+          "medium": "Dietro ci sono gli ingredienti.\nBuona fortuna con i caratteri minuscoli."
+        },
+        "04": {
+          "headline": "Scegli i livelli che contano per te",
+          "short": "",
+          "medium": "Scegli i livelli che contano per te"
+        },
+        "05": {
+          "headline": "Scatta la foto.",
+          "short": "Al resto pensa BOTIA.",
+          "medium": "Scatta la foto.\nAl resto pensa BOTIA."
+        },
+        "06": {
+          "headline": "Una foto. Tutto questo.",
+          "short": "",
+          "medium": "Una foto. Tutto questo."
+        },
+        "07": {
+          "headline": "Non cerchiamo tutti le stesse cose su un’etichetta.",
+          "short": "Scegli tu cosa vuoi sapere.",
+          "medium": "Non cerchiamo tutti le stesse cose su un’etichetta.\nScegli tu cosa vuoi sapere."
+        },
+        "08": {
+          "headline": "Non è magia. È documentato.",
+          "short": "E puoi verificarlo.",
+          "medium": "Non è magia. È documentato.\nE puoi verificarlo."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Davanti ti raccontano una storia.",
+        "frontBackLine2": "Dietro ci sono gli ingredienti.",
+        "frontCaption": "Fronte del prodotto",
+        "backCaption": "Retro: gli ingredienti",
+        "helpLine": "Fotografa l’etichetta e BOTIA ti aiuta a leggerla.",
+        "footerLine1": "Costruito su criteri.",
+        "footerLine2": "Sostenuto da documentazione."
+      }
+    },
+    "nl": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "VOEDSELETIKET-INTELLIGENTIE"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "VOEDSELETIKET-INTELLIGENTIE",
+          "medium": "Wat er in je eten zit, en wie dat zegt."
+        },
+        "01": {
+          "headline": "Je hebt het honderd keer bekeken.",
+          "short": "Vandaag ga je het begrijpen.",
+          "medium": "Je hebt het honderd keer bekeken.\nVandaag ga je het begrijpen."
+        },
+        "02": {
+          "headline": "Op de voorkant vertellen ze een verhaal.",
+          "short": "",
+          "medium": "Op de voorkant vertellen ze een verhaal."
+        },
+        "03": {
+          "headline": "Op de achterkant staan de ingrediënten.",
+          "short": "Succes met de kleine lettertjes.",
+          "medium": "Op de achterkant staan de ingrediënten.\nSucces met de kleine lettertjes."
+        },
+        "04": {
+          "headline": "Kies de lagen die voor jou tellen",
+          "short": "",
+          "medium": "Kies de lagen die voor jou tellen"
+        },
+        "05": {
+          "headline": "Maak de foto.",
+          "short": "BOTIA doet de rest.",
+          "medium": "Maak de foto.\nBOTIA doet de rest."
+        },
+        "06": {
+          "headline": "Eén foto. Dit allemaal.",
+          "short": "",
+          "medium": "Eén foto. Dit allemaal."
+        },
+        "07": {
+          "headline": "We zoeken niet allemaal hetzelfde op een etiket.",
+          "short": "Jij kiest wat je wilt weten.",
+          "medium": "We zoeken niet allemaal hetzelfde op een etiket.\nJij kiest wat je wilt weten."
+        },
+        "08": {
+          "headline": "Geen magie. Wel documentatie.",
+          "short": "En die kun je zelf controleren.",
+          "medium": "Geen magie. Wel documentatie.\nEn die kun je zelf controleren."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Op de voorkant vertellen ze een verhaal.",
+        "frontBackLine2": "Op de achterkant staan de ingrediënten.",
+        "frontCaption": "Voorkant van het product",
+        "backCaption": "Achterkant: ingrediënten",
+        "helpLine": "Fotografeer het etiket en BOTIA helpt je het te lezen.",
+        "footerLine1": "Gebouwd op criteria.",
+        "footerLine2": "Onderbouwd met documentatie."
+      }
+    },
+    "pl": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "INTELIGENCJA ETYKIET ŻYWNOŚCI"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "INTELIGENCJA ETYKIET ŻYWNOŚCI",
+          "medium": "Co jest w twoim jedzeniu — i kto tak twierdzi."
+        },
+        "01": {
+          "headline": "Patrzysz na tę etykietę po raz setny.",
+          "short": "Dziś ją zrozumiesz.",
+          "medium": "Patrzysz na tę etykietę po raz setny.\nDziś ją zrozumiesz."
+        },
+        "02": {
+          "headline": "Z przodu opowiadają ci historię.",
+          "short": "",
+          "medium": "Z przodu opowiadają ci historię."
+        },
+        "03": {
+          "headline": "Z tyłu są składniki.",
+          "short": "Powodzenia z drobnym drukiem.",
+          "medium": "Z tyłu są składniki.\nPowodzenia z drobnym drukiem."
+        },
+        "04": {
+          "headline": "Wybierz warstwy, które są dla Ciebie ważne",
+          "short": "",
+          "medium": "Wybierz warstwy, które są dla Ciebie ważne"
+        },
+        "05": {
+          "headline": "Zrób zdjęcie.",
+          "short": "Resztą zajmie się BOTIA.",
+          "medium": "Zrób zdjęcie.\nResztą zajmie się BOTIA."
+        },
+        "06": {
+          "headline": "Jedno zdjęcie. Tyle informacji.",
+          "short": "",
+          "medium": "Jedno zdjęcie. Tyle informacji."
+        },
+        "07": {
+          "headline": "Nie wszyscy szukamy na etykiecie tego samego.",
+          "short": "Ty wybierasz, co chcesz wiedzieć.",
+          "medium": "Nie wszyscy szukamy na etykiecie tego samego.\nTy wybierasz, co chcesz wiedzieć."
+        },
+        "08": {
+          "headline": "To nie magia. To dokumentacja.",
+          "short": "Możesz sprawdzić ją samodzielnie.",
+          "medium": "To nie magia. To dokumentacja.\nMożesz sprawdzić ją samodzielnie."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Z przodu opowiadają ci historię.",
+        "frontBackLine2": "Z tyłu są składniki.",
+        "frontCaption": "Przód opakowania",
+        "backCaption": "Z tyłu: składniki",
+        "helpLine": "Zrób zdjęcie etykiety, a BOTIA pomoże ci ją przeczytać.",
+        "footerLine1": "Zbudowane na kryteriach.",
+        "footerLine2": "Poparte dokumentacją."
+      }
+    },
+    "pt": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "INTELIGÊNCIA DE RÓTULOS ALIMENTARES"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "INTELIGÊNCIA DE RÓTULOS ALIMENTARES",
+          "medium": "O que há na sua comida, e quem o diz."
+        },
+        "01": {
+          "headline": "Você já olhou esse rótulo cem vezes.",
+          "short": "Hoje vai entendê-lo.",
+          "medium": "Você já olhou esse rótulo cem vezes.\nHoje vai entendê-lo."
+        },
+        "02": {
+          "headline": "Na frente, contam uma história.",
+          "short": "",
+          "medium": "Na frente, contam uma história."
+        },
+        "03": {
+          "headline": "Atrás estão os ingredientes.",
+          "short": "Boa sorte com as letras miúdas.",
+          "medium": "Atrás estão os ingredientes.\nBoa sorte com as letras miúdas."
+        },
+        "04": {
+          "headline": "Escolhe as camadas que te importam",
+          "short": "",
+          "medium": "Escolhe as camadas que te importam"
+        },
+        "05": {
+          "headline": "Tire a foto.",
+          "short": "A BOTIA cuida do resto.",
+          "medium": "Tire a foto.\nA BOTIA cuida do resto."
+        },
+        "06": {
+          "headline": "Uma foto. Tudo isso.",
+          "short": "",
+          "medium": "Uma foto. Tudo isso."
+        },
+        "07": {
+          "headline": "Nem todo mundo procura a mesma coisa num rótulo.",
+          "short": "Você escolhe o que quer saber.",
+          "medium": "Nem todo mundo procura a mesma coisa num rótulo.\nVocê escolhe o que quer saber."
+        },
+        "08": {
+          "headline": "Não é mágica. Está documentado.",
+          "short": "E você pode conferir.",
+          "medium": "Não é mágica. Está documentado.\nE você pode conferir."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Na frente, contam uma história.",
+        "frontBackLine2": "Atrás estão os ingredientes.",
+        "frontCaption": "Frente do produto",
+        "backCaption": "Atrás: os ingredientes",
+        "helpLine": "Fotografe o rótulo e a BOTIA ajuda a lê-lo.",
+        "footerLine1": "Construído com critérios.",
+        "footerLine2": "Sustentado por documentação."
+      }
+    },
+    "ro": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "INTELIGENȚA ETICHETELOR ALIMENTARE"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "INTELIGENȚA ETICHETELOR ALIMENTARE",
+          "medium": "Ce e în mâncarea ta — și cine spune asta."
+        },
+        "01": {
+          "headline": "Ai privit-o de o sută de ori.",
+          "short": "Astăzi o vei înțelege.",
+          "medium": "Ai privit-o de o sută de ori.\nAstăzi o vei înțelege."
+        },
+        "02": {
+          "headline": "Pe față îți spun o poveste.",
+          "short": "",
+          "medium": "Pe față îți spun o poveste."
+        },
+        "03": {
+          "headline": "Pe spate sunt ingredientele.",
+          "short": "Mult noroc cu literele mici.",
+          "medium": "Pe spate sunt ingredientele.\nMult noroc cu literele mici."
+        },
+        "04": {
+          "headline": "Alege straturile care contează pentru tine",
+          "short": "",
+          "medium": "Alege straturile care contează pentru tine"
+        },
+        "05": {
+          "headline": "Fă fotografia.",
+          "short": "De restul se ocupă BOTIA.",
+          "medium": "Fă fotografia.\nDe restul se ocupă BOTIA."
+        },
+        "06": {
+          "headline": "O fotografie. Toate acestea.",
+          "short": "",
+          "medium": "O fotografie. Toate acestea."
+        },
+        "07": {
+          "headline": "Nu căutăm cu toții același lucru pe o etichetă.",
+          "short": "Tu alegi ce vrei să afli.",
+          "medium": "Nu căutăm cu toții același lucru pe o etichetă.\nTu alegi ce vrei să afli."
+        },
+        "08": {
+          "headline": "Nu e magie. Există documentație.",
+          "short": "Și o poți verifica.",
+          "medium": "Nu e magie. Există documentație.\nȘi o poți verifica."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Pe față îți spun o poveste.",
+        "frontBackLine2": "Pe spate sunt ingredientele.",
+        "frontCaption": "Fața produsului",
+        "backCaption": "Pe spate: ingredientele",
+        "helpLine": "Fotografiază eticheta, iar BOTIA te ajută să o citești.",
+        "footerLine1": "Construit pe criterii.",
+        "footerLine2": "Susținut de documentație."
+      }
+    },
+    "ru": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "ИНТЕЛЛЕКТ ПИЩЕВЫХ ЭТИКЕТОК"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "ИНТЕЛЛЕКТ ПИЩЕВЫХ ЭТИКЕТОК",
+          "medium": "Что в вашей еде — и кто это утверждает."
+        },
+        "01": {
+          "headline": "Вы смотрели на неё сотню раз.",
+          "short": "Сегодня вы её поймёте.",
+          "medium": "Вы смотрели на неё сотню раз.\nСегодня вы её поймёте."
+        },
+        "02": {
+          "headline": "На лицевой стороне вам рассказывают историю.",
+          "short": "",
+          "medium": "На лицевой стороне вам рассказывают историю."
+        },
+        "03": {
+          "headline": "На обороте — список ингредиентов.",
+          "short": "Удачи с мелким шрифтом.",
+          "medium": "На обороте — список ингредиентов.\nУдачи с мелким шрифтом."
+        },
+        "04": {
+          "headline": "Выбери слои, которые важны для тебя",
+          "short": "",
+          "medium": "Выбери слои, которые важны для тебя"
+        },
+        "05": {
+          "headline": "Сделайте фото.",
+          "short": "Остальное — за BOTIA.",
+          "medium": "Сделайте фото.\nОстальное — за BOTIA."
+        },
+        "06": {
+          "headline": "Одно фото. Столько информации.",
+          "short": "",
+          "medium": "Одно фото. Столько информации."
+        },
+        "07": {
+          "headline": "Мы ищем на этикетке разное.",
+          "short": "Вы выбираете, что хотите узнать.",
+          "medium": "Мы ищем на этикетке разное.\nВы выбираете, что хотите узнать."
+        },
+        "08": {
+          "headline": "Это не магия. Всё подтверждено источниками.",
+          "short": "И вы можете их проверить.",
+          "medium": "Это не магия. Всё подтверждено источниками.\nИ вы можете их проверить."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "На лицевой стороне вам рассказывают историю.",
+        "frontBackLine2": "На обороте — список ингредиентов.",
+        "frontCaption": "Лицевая сторона",
+        "backCaption": "Сзади: ингредиенты",
+        "helpLine": "Сфотографируйте этикетку, и BOTIA поможет её прочитать.",
+        "footerLine1": "Построено на критериях.",
+        "footerLine2": "Подкреплено документацией."
+      }
+    },
+    "tr": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "GIDA ETİKETİ ZEKÂSI"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "GIDA ETİKETİ ZEKÂSI",
+          "medium": "Yediğinizde ne var — ve bunu kim söylüyor."
+        },
+        "01": {
+          "headline": "Bu etikete yüz kez baktın.",
+          "short": "Bugün onu anlayacaksın.",
+          "medium": "Bu etikete yüz kez baktın.\nBugün onu anlayacaksın."
+        },
+        "02": {
+          "headline": "Ön yüzünde sana bir hikâye anlatırlar.",
+          "short": "",
+          "medium": "Ön yüzünde sana bir hikâye anlatırlar."
+        },
+        "03": {
+          "headline": "İçindekiler arka yüzünde.",
+          "short": "O küçücük yazılarla iyi şanslar.",
+          "medium": "İçindekiler arka yüzünde.\nO küçücük yazılarla iyi şanslar."
+        },
+        "04": {
+          "headline": "Senin için önemli katmanları seç",
+          "short": "",
+          "medium": "Senin için önemli katmanları seç"
+        },
+        "05": {
+          "headline": "Fotoğrafı çek.",
+          "short": "Gerisini BOTIA halleder.",
+          "medium": "Fotoğrafı çek.\nGerisini BOTIA halleder."
+        },
+        "06": {
+          "headline": "Tek fotoğraf. Bunca bilgi.",
+          "short": "",
+          "medium": "Tek fotoğraf. Bunca bilgi."
+        },
+        "07": {
+          "headline": "Etikette hepimiz aynı şeyi aramıyoruz.",
+          "short": "Neyi öğrenmek istediğine sen karar ver.",
+          "medium": "Etikette hepimiz aynı şeyi aramıyoruz.\nNeyi öğrenmek istediğine sen karar ver."
+        },
+        "08": {
+          "headline": "Sihir değil. Kaynakları var.",
+          "short": "Sen de kontrol edebilirsin.",
+          "medium": "Sihir değil. Kaynakları var.\nSen de kontrol edebilirsin."
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "Ön yüzünde sana bir hikâye anlatırlar.",
+        "frontBackLine2": "İçindekiler arka yüzünde.",
+        "frontCaption": "Ürünün ön yüzü",
+        "backCaption": "Arkada: içindekiler",
+        "helpLine": "Etiketin fotoğrafını çek; BOTIA onu okumana yardımcı olur.",
+        "footerLine1": "Kriterler üzerine kurulu.",
+        "footerLine2": "Belgelerle desteklenir."
+      }
+    },
+    "zh": {
+      "dir": "ltr",
+      "brand": {
+        "name": "BOTIA",
+        "line": "食品标签智能"
+      },
+      "pieces": {
+        "00": {
+          "headline": "BOTIA",
+          "short": "食品标签智能",
+          "medium": "你的食物里有什么——以及谁这么说。"
+        },
+        "01": {
+          "headline": "这张标签，你看过无数次。",
+          "short": "今天，你终于能看懂它。",
+          "medium": "这张标签，你看过无数次。\n今天，你终于能看懂它。"
+        },
+        "02": {
+          "headline": "包装正面，讲的是一个故事。",
+          "short": "",
+          "medium": "包装正面，讲的是一个故事。"
+        },
+        "03": {
+          "headline": "背面才是配料。",
+          "short": "小字可不好读。",
+          "medium": "背面才是配料。\n小字可不好读。"
+        },
+        "04": {
+          "headline": "选择你在意的信息层",
+          "short": "",
+          "medium": "选择你在意的信息层"
+        },
+        "05": {
+          "headline": "拍张照片。",
+          "short": "剩下的交给 BOTIA。",
+          "medium": "拍张照片。\n剩下的交给 BOTIA。"
+        },
+        "06": {
+          "headline": "一张照片，这么多信息。",
+          "short": "",
+          "medium": "一张照片，这么多信息。"
+        },
+        "07": {
+          "headline": "每个人关注的标签信息都不同。",
+          "short": "你来选择想了解什么。",
+          "medium": "每个人关注的标签信息都不同。\n你来选择想了解什么。"
+        },
+        "08": {
+          "headline": "不是魔法，有据可查。",
+          "short": "你也可以亲自核实。",
+          "medium": "不是魔法，有据可查。\n你也可以亲自核实。"
+        }
+      },
+      "feature00": {
+        "frontBackLine1": "包装正面，讲的是一个故事。",
+        "frontBackLine2": "背面才是配料。",
+        "frontCaption": "产品正面",
+        "backCaption": "背面：配料",
+        "helpLine": "拍摄食品标签，BOTIA 帮你读懂它。",
+        "footerLine1": "基于标准构建。",
+        "footerLine2": "以文献为依据。"
+      }
+    }
+  }
+}
