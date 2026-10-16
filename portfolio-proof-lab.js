@@ -200,9 +200,9 @@
   $('lab-project-status').textContent=project.status;
   $('lab-project-title').textContent=project.title;
   $('lab-project-intro').textContent=project.intro;
-  titlebar.textContent=active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].preview:locale.preview;
+  titlebar.textContent=active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].preview:active==='knowledge'?({en:'VERIFIED REPORT · 16 OCT 2026',nl:'GEVERIFIEERD RAPPORT · 16 OKT 2026',es:'INFORME VERIFICADO · 16 OCT 2026'})[window.portfolioLanguage||'en']:locale.preview;
   $('lab-preview-code').textContent=String(order.indexOf(active)+1).padStart(2,'0')+' / '+visualLocale().ids[order.indexOf(active)];
-  $('lab-caption').textContent=active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].caption:locale.caption;
+  $('lab-caption').textContent=active==='creative'?campaignSourceText[window.portfolioLanguage||'en'].caption:active==='knowledge'?({en:'Real monitoring counts from a dated report; the interface is a portfolio presentation, not a live feed.',nl:'Echte cijfers uit een gedateerd rapport; de portfolioweergave is geen live feed.',es:'Cifras reales de un informe fechado; esta presentación no consulta el watcher en directo.'})[window.portfolioLanguage||'en']:locale.caption;
   $('lab-controls').setAttribute('aria-label',locale.stageAria);
   controls.replaceChildren(...project.steps.map(([name],i)=>{
    const b=node('button','',name);b.type='button';b.setAttribute('aria-pressed',String(i===selected));b.addEventListener('click',()=>{selected=i;display()});return b;
