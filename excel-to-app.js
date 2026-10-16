@@ -254,7 +254,7 @@ function interactiveView(){
  filters.append(formLabel(u.search,search),formLabel(u.filterCat,c),formLabel(u.filterStatus,st));left.append(filters);
  const list=create('div','record-list');list.id='record-list';left.append(list);
  const tools=create('div','app-tools');tools.id='app-tools';const add=create('button','',u.add);add.type='button';
- add.addEventListener('click',()=>{editing=!editing;const old=$('new-record-panel');if(old)old.remove();if(editing){left.append(newEntryForm());const first=$('#sample-form input');if(first)first.focus()}});
+ add.addEventListener('click',()=>{editing=!editing;const old=$('new-record-panel');if(old)old.remove();if(editing){left.append(newEntryForm());const first=document.querySelector('#sample-form input');if(first)first.focus()}});
  const reset=create('button','secondary',u.reset);reset.type='button';reset.addEventListener('click',resetAll);
  tools.append(add,reset);left.append(tools);
  const detail=create('aside','record-detail');detail.id='record-detail';grid.append(left,detail);root.append(grid);
