@@ -63,7 +63,7 @@
         noData:'EXAMPLE DATA — NOT A REAL PERSON',
         facts:[['Individual need','Improve a real person’s recording process'],['Structured web form','More fields with consistent entries'],['Private data','Google OAuth, revision-aware edits and reports']],
         sourceCaption:'Simplified description of the public app’s data fields. No real entries, account identifiers or private sheet data are included.',
-        links:[['Public application code','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Web application (authorized access)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]
+        links:[['Interactive Excel-to-web example','./excel-to-app.html?lang=en'],['Public application code','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Web application (authorized access)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]
       }
     },
     nl:{
@@ -110,7 +110,7 @@
         noData:'FICTIEVE GEGEVENS — GEEN PERSOONLIJKE DATA',
         facts:[['Persoonlijke behoefte','Een bestaand registratieproces verbeteren'],['Webformulier','Meer velden en consistente invoer'],['Privégegevens','Google OAuth, revisiecontrole en rapporten']],
         sourceCaption:'Vereenvoudigde velden van de openbare app. Geen werkelijke invoer, accountgegevens of privé-spreadsheet.',
-        links:[['Openbare app-code','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Webapp (toegang vereist)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]
+        links:[['Interactief Excel-naar-webapp-voorbeeld','./excel-to-app.html?lang=nl'],['Openbare app-code','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Webapp (toegang vereist)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]
       }
     },
     es:{
@@ -157,7 +157,7 @@
         noData:'DATOS FICTICIOS — SIN REGISTROS PERSONALES',
         facts:[['Necesidad individual','Mejorar un proceso ya utilizado por una persona'],['Formulario web','Más campos y entradas consistentes'],['Datos privados','Google OAuth, control de revisiones e informes']],
         sourceCaption:'Descripción simplificada de los campos de la aplicación pública. No contiene registros reales, cuentas ni hojas privadas.',
-        links:[['Código público de la aplicación','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Aplicación web (acceso autorizado)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]
+        links:[['Ejemplo interactivo Excel a aplicación','./excel-to-app.html?lang=es'],['Código público de la aplicación','https://github.com/servicehubbotia-glitch/My-Reintegration'],['Aplicación web (acceso autorizado)','https://servicehubbotia-glitch.github.io/My-Reintegration/']]
       }
     }
   };
