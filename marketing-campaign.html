@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0D468C">
+  <meta name="description" content="BOTIA marketing campaign: nine creative scenes, fourteen languages and eight production formats. A technical portfolio case study by Paloma García Muley.">
+  <title>BOTIA Creative Studio — Marketing Campaign | Paloma García Muley</title>
+  <link rel="stylesheet" href="./marketing-campaign.css">
+  <script defer src="./marketing-campaign.js"></script>
+</head>
+<body>
+  <a href="#campaign" class="skip-link" id="skip-link">Skip to campaign</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="return-link" id="return-link" href="./?lang=en#work">← <span id="return-text">Back to portfolio</span></a>
+      <a class="brand" href="./"><span class="brand-mark">PG/</span><span>PALOMA GARCÍA MULEY <small id="brand-sub">SELECTED TECHNICAL WORK</small></span></a>
+      <div class="page-languages" role="group" aria-label="Website language" id="page-language-switch">
+        <button type="button" data-page-language="en" aria-pressed="true" lang="en">EN</button>
+        <button type="button" data-page-language="nl" aria-pressed="false" lang="nl">NL</button>
+        <button type="button" data-page-language="es" aria-pressed="false" lang="es">ES</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="wrap intro-grid">
+        <div>
+          <p class="kicker" id="intro-kicker">02 / MARKETING PRODUCTION CASE STUDY</p>
+          <h1 id="intro-heading">The campaign is the product of the Studio.</h1>
+          <p class="intro-lede" id="intro-description">Creative Studio brings together campaign messages, original photography, product screens and BOTIA's robot, then prepares consistent marketing materials for multiple languages and channels.</p>
+          <div class="stats" aria-label="Production facts">
+            <div><strong>09</strong><span id="stat-pieces">campaign scenes</span></div>
+            <div><strong>14</strong><span id="stat-languages">languages</span></div>
+            <div><strong>08</strong><span id="stat-formats">production formats</span></div>
+            <div><strong>25s</strong><span id="stat-sequence">video storyboard</span></div>
+          </div>
+        </div>
+        <div class="intro-side">
+          <div class="intro-side-top"><span>BOTIA</span><span id="campaign-id">CAMPAIGN / 2026</span></div>
+          <div class="intro-side-photos">
+            <img src="./marketing-assets/front.jpeg" alt="Original product-front photograph" loading="eager">
+            <img src="./marketing-assets/ingredients.jpeg" alt="Original photograph of food ingredients on package" loading="eager">
+          </div>
+          <div class="intro-side-bottom">
+            <img src="./marketing-assets/robot-magnifier.png" alt="Original BOTIA robot illustration">
+            <p id="intro-side-caption">Original campaign assets. Structured in a multilingual creative-production system.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section campaign-section" id="campaign" aria-labelledby="campaign-heading">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="kicker dark" id="explore-kicker">THE CAMPAIGN / THE STORY</p>
+          <h2 id="campaign-heading">Explore the nine scenes.</h2>
+          <p id="campaign-description">Choose a scene to see the marketing message and a composition assembled from original BOTIA assets. Then change language and format to see how Creative Studio organizes production.</p>
+        </div>
+        <div class="campaign-toolbar">
+          <label for="campaign-language"><span id="campaign-language-label">Campaign language</span>
+            <select id="campaign-language" aria-describedby="language-help"></select>
+          </label>
+          <label for="campaign-format"><span id="campaign-format-label">Production format</span>
+            <select id="campaign-format"></select>
+          </label>
+          <p class="toolbar-hint" id="language-help">All 14 original campaign translations are available. Some referenced app screenshots are original Spanish captures.</p>
+        </div>
+        <div class="gallery" id="campaign-gallery" role="group" aria-label="Campaign sequence"></div>
+
+        <div class="viewer">
+          <div class="viewer-stage">
+            <div class="stage-head"><span id="preview-label">CAMPAIGN COMPOSITION / SELECTED SCENE</span><span id="scene-counter">00 / 08</span></div>
+            <div class="stage-centre">
+              <div class="creative-art" id="creative-art" data-layout="landscape" data-scene="00" aria-label="Illustrative marketing scene, assembled from original assets"></div>
+            </div>
+            <div class="stage-foot">
+              <span id="preview-explanation">Reconstructed for this portfolio using original assets and translated campaign copy; not an export from the private editor.</span>
+              <span id="format-dimensions">1024 × 500</span>
+            </div>
+          </div>
+          <div class="viewer-details">
+            <p class="eyebrow" id="scene-role">CAMPAIGN / SCENE 00</p>
+            <h3 id="scene-title">Introduction</h3>
+            <blockquote id="scene-copy"></blockquote>
+            <p class="scene-description" id="scene-description"></p>
+            <div class="viewer-actions">
+              <button type="button" id="prev-scene" class="outlined"><span id="prev-label">← Previous</span></button>
+              <button type="button" id="next-scene" class="outlined"><span id="next-label">Next →</span></button>
+            </div>
+            <div class="sequence-controls">
+              <div>
+                <strong id="sequence-heading">The 25-second narrative</strong>
+                <p id="sequence-description">Seven timed scenes: label, camera, analysis, results, layers and evidence. This simplified player uses the recorded scene order, not a finished MP4.</p>
+              </div>
+              <div class="sequence-buttons">
+                <button type="button" id="play-sequence"><span id="play-label">▶ Play sequence</span></button>
+                <button type="button" id="stop-sequence" class="outlined"><span id="stop-label">■ Stop</span></button>
+              </div>
+              <div class="progress-track"><div id="sequence-progress" class="progress"></div></div>
+              <div class="sequence-time"><output id="sequence-time">00:00 / 00:25</output><span id="sequence-state" aria-live="polite"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section evidence-section" aria-labelledby="evidence-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="kicker dark" id="evidence-kicker">BEHIND THE CREATIVE</p>
+          <h2 id="evidence-title">Original material, reproducible production.</h2>
+          <p id="evidence-description">The marketing story is assembled from original product photography, real application captures, the BOTIA character, and documented copy and format configurations.</p>
+        </div>
+        <div class="material-grid">
+          <figure><div><img loading="lazy" src="./marketing-assets/front.jpeg" alt="Original product front"></div><figcaption id="material-front">Real product photography</figcaption></figure>
+          <figure><div><img loading="lazy" src="./marketing-assets/ingredients.jpeg" alt="Original product ingredients"></div><figcaption id="material-label">The actual ingredient label</figcaption></figure>
+          <figure><div><img loading="lazy" src="./marketing-assets/app-home-es.jpeg" alt="Original Spanish application capture"></div><figcaption id="material-app">Original app capture (ES)</figcaption></figure>
+          <figure><div><img loading="lazy" src="./marketing-assets/app-results-es.jpeg" alt="Original Spanish results screen"></div><figcaption id="material-result">Original result capture (ES)</figcaption></figure>
+          <figure><div><img loading="lazy" src="./marketing-assets/robot-pointing.png" alt="Original BOTIA robot, pointing"></div><figcaption id="material-robot">Original BOTIA visual asset</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section architecture-section" aria-labelledby="architecture-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="kicker dark" id="architecture-kicker">THE TECHNOLOGY BEHIND MARKETING</p>
+          <h2 id="architecture-title">A campaign, not nine disconnected pictures.</h2>
+          <p id="architecture-description">Creative Studio uses reusable HTML components, localized JSON copy, format presets and validation to turn an approved campaign narrative into a collection of consistent marketing outputs.</p>
+        </div>
+        <div class="architecture-grid">
+          <article><span>01</span><h3 id="architecture-head-1">Narrative & positioning</h3><p id="architecture-body-1">The campaign has nine ordered scenes. The images and copy follow an established communication strategy.</p></article>
+          <article><span>02</span><h3 id="architecture-head-2">Shared assets & source data</h3><p id="architecture-body-2">The original photos, app references, mascot and factual texts stay linked to their sources.</p></article>
+          <article><span>03</span><h3 id="architecture-head-3">Localization & composition</h3><p id="architecture-body-3">One system handles fourteen languages, Arabic RTL and eight defined format presets.</p></article>
+          <article><span>04</span><h3 id="architecture-head-4">Review & output</h3><p id="architecture-body-4">The Studio supports static/animated previews, campaign navigation, an internal video sequence and optional PNG batch export.</p></article>
+        </div>
+        <div class="evidence-meta">
+          <p id="validation-note">Studio validation documented 1,008 combinations (9 scenes × 14 languages × 8 formats). This demonstrates test coverage, not that every possible ad was published.</p>
+          <div class="source-links">
+            <a id="visit-botia" href="https://www.botia-safefood.com/" target="_blank" rel="noopener noreferrer">Visit BOTIA ↗</a>
+            <a id="play-botia" href="https://play.google.com/store/apps/details?id=com.botia.safefood" target="_blank" rel="noopener noreferrer">Android on Google Play ↗</a>
+            <a id="other-cases" href="./case-studies.html?project=creative&lang=en">Technical case overview ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-content"><span>PALOMA GARCÍA MULEY / TECHNOLOGY & MARKETING ENGINEERING</span><a href="mailto:palomagarciamuley@gmail.com?subject=Technical%20project%20enquiry" id="contact-link">Discuss a project ↗</a></div>
+  </footer>
+</body>
+</html>
