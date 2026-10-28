@@ -13,7 +13,7 @@ Keep the repository name, public domain and `/card/` route unchanged. A later mo
 
 ## Assets
 
-- `assets/paloma-garcia-muley-cv.pdf`: public copy of the existing **Paloma García Muley - Resume.pdf** uploaded on October 26, 2026. The personal contact line, current town, mail/phone links, annotations, embedded files and original metadata were removed. The source CV remains unchanged. No professional claims were added.
+- `assets/paloma-garcia-muley-cv.pdf`: public copy of the existing **Paloma García Muley - Resume.pdf** uploaded on October 26, 2026. The personal contact line, current town, mail/phone links, annotations, embedded files and original metadata were removed. The mislabeled GitHub link was corrected to the real public profile already linked by the portfolio. The source CV remains unchanged. No professional claims were added.
 - `assets/paloma-garcia-muley-qr.png`: 980 × 980 px, navy on white, four-module quiet zone, QR error correction Q. Encodes only the permanent public card URL. Generated locally with the open-source `qrcode` Python package; independently decoded with `zxing-cpp`, including at 180, 240 and 360 px.
 - `assets/monogram.svg`: local text-based PG favicon.
 
