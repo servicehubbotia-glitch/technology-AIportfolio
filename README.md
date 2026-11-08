@@ -44,6 +44,12 @@ The public BOTIA website, Google Play listing and web source repository provide 
 Three multilingual examples are available at `case-studies.html`: Creative Studio shows real campaign text with documented dimensions; Knowledge Base displays a limited regulatory watchlist excerpt and an illustrative (not live) comparison script; MyReintegration describes an anonymised person's Excel-to-web workflow with fictitious records. Original private repositories and personal records remain private.
 
 
+## Public professional links (November 2026)
+
+- [BOTIA Regulatory Intelligence — public reproducible demo](https://github.com/servicehubbotia-glitch/BOTIA-Regulatory-Intelligence): standalone synthetic fixture-based demonstration; the full BOTIA Knowledge Base and operational watcher remain private.
+- [The Church of Saint GitHub](https://github.com/servicehubbotia-glitch/SaintGitHub): independent HTML/CSS/JavaScript creative web project, separate from BOTIA.
+- The portfolio describes availability for paid technical workshops and speaking engagements. These are offers of future services, not claims of completed engagements.
+
 ## BOTIA marketing campaign showcase
 
 The public page [BOTIA marketing campaign](https://servicehubbotia-glitch.github.io/technology-AIportfolio/marketing-campaign.html?lang=en) now presents **Creative Studio as a marketing-production system**, rather than only a format-resizing exercise.
