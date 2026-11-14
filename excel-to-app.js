@@ -329,6 +329,7 @@ function translate(){
  $('back-link').href='./?lang='+lang+'#work';$('footer-back').href='./?lang='+lang+'#work';
  $('lang-switch').setAttribute('aria-label',lang==='es'?'Idioma':lang==='nl'?'Taal':'Language');
  $('demo-tabs').setAttribute('aria-label',lang==='es'?'Seleccionar vista':lang==='nl'?'Weergave kiezen':'Choose view');
+ document.querySelector('.facts').setAttribute('aria-label',({en:'Key characteristics',nl:'Belangrijkste kenmerken',es:'Características principales'})[lang]);
  document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));
  renderView();
 }
@@ -349,3 +350,4 @@ tabs.forEach((b,i)=>{
 });
 translate();
 })();
+
