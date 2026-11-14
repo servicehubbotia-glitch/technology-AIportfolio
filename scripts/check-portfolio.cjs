@@ -11,6 +11,11 @@ for (const entry of entries) {
   for (const lang of ['en', 'nl', 'es']) assert.ok(typeof entry[lang] === 'string' && entry[lang].trim(), `${entry.selector}: missing ${lang}`);
 }
 for (const lang of ['nl', 'es']) assert.deepEqual(Object.keys(cases[lang]).sort(), ['botia','creative','dutch','knowledge','marginalia','reintegration']);
+for (const lang of ['nl', 'es']) {
+  for (const [id, item] of Object.entries(cases[lang])) {
+    for (const key of ['title', 'index', 'intro', 'problem', 'proof']) assert.ok(typeof item[key] === 'string' && item[key].trim(), `${lang}/${id}: missing ${key}`);
+  }
+}
 const publicPages = ['index.html','case-studies.html','knowledge-monitor.html','marketing-campaign.html','excel-to-app.html','cv.html','card/index.html','tests/responsive.html'];
 let checkedLinks = 0;
 for (const page of publicPages) {
