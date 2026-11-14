@@ -8,13 +8,22 @@ html{scroll-padding-top:24px}
 .site-header .lang-switch{flex-shrink:0}
 .menu-toggle{display:none}
 .hero-content{grid-template-columns:1.12fr .88fr;gap:48px;padding-bottom:82px}
-.hero-perspective{background:rgba(8,37,82,.65);border:1px solid rgba(185,219,255,.45);border-radius:16px;padding:34px;color:#e4f0ff}
-.hero-perspective .eyebrow{font-size:10px;letter-spacing:.1em;line-height:1.6}
-.hero-perspective h2{font-size:clamp(25px,2.5vw,34px);line-height:1.2;letter-spacing:-.035em;color:#fff;margin:24px 0 20px}
-.hero-perspective>p:not(.eyebrow){font-size:15px;line-height:1.75;color:#d0e4fc}
-.perspective-outcomes{display:grid;gap:0;border-top:1px solid #476992;margin-top:27px}
-.perspective-outcomes span{padding:12px 0;border-bottom:1px solid #476992;font-size:13px;line-height:1.5}
 .hero-subline{line-height:1.7}
+.hero-portrait{width:100%;max-width:440px;margin:0;justify-self:end}
+.hero-portrait img{display:block;width:100%;height:auto;aspect-ratio:1;border-radius:16px;border:1px solid #bdd7ed;box-shadow:0 20px 55px #082e6e55}
+.hero-portrait figcaption{display:flex;flex-direction:column;gap:4px;padding:17px 3px 0;color:#fff;font-size:16px;line-height:1.4}
+.hero-portrait figcaption span{color:#d4e6fa;font-size:13px}
+.about-section{background:#fff;border-bottom:1px solid #d1e1f1}
+.about-heading{margin-bottom:36px}
+.about-heading .eyebrow{font-size:11px;color:#295991;margin-bottom:19px}
+.about-heading h2{font-size:clamp(30px,3.5vw,46px);line-height:1.15;letter-spacing:-.04em;margin:0}
+.bio-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:58px}
+.bio-column p{font-size:16px;line-height:1.85;color:#344f70;margin:0 0 22px}
+.bio-column p:last-child{margin-bottom:0}
+.bio-column .bio-personal-note{font-size:23px;font-weight:650;line-height:1.45;letter-spacing:-.02em;color:#124b89;border-left:3px solid #739dca;padding:4px 0 4px 20px;margin:28px 0}
+@media(max-width:1020px){.hero-portrait{max-width:420px;justify-self:center}.bio-grid{gap:32px}}
+@media(max-width:760px){.bio-grid{grid-template-columns:minmax(0,1fr);gap:22px}.about-heading{margin-bottom:28px}}
+@media(max-width:640px){.hero-portrait{max-width:360px}.hero-portrait figcaption{padding-top:13px}.bio-column p{font-size:16px;line-height:1.8}.bio-column .bio-personal-note{font-size:22px}}
 .capability-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
 .capability-link{display:flex;flex-direction:column;align-items:start;text-decoration:none;background:#fff;border:1px solid #cbdced;border-radius:10px;padding:25px 22px;transition:border-color .15s}
 .capability-link:hover{border-color:#1260b7}
@@ -72,13 +81,13 @@ summary:focus-visible{outline:3px solid #176abe;outline-offset:-5px}
  .site-header .menu-toggle{display:block;order:4;background:transparent;border:1px solid #afcbe9;color:#fff;border-radius:6px;padding:9px 11px;font-size:12px;min-height:40px}
  .site-header .lang-switch{order:3}.site-header .nav{display:none;position:absolute;top:calc(100% + 8px);left:0;right:0;z-index:20;flex-direction:column;align-items:stretch;padding:12px;background:#103c79;border:1px solid #8cafd6;border-radius:10px;box-shadow:0 14px 30px #09265355;gap:3px}
  .site-header .nav[data-open="true"]{display:flex}.site-header .nav>a{display:block!important;padding:12px 14px!important;font-size:14px!important}
- .hero-content{grid-template-columns:1fr;gap:30px;padding-top:140px}.hero-perspective{max-width:760px}
+ .hero-content{grid-template-columns:1fr;gap:30px;padding-top:140px}
  .personalised-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.personalised-grid #marginalia{grid-column:1/-1}
 }
 @media(max-width:760px){.product-evidence-grid #knowledge-base{grid-template-columns:minmax(0,1fr)}.product-evidence-grid .art{min-height:200px}.approach-layout,.product-evidence-grid,.literacy-grid,.creative-grid{grid-template-columns:1fr;gap:25px}.format-grid{gap:16px}.capability-section .section-head{display:block}.capability-section .section-note{max-width:100%}}
 @media(max-width:640px){
  .site-header .topbar{gap:8px}.site-header .brand-label small{font-size:7px;letter-spacing:.02em}.site-header .brand-label{font-size:11px}.site-header .brand-symbol{height:32px;width:32px}.site-header .wordmark{gap:7px;flex-shrink:1}.site-header .menu-toggle{padding:8px;font-size:11px}.site-header .lang-switch button{min-width:28px;min-height:36px}
- .hero-content{padding-top:120px;padding-bottom:48px}.hero h1{font-size:clamp(37px,10vw,52px);line-height:1.06}.hero-perspective{padding:24px}.hero-perspective h2{font-size:27px}.hero-lede{font-size:16px;line-height:1.75}.hero-subline{font-size:11px}
+ .hero-content{padding-top:120px;padding-bottom:48px}.hero h1{font-size:clamp(37px,10vw,52px);line-height:1.06}.hero-lede{font-size:16px;line-height:1.75}.hero-subline{font-size:11px}
  .capability-grid{gap:12px}.capability-link{padding:19px 16px}.capability-link h3{font-size:18px}.capability-link p{font-size:13px}.capability-link .num{margin-bottom:17px}
  .personalised-grid,.format-grid{grid-template-columns:1fr}.personalised-grid #marginalia{grid-column:auto}.literacy-course{padding:24px}.format-grid article{padding:22px}.section-head h2{overflow-wrap:anywhere}
  .footer-small .wrap{gap:12px;flex-wrap:wrap}.footer-cta h2{font-size:32px}.architecture-detail .schematic{width:100%;padding:17px}
