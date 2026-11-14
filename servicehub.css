@@ -33,11 +33,14 @@ html{scroll-padding-top:24px}
 .capability-section .section-note{max-width:490px}
 .project-status{display:block!important;width:fit-content;max-width:100%;font-size:11px!important;font-weight:650;line-height:1.65!important;letter-spacing:.015em;color:#204c7b!important;background:#edf4fc;border:1px solid #c3d8ee;border-radius:5px;padding:6px 9px;margin:0 0 17px!important}
 .feature .project-status{background:#e7f2ff;color:#153e6e!important}
-.product-evidence-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:26px;align-items:start}
+.product-evidence-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:26px;margin-top:26px}
+.product-evidence-grid #knowledge-base{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr)}
+.product-evidence-grid .art{height:auto;min-height:260px}
+.project-card .proof-link-inline,#kb-public-demo-link{display:block;width:fit-content;margin:12px 0 0}
 .product-evidence-grid .project-card{min-height:0}
 .architecture-detail{border:1px solid #c3d8ee;border-radius:12px;background:#fff;overflow:hidden}
 .architecture-detail summary{padding:22px;font-size:15px;font-weight:650;color:#184c8b;cursor:pointer;line-height:1.6}
-.architecture-detail .schematic{border-radius:0;min-height:0;padding:25px;background:#0c3168;color:#e4f0ff}
+.architecture-detail .schematic{max-width:none;border-radius:0;min-height:0;padding:25px;background:#0c3168;color:#e4f0ff}
 .architecture-detail .schema-label{margin-top:24px}
 .personalised-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 .personalised-grid .card-copy{padding:25px}
@@ -72,7 +75,7 @@ summary:focus-visible{outline:3px solid #176abe;outline-offset:-5px}
  .hero-content{grid-template-columns:1fr;gap:30px;padding-top:140px}.hero-perspective{max-width:760px}
  .personalised-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.personalised-grid #marginalia{grid-column:1/-1}
 }
-@media(max-width:760px){.approach-layout,.product-evidence-grid,.literacy-grid,.creative-grid{grid-template-columns:1fr;gap:25px}.format-grid{gap:16px}.capability-section .section-head{display:block}.capability-section .section-note{max-width:100%}}
+@media(max-width:760px){.product-evidence-grid #knowledge-base{grid-template-columns:minmax(0,1fr)}.product-evidence-grid .art{min-height:200px}.approach-layout,.product-evidence-grid,.literacy-grid,.creative-grid{grid-template-columns:1fr;gap:25px}.format-grid{gap:16px}.capability-section .section-head{display:block}.capability-section .section-note{max-width:100%}}
 @media(max-width:640px){
  .site-header .topbar{gap:8px}.site-header .brand-label small{font-size:7px;letter-spacing:.02em}.site-header .brand-label{font-size:11px}.site-header .brand-symbol{height:32px;width:32px}.site-header .wordmark{gap:7px;flex-shrink:1}.site-header .menu-toggle{padding:8px;font-size:11px}.site-header .lang-switch button{min-width:28px;min-height:36px}
  .hero-content{padding-top:120px;padding-bottom:48px}.hero h1{font-size:clamp(37px,10vw,52px);line-height:1.06}.hero-perspective{padding:24px}.hero-perspective h2{font-size:27px}.hero-lede{font-size:16px;line-height:1.75}.hero-subline{font-size:11px}
