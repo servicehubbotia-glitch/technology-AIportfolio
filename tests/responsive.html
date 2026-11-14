@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>ServiceHub — responsive review</title>
+  <style>body{margin:0;background:#e5e7eb;font:14px Arial,sans-serif;color:#17365b}header{padding:12px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}label{display:flex;gap:6px;align-items:center}select,a{padding:6px}iframe{display:block;border:1px solid #9baec3;height:900px;max-width:none;background:#fff}p{padding:0 12px}</style>
+</head>
+<body>
+  <header><strong>Responsive review</strong><label>Width <select id="width"><option>360</option><option selected>390</option><option>768</option><option>1024</option><option>1440</option></select></label><label>Language <select id="language"><option value="en">English</option><option value="nl">Nederlands</option><option value="es">Español</option></select></label><a href="../">Portfolio</a></header>
+  <p>This maintenance page displays the unchanged portfolio in a frame at the selected width. It does not access private applications.</p>
+  <iframe title="Portfolio at selected width" width="390" src="../index.html?lang=en"></iframe>
+  <script>
+    const frame=document.querySelector('iframe'), width=document.getElementById('width'), language=document.getElementById('language');
+    function update(){frame.width=width.value;frame.src='../index.html?lang='+language.value;}
+    width.addEventListener('change',update);language.addEventListener('change',update);
+  </script>
+</body>
+</html>

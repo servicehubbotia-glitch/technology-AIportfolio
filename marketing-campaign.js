@@ -179,9 +179,13 @@
   q.searchParams.set('piece',piece);q.searchParams.set('format',format);
   history.replaceState(null,'',q.href);
  }
+ function imageAlternative(src,fallback){
+  const names={en:{'front.jpeg':'Original product-front photograph','ingredients.jpeg':'Original ingredient-label photograph','nutrition.jpeg':'Original nutrition-label photograph','app-home-es.jpeg':'Original Spanish application capture','app-results-es.jpeg':'Original Spanish results screen'},nl:{'front.jpeg':'Originele foto van de voorkant van het product','ingredients.jpeg':'Originele foto van de ingrediëntenlijst','nutrition.jpeg':'Originele foto van de voedingswaardetabel','app-home-es.jpeg':'Originele Spaanse schermafbeelding van de app','app-results-es.jpeg':'Origineel Spaans resultatenscherm'},es:{'front.jpeg':'Fotografía original del frontal del producto','ingredients.jpeg':'Fotografía original de la lista de ingredientes','nutrition.jpeg':'Fotografía original de la tabla nutricional','app-home-es.jpeg':'Captura original de la aplicación en español','app-results-es.jpeg':'Captura original de resultados en español'}};
+  return names[uiLanguage][src]||(src.startsWith('robot-')?({en:'Original BOTIA robot illustration',nl:'Originele BOTIA-robotillustratie',es:'Ilustración original del robot de BOTIA'})[uiLanguage]:fallback);
+ }
  function image(src,cssClass,alt){
   const img=document.createElement('img');img.src='./marketing-assets/'+src;
-  img.alt=alt;img.className=cssClass||'';img.loading='lazy';return img;
+  img.alt=imageAlternative(src,alt);img.className=cssClass||'';img.loading='lazy';return img;
  }
  function makeMedia(id){
   const box=node('div','art-media');
@@ -296,6 +300,8 @@
   $('page-language-switch').setAttribute('aria-label',ui.language);
   document.querySelectorAll('[data-page-language]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.pageLanguage===uiLanguage)));
   $('campaign-gallery').setAttribute('aria-label',ui.storyTitle);
+  document.querySelector('.stats').setAttribute('aria-label',({en:'Production facts',nl:'Productiegegevens',es:'Datos de producción'})[uiLanguage]);
+  document.querySelectorAll('img[src*="marketing-assets"]').forEach(img=>{img.alt=imageAlternative(img.getAttribute('src').split('/').pop(),img.alt)});
  }
  function render(){
   if(!data)return;

@@ -167,6 +167,9 @@ function translate(){
  ['filter-all','filter-eu','filter-efsa','filter-ecfr'].forEach((x,i)=>set(x,t.filters[i]));
  ['footer-regulatory','footer-code','footer-contact','footer-return'].forEach((x,i)=>set(x,t.links[i]));
  $('footer-contact').setAttribute('title','palomagarciamuley@gmail.com');
+ const accessible={en:['Language','Overview of source monitoring and editorial review','Documented monitoring statistics','Filter detection types','Choose result status','Email Paloma'],nl:['Taal','Overzicht van bronmonitoring en redactionele beoordeling','Gedocumenteerde monitoringscijfers','Filter detectietypen','Kies resultaatstatus','Mail Paloma'],es:['Idioma','Resumen de vigilancia de fuentes y revisión editorial','Cifras documentadas de vigilancia','Filtrar tipos de detección','Elegir estado del resultado','Escribir a Paloma']}[lang];
+ ['#language-switch','.hero-visual','#metrics','#event-filters','.state-tabs','#footer-contact'].forEach((selector,i)=>document.querySelector(selector).setAttribute('aria-label',accessible[i]));
+
  $('back').href='./?lang='+lang+'#work';
  document.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));
  if(snapshot){
@@ -189,3 +192,4 @@ fetch('./knowledge-monitor-snapshot.json',{cache:'no-store'})
 .then(d=>{if(d.total_monitored!==231||d.events.length!==d.editorial_events||d.daily_results.length!==3||d.active_coverage.reduce((n,x)=>n+x.count,0)!==231)throw Error('Invalid report snapshot');snapshot=d;translate()})
 .catch(e=>{const msg=lang==='es'?'No se ha podido cargar el informe: ':lang==='nl'?'Kan rapport niet laden: ':'Unable to load monitoring report: ';const p=el('p','',msg+e.message);p.setAttribute('role','alert');$('event-list').replaceChildren(p)});
 })();
+

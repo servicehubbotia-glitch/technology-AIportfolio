@@ -2,7 +2,7 @@
 
 **Live website:** https://servicehubbotia-glitch.github.io/technology-AIportfolio/
 
-Current website version: 0.3 (editorial and visual refinement ongoing).
+Current website version: 1.0 — ServiceHub professional structure (14 November 2026).
 
 A static, responsive, interactive technical portfolio with three editorially drafted languages: English (default), Dutch and Spanish. No server, framework, API credentials, backend, analytics or database are required.
 
@@ -35,7 +35,7 @@ Design: Netherlands-inspired blue/white palette with Source Sans 3, aligned with
 
 ## Interactive project explorer (version 0.5)
 
-The homepage includes an illustrated, keyboard-accessible interactive explorer in English, Dutch and Spanish. `portfolio-proof-lab.css` and `portfolio-proof-lab.js` contain its presentation and localized explanations. Every project has a dedicated tab and a direct link from its case card.
+The homepage includes an illustrated, keyboard-accessible interactive explorer in English, Dutch and Spanish. `portfolio-proof-lab.css` and `portfolio-proof-lab.js` contain its presentation and localized explanations. The four existing technical walkthroughs retain their tabs and direct links. Other project cards can describe a design or development scope without implying that an interactive demonstration exists.
 
 The public BOTIA website, Google Play listing and web source repository provide live evidence. The two private repositories (Creative Studio and Knowledge Base) are represented with schematic illustrations only. MyReintegration uses synthetic display data; its actual personal records remain private and its editing interface requires authorized Google login. These illustrated panels are not simulations of live backend execution.
 
@@ -48,7 +48,7 @@ Three multilingual examples are available at `case-studies.html`: Creative Studi
 
 - [BOTIA Regulatory Intelligence — public reproducible demo](https://github.com/servicehubbotia-glitch/BOTIA-Regulatory-Intelligence): standalone synthetic fixture-based demonstration; the full BOTIA Knowledge Base and operational watcher remain private.
 - [The Church of Saint GitHub](https://github.com/servicehubbotia-glitch/SaintGitHub): independent HTML/CSS/JavaScript creative web project, separate from BOTIA.
-- The portfolio describes availability for paid technical workshops and speaking engagements. These are offers of future services, not claims of completed engagements.
+- The AI & Digital Literacy area describes a course in preparation and proposed talks, presentations and workshops. These are future formats to agree with an organisation, not claims of completed engagements or an open course.
 
 ## BOTIA marketing campaign showcase
 
@@ -72,3 +72,38 @@ The public [Knowledge Base technical case study](https://servicehubbotia-glitch.
 The new [Excel-to-app case study](https://servicehubbotia-glitch.github.io/technology-AIportfolio/excel-to-app.html?lang=en) explains a real individual-use workflow: spreadsheet activity tracking developed into the authenticated private MyReintegration web application. The page demonstrates possible reuse of the engineering approach in an office with **fully fictional task records**. Its browser-only interaction supports search, category/status filters, detailed records, temporary entry, a computed report and a downloadable **sample CSV**. The demo performs no workbook import, backend requests, durable writes, document storage or real-user access. The real application provides different, fully documented functions, including Google OAuth, Apps Script, weekly exports and revision safeguards. This is not presented as a delivered corporate project.
 
 The pages remain independent of the original My-Reintegration repository, which has not been edited for this portfolio case.
+
+
+
+## ServiceHub professional structure — 14 November 2026
+
+Paloma García Muley is introduced as the founder of ServiceHub, based in the Netherlands. The portfolio retains its blue/white identity and EN/NL/ES interface, and groups work under four stable areas:
+
+| Area | Anchor | Evidence and examples |
+|---|---|---|
+| Digital Products & AI Integration | `#products` (`#work` retained) | BOTIA flagship product; Knowledge Base; dated monitoring snapshot; separate synthetic Regulatory Intelligence demo |
+| Personalised Applications | `#personalised-apps` | MyReintegration; Dutch at Work; Marginalia development scope |
+| AI & Digital Literacy | `#literacy` | Course in preparation; proposed talks, presentations and workshops |
+| Creative & Communication Systems | `#creative` | Creative Studio; documented BOTIA campaign; independent Saint GitHub project |
+
+`#services` is the overview. `#approach` explains the design philosophy: start with existing knowledge, goals, working practices and difficulties. `#experience`, `#contact`, `#explore` and all `#explore-<project>` routes remain available. Existing case pages, QR, professional card and CV files are retained.
+
+### Editorial states and privacy
+
+- BOTIA: published Android/web product, with the original engineering explanation and public evidence links retained.
+- Knowledge Base: private system represented by a dated public snapshot (16 October 2026). The snapshot is not refreshed by changing the website date. The separate public demo uses synthetic fixtures.
+- MyReintegration: personal application with restricted access; public demonstration contains fictional records.
+- Dutch at Work: deployed personal application, restricted access, continuing development. Do not describe requested listening/conversation additions as verified features without reviewing them.
+- Marginalia: in development. Its executable version, full learning flow and AI feedback quality were not verified for this portfolio revision. Do not name the student or publish academic/personal records. C1/C2 is the preparation target, not an independently assessed starting level or a Cambridge endorsement.
+- AI literacy course: in preparation; not yet delivered and not open for enrolment. Talks and workshops are proposed formats, not an invented engagement history.
+- Creative Studio: private production system with a documented public showcase; no claims about paid ad delivery or commercial performance.
+
+Portfolio localisation does not establish working proficiency for teaching or AI-output evaluation in that language. Contact languages, scope and format must be agreed for each engagement. Existing employers and assignments are not represented as ServiceHub clients.
+
+### Maintenance
+
+The existing `index.html` translation records remain the source of homepage copy, including new sections, status labels, accessible text and six project dialogs. Stable project IDs replace card-position selectors. Add projects to the appropriate area; do not create a new top-level category for every application. Define the need, adaptation, current status, public evidence and verification date before adding claims.
+
+`servicehub.css` extends the existing styles. `portfolio-navigation.js` adds a compact menu with keyboard access, Escape dismissal and destination focus. `tests/responsive.html` is a noindex maintenance page for viewing the portfolio at 360, 390, 768, 1024 and 1440 pixels. It contains no private data and does not exercise external app backends.
+
+Run `node scripts/check-portfolio.cjs` for language coverage, inline JavaScript syntax, unique HTML IDs and local file/anchor references. The existing GitHub Actions checks continue to cover campaign inventory, dated monitoring data and the office example. Browser verification must additionally check locale changes, dialog focus, walkthrough tabs, mobile navigation and the existing case-page interactions.
